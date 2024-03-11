@@ -1,0 +1,37 @@
+{
+  "name": "tic-tac-rainbow",
+  "map_id": "snf/t3-rainbow",
+  "terrain": [
+    [-2, -1, "HOLE"],
+    [-1, -2, "HOLE"],
+    [-2, 0, "HOLE"],
+    [0, -2, "HOLE"],
+
+    [-2, 1, "HOLE"],
+    [-1, 0, "HOLE"],
+    [0, -1, "HOLE"],
+    [1, -2, "HOLE"],
+
+    [-1, 1, "HOLE"],
+    [0, 0, "HOLE"],
+    [1, -1, "HOLE"],
+
+    [-1, 2, "HOLE"],
+    [0, 1, "HOLE"],
+    [1, 0, "HOLE"],
+    [2, -1, "HOLE"],
+
+    [0, 2, "HOLE"],
+    [2, 0, "HOLE"],
+    [1, 2, "HOLE"],
+    [2, 1, "HOLE"],
+
+    [-2, -2, "BONUS"],
+    [2, 2, "BONUS"],
+
+    [-2, 2, "SPAWN", "RED"],
+    [2, -2, "SPAWN", "BLUE"]
+  ],
+  "rotate": {"position": [0, 0], "center": true},
+  "mirror": {"axis": 0, "flip": "BOTH"}
+}
