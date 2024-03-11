@@ -19,7 +19,6 @@ package osn
 import (
 	"encoding/json"
 	"fmt"
-	"strings"
 )
 
 type GameReplay struct {
@@ -84,25 +83,6 @@ func (b Boolish) MarshalJSON() ([]byte, error) {
 type UsedSpawn struct {
 	SpawnX int `json:"ix"`
 	SpawnY int `json:"iy"`
-}
-
-type OsnGameID string
-
-// Automatically trims the prefix when encoding.
-func (id OsnGameID) MarshalJSON() ([]byte, error) {
-	// Trim the common prefix off when writing the game ID.
-	return json.Marshal(id.ShortID())
-}
-
-// This 48~character string is the same across ALL game-replay identifiers.
-const COMMON_PREFIX string = "ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20Y"
-
-func (id OsnGameID) ShortID() string {
-	return strings.TrimPrefix(string(id), COMMON_PREFIX)
-}
-
-func (id *OsnGameID) UnmarshalJSON(encoded []byte) error {
-	return json.Unmarshal(encoded, id)
 }
 
 // in-progress, destruction, extinction, forfeit
