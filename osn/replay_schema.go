@@ -19,6 +19,8 @@ package osn
 import (
 	"encoding/json"
 	"fmt"
+
+	"github.com/kevindamm/wits-go/witsjson"
 )
 
 type GameReplay struct {
@@ -45,41 +47,6 @@ type GameState struct {
 	Outcome        GameStatus         `json:"outcome,omitempty"`
 }
 
-type HexCoord struct {
-	Column int `json:"positionI"`
-	Row    int `json:"positionJ"`
-}
-
-func (coord HexCoord) MarshalJSON() ([]byte, error) {
-	asArray := []int{coord.Column, coord.Row}
-	return json.Marshal(asArray)
-}
-
-// Able to unmarshal from both int and bool representations,
-// always marshals as boolean.
-type Boolish struct {
-	Value bool
-}
-
-func (b *Boolish) UnmarshalJSON(encoded []byte) error {
-	var boolVal bool
-	if err := json.Unmarshal(encoded, &boolVal); err != nil {
-		b.Value = boolVal
-	} else {
-		var intVal int
-		if err := json.Unmarshal(encoded, &boolVal); err != nil {
-			b.Value = (intVal != 0)
-		} else {
-			return err
-		}
-	}
-	return nil
-}
-
-func (b Boolish) MarshalJSON() ([]byte, error) {
-	return json.Marshal(b.Value)
-}
-
 type UsedSpawn struct {
 	SpawnX int `json:"ix"`
 	SpawnY int `json:"iy"`
@@ -87,81 +54,6 @@ type UsedSpawn struct {
 
 // in-progress, destruction, extinction, forfeit
 type GameStatus int
-
-// 0 = Player1, 1 = Player2, 2 = Player3, 3 = Player4
-type PlayerIndex int
-
-type ReplayData struct {
-	Turns []OsnPlayerTurn
-}
-
-func (data *ReplayData) UnmarshalJSON(encoded []byte) error {
-	var frames []Frame
-	if err := json.Unmarshal(encoded, &frames); err != nil {
-		fmt.Println(err)
-		return err
-	}
-
-	data.Turns = make([]OsnPlayerTurn, 0)
-	turnIndex := -1
-
-	for _, frame := range frames {
-		if frame.State != nil {
-			newTurn := OsnPlayerTurn{Actions: make([]OsnPlayerAction, 0)}
-			newTurn.State = *frame.State
-			data.Turns = append(data.Turns, newTurn)
-			turnIndex += 1
-		} else if frame.Action != nil {
-			if turnIndex == -1 {
-				if (*frame.Action).Name() != "EndTurnAction" {
-					return fmt.Errorf("before-state action of type %s", (*frame.Action).Name())
-				}
-				continue
-			}
-			data.Turns[turnIndex].Actions = append(
-				data.Turns[turnIndex].Actions, *frame.Action)
-		}
-	}
-	return nil
-}
-
-type Frame struct {
-	Action *OsnPlayerAction
-	State  *GameState
-}
-
-type partialFrame struct {
-	Action struct {
-		Name string `json:"name"`
-	} `json:"action"`
-	State *GameState `json:"gameState"`
-}
-
-func (frame *Frame) UnmarshalJSON(encoded []byte) error {
-	var partial partialFrame
-	err := json.Unmarshal(encoded, &partial)
-	if err != nil {
-		return err
-	}
-
-	if partial.Action.Name == "" {
-		frame.State = partial.State
-	} else if partial.State == nil {
-		action, err := ParseGenericAction(partial.Action.Name, encoded)
-		if err != nil {
-			return err
-		}
-		frame.Action = &action
-	}
-	return nil
-}
-
-func (data *ReplayData) String() string {
-	return fmt.Sprintf("Replay with %d turns; final state\n%v",
-		len(data.Turns),
-		data.Turns[len(data.Turns)-1].State)
-}
-
 type CaptureTileState struct {
 	Column int `json:"tileI"`
 	Row    int `json:"tileJ"`
@@ -177,84 +69,25 @@ type GameOverData struct {
 
 type BaseHealth int
 
-type PlayerSettings struct {
-	Name           string       `json:"name"`
-	PlayerID       GCID         `json:"gcID"`
-	Color          int          `json:"color"`
-	Race           UnitRace     `json:"race"`
-	Team           TeamIndex    `json:"team"`
-	Index          PlayerIndex  `json:"id"`
-	AP             int          `json:"actionPoints"`
-	BasePreference BaseCosmetic `json:"basePref"`
-	Invited        Boolish      `json:"isInvited"`
-	Placeholder    Boolish      `json:"isPlaceHolder"`
-}
-
-type PlayerUpdate struct {
-	Name  string      `json:"name"`
-	GCID  GCID        `json:"gcID"`
-	Color PlayerColor `json:"color"`
-	Race  UnitRace    `json:"race"`
-	Team  int         `json:"team"`
-	Index PlayerIndex `json:"owner"`
-
-	BaseHealth int     `json:"baseHealth"`
-	Demoted    Boolish `json:"wasDemoted"`
-	Promoted   Boolish `json:"wasPrmomoted"`
-
-	OldLeague     LeagueTier `json:"oldLeague"`
-	OldLeagueRank LeagueRank `json:"oldLeagueRank"`
-	NewLeague     LeagueTier `json:"newLeague"`
-	NewLeagueRank LeagueRank `json:"newLeagueRank"`
-	Direction     Direction  `json:"rankDirection"`
-	PointsDelta   int        `json:"leaguePointsDelta"`
-}
-
-type Direction int
-
-type GCID string // in /G:(\d+)/ format
-
-type BaseCosmetic int
-
-type PlayerColor int
-
-type TeamIndex int
-
-const (
-	COLOR_BLUE  PlayerColor = 1
-	COLOR_RED   PlayerColor = 2
-	COLOR_GREEN PlayerColor = 3
-	COLOR_GOLD  PlayerColor = 4
-)
-
-func (color PlayerColor) String() string {
-	return []string{
-		"BLUE", "RED", "GREEN", "GOLD",
-	}[int(color)]
-}
-
-type LeagueTier string
-type LeagueRank int
-
 func (replay GameReplay) MarshalJSON() ([]byte, error) {
 	type PlayerFormat struct {
-		Name string    `json:"name"`
-		GCID GCID      `json:"gcID"`
-		Race UnitRace  `json:"race"`
-		Team TeamIndex `json:"team"`
+		Name string            `json:"name"`
+		GCID GCID              `json:"gcID"`
+		Race witsjson.UnitRace `json:"race"`
+		Team TeamIndex         `json:"team"`
 	}
 	type UnitInit struct {
-		Position HexCoord  `json:"position"`
-		Team     TeamIndex `json:"team"`
-		Class    UnitClass `json:"class"`
+		Position HexCoord      `json:"position"`
+		Team     TeamIndex     `json:"team"`
+		Class    UnitClassEnum `json:"class"`
 	}
 	type UnitState struct {
-		Index    UnitIndex  `json:"identifier"`
-		Position HexCoord   `json:"position"`
-		Team     TeamIndex  `json:"team"`
-		Race     UnitRace   `json:"race"`
-		Class    UnitClass  `json:"class"`
-		Health   UnitHealth `json:"health"`
+		Index    UnitIndex         `json:"identifier"`
+		Position HexCoord          `json:"position"`
+		Team     TeamIndex         `json:"team"`
+		Race     witsjson.UnitRace `json:"race"`
+		Class    UnitClassEnum     `json:"class"`
+		Health   UnitHealth        `json:"health"`
 
 		Attacked    Boolish        `json:"hasAttacked"`
 		Moved       Boolish        `json:"hasMoved"`
@@ -314,9 +147,9 @@ func (replay GameReplay) MarshalJSON() ([]byte, error) {
 	for _, player := range replay.Settings {
 		var p PlayerFormat
 		p.GCID = player.PlayerID
-		p.Name = player.Name
-		p.Race = player.Race
-		p.Team = player.Team
+		p.Name = player.Name_
+		p.Race = player.Race_
+		p.Team = player.Team_
 		output.Players = append(output.Players, p)
 	}
 	if len(replay.Replay.Turns) > 0 {

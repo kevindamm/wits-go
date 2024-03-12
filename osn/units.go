@@ -16,15 +16,17 @@
 
 package osn
 
-import "encoding/json"
+import (
+	"github.com/kevindamm/wits-go/witsjson"
+)
 
 type UnitStatus struct { // also see schema.UnitPlacement, schema.UnitTurnState
-	Index UnitIndex   `json:"identifier"`
-	Owner PlayerIndex `json:"owner"`
-	Team  TeamIndex   `json:"team"`
-	Color PlayerColor `json:"color"`
-	Class UnitClass   `json:"class"`
-	Race  UnitRace    `json:"race"`
+	Index UnitIndex         `json:"identifier"`
+	Owner PlayerIndex       `json:"owner"`
+	Team  TeamIndex         `json:"team"`
+	Color PlayerColor       `json:"color"`
+	Class UnitClassEnum     `json:"class"`
+	Race  witsjson.UnitRace `json:"race"`
 
 	HexCoord
 	Attacked    Boolish `json:"hasAttacked"`
@@ -39,6 +41,8 @@ type UnitStatus struct { // also see schema.UnitPlacement, schema.UnitTurnState
 	SpawnedFrom UnitIndex `json:"spawnedFrom"`
 }
 
+type UnitIndex int
+
 type AlternateForm struct {
 	Enabled Boolish    `json:"enabled"`
 	Health  UnitHealth `json:"health"`
@@ -47,95 +51,6 @@ type AlternateForm struct {
 type Possession struct {
 	Parent UnitIndex `json:"parent"`
 	From   UnitIndex `json:"from"`
-}
-
-type UnitClass int
-
-const (
-	CLASS_UNKNOWN       UnitClass = 0
-	CLASS_SCOUT         UnitClass = 1
-	CLASS_SOLDIER       UnitClass = 2
-	CLASS_MEDIC         UnitClass = 3
-	CLASS_SNIPER        UnitClass = 4
-	CLASS_HEAVY         UnitClass = 5
-	CLASS_SCRAMBLER     UnitClass = 6
-	CLASS_MOBI          UnitClass = 7
-	CLASS_ARTILLERY     UnitClass = 8
-	CLASS_BRAMBLE       UnitClass = 9
-	CLASS_BRAMBLE_THORN UnitClass = 10
-)
-
-func (class UnitClass) String() string {
-	if class > CLASS_BRAMBLE_THORN || class < 0 {
-		class = CLASS_UNKNOWN
-	}
-	return []string{
-		"UNKNOWN_CLASS",
-		"SCOUT",
-		"SOLDIER",
-		"MEDIC",
-		"SNIPER",
-		"HEAVY",
-		"SCRAMBLER",
-		"MOBI",
-		"ARTILLERY",
-		"BRAMBLE",
-		"BRAMBLE_THORN",
-	}[int(class)]
-}
-
-type UnitIndex int
-
-type UnitRace int
-
-const (
-	RACE_UNKNOWN     UnitRace = 0
-	RACE_FEEDBACK    UnitRace = 1
-	RACE_ADORABLES   UnitRace = 2
-	RACE_SCALLYWAGS  UnitRace = 3
-	RACE_VEGGIENAUTS UnitRace = 4
-)
-
-func (race UnitRace) String() string {
-	if race > RACE_VEGGIENAUTS || race < 0 {
-		race = RACE_UNKNOWN
-	}
-	return []string{
-		"UNKNOWN_RACE",
-		"FEEDBACK",
-		"ADORABLES",
-		"SCALLYWAGS",
-		"VEGGIENAUTS",
-	}[int(race)]
-}
-
-func ParseRace(name string) UnitRace {
-	return map[string]UnitRace{
-		"UNKNOWN_RACE": RACE_UNKNOWN,
-		"FEEDBACK":     RACE_FEEDBACK,
-		"ADORABLES":    RACE_ADORABLES,
-		"SCALLYWAGS":   RACE_SCALLYWAGS,
-		"VEGGIENAUTS":  RACE_VEGGIENAUTS,
-	}[name]
-}
-
-func (race *UnitRace) UnmarshalJSON(encoded []byte) error {
-	var intVal int
-	if err := json.Unmarshal(encoded, &intVal); err != nil {
-		*race = UnitRace(intVal)
-	} else {
-		var strVal string
-		if err := json.Unmarshal(encoded, &strVal); err != nil {
-			*race = ParseRace(strVal)
-		} else {
-			return err
-		}
-	}
-	return nil
-}
-
-func (race UnitRace) MarshalJSON() ([]byte, error) {
-	return json.Marshal(int(race))
 }
 
 type UnitHealth int
