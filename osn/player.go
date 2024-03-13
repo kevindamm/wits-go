@@ -34,16 +34,16 @@ const (
 // The usual properties found in "settings" property of a replay.
 // Satisfies the PlayerID and PlayerRole interfaces.
 type PlayerSettings struct {
-	Name_          string            `json:"name"`
-	PlayerID       GCID              `json:"gcID"`
-	Color          int               `json:"color"`
-	Race_          witsjson.UnitRace `json:"race"`
-	Team_          TeamIndex         `json:"team"`
-	Index          PlayerIndex       `json:"id"`
-	AP             int               `json:"actionPoints"`
-	BasePreference BaseCosmetic      `json:"basePref"`
-	Invited        Boolish           `json:"isInvited"`
-	Placeholder    Boolish           `json:"isPlaceHolder"`
+	Name_          string       `json:"name"`
+	PlayerID       GCID         `json:"gcID"`
+	Color          int          `json:"color"`
+	Race_          UnitRaceOsn  `json:"race"`
+	Team_          TeamIndex    `json:"team"`
+	Index          PlayerIndex  `json:"id"`
+	AP             int          `json:"actionPoints"`
+	BasePreference BaseCosmetic `json:"basePref"`
+	Invited        Boolish      `json:"isInvited"`
+	Placeholder    Boolish      `json:"isPlaceHolder"`
 }
 
 func (player PlayerSettings) GCID() schema.GCID {
@@ -77,12 +77,12 @@ func (player PlayerSettings) Team() schema.FriendlyEnum {
 // ambiguity, so instead it satisfies MatchOutcome which can furnish these
 // with its Before() and After() methods.  Also satisfies PlayerID and PlayerRole
 type PlayerUpdate struct {
-	Name  string            `json:"name"`
-	GCID  GCID              `json:"gcID"`
-	Color PlayerColor       `json:"color"`
-	Race  witsjson.UnitRace `json:"race"`
-	Team  int               `json:"team"`
-	Index PlayerIndex       `json:"owner"`
+	Name  string                    `json:"name"`
+	GCID  GCID                      `json:"gcID"`
+	Color PlayerColor               `json:"color"`
+	Race  witsjson.UnitRaceJSON     `json:"race"`
+	Team  witsjson.FriendlyEnumJSON `json:"team"`
+	Index PlayerIndex               `json:"owner"`
 
 	BaseHealth int     `json:"baseHealth"`
 	Demoted    Boolish `json:"wasDemoted"`
@@ -98,18 +98,16 @@ type PlayerUpdate struct {
 
 func (update PlayerUpdate) Before() schema.PlayerStandings {
 	before := witsjson.PlayerStandingsJSON{
-		PlayerID: witsjson.PlayerID{GCID_: schema.GCID(update.GCID)},
-		League_:  witsjson.LeagueTierJSON(update.OldLeague),
-		Rank_:    witsjson.LeagueRankJSON(update.OldLeagueRank)}
+		Tier_: witsjson.LeagueTierJSON(update.OldLeague),
+		Rank_: witsjson.LeagueRankJSON(update.OldLeagueRank)}
 	return before
 }
 
 func (update PlayerUpdate) After() schema.StandingsAfter {
 	after := witsjson.StandingsAfterJSON{
-		PlayerID: witsjson.PlayerID{GCID_: schema.GCID(update.GCID)},
-		League_:  witsjson.LeagueTierJSON(update.OldLeague),
-		Rank_:    witsjson.LeagueRankJSON(update.OldLeagueRank),
-		Delta_:   update.PointsDelta}
+		Tier_:  witsjson.LeagueTierJSON(update.NewLeague),
+		Rank_:  witsjson.LeagueRankJSON(update.NewLeagueRank),
+		Delta_: update.PointsDelta}
 	return after
 }
 

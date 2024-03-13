@@ -19,8 +19,6 @@ package osn
 import (
 	"encoding/json"
 	"fmt"
-
-	"github.com/kevindamm/wits-go/witsjson"
 )
 
 type GameReplay struct {
@@ -71,23 +69,23 @@ type BaseHealth int
 
 func (replay GameReplay) MarshalJSON() ([]byte, error) {
 	type PlayerFormat struct {
-		Name string            `json:"name"`
-		GCID GCID              `json:"gcID"`
-		Race witsjson.UnitRace `json:"race"`
-		Team TeamIndex         `json:"team"`
+		Name string      `json:"name"`
+		GCID GCID        `json:"gcID"`
+		Race UnitRaceOsn `json:"race"`
+		Team TeamIndex   `json:"team"`
 	}
 	type UnitInit struct {
-		Position HexCoord      `json:"position"`
-		Team     TeamIndex     `json:"team"`
-		Class    UnitClassEnum `json:"class"`
+		Position HexCoord     `json:"position"`
+		Team     TeamIndex    `json:"team"`
+		Class    UnitClassOsn `json:"class"`
 	}
 	type UnitState struct {
-		Index    UnitIndex         `json:"identifier"`
-		Position HexCoord          `json:"position"`
-		Team     TeamIndex         `json:"team"`
-		Race     witsjson.UnitRace `json:"race"`
-		Class    UnitClassEnum     `json:"class"`
-		Health   UnitHealth        `json:"health"`
+		Index    UnitIndex    `json:"identifier"`
+		Position HexCoord     `json:"position"`
+		Team     TeamIndex    `json:"team"`
+		Race     UnitRaceOsn  `json:"race"`
+		Class    UnitClassOsn `json:"class"`
+		Health   UnitHealth   `json:"health"`
 
 		Attacked    Boolish        `json:"hasAttacked"`
 		Moved       Boolish        `json:"hasMoved"`

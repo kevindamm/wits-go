@@ -213,9 +213,9 @@ func (action SelectSpawnTileAction) AsDict() map[string]interface{} {
 
 type SpawnUnitAction struct {
 	basePlayerAction
-	Position []int         `json:"position,omitempty"`
-	Color    PlayerColor   `json:"color"`
-	Class    UnitClassEnum `json:"role"`
+	Position []int        `json:"position,omitempty"`
+	Color    PlayerColor  `json:"color"`
+	Class    UnitClassOsn `json:"role"`
 }
 
 func (action SpawnUnitAction) String() string {

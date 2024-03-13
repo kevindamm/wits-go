@@ -17,16 +17,17 @@
 package osn
 
 import (
+	"github.com/kevindamm/wits-go/schema"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
 type UnitStatus struct { // also see schema.UnitPlacement, schema.UnitTurnState
-	Index UnitIndex         `json:"identifier"`
-	Owner PlayerIndex       `json:"owner"`
-	Team  TeamIndex         `json:"team"`
-	Color PlayerColor       `json:"color"`
-	Class UnitClassEnum     `json:"class"`
-	Race  witsjson.UnitRace `json:"race"`
+	Index UnitIndex    `json:"identifier"`
+	Owner PlayerIndex  `json:"owner"`
+	Team  TeamIndex    `json:"team"`
+	Color PlayerColor  `json:"color"`
+	Class UnitClassOsn `json:"class"`
+	Race  UnitRaceOsn  `json:"race"`
 
 	HexCoord
 	Attacked    Boolish `json:"hasAttacked"`
@@ -54,3 +55,97 @@ type Possession struct {
 }
 
 type UnitHealth int
+
+// The unit's class (indicating their strength, distance, health, etc.) is
+// represented differently in OSN than it is in other representations, so
+// it gets its own enum here instead of relying only on schema.UnitClassEnum.
+type UnitClassOsn byte
+
+const (
+	CLASS_UNKNOWN UnitClassOsn = iota
+	CLASS_RUNNER
+	CLASS_SOLDIER
+	CLASS_MEDIC
+	CLASS_SNIPER
+	CLASS_HEAVY
+	CLASS_SCRAMBLER
+	CLASS_MOBI
+	CLASS_BOMBSHELL
+	CLASS_BRAMBLE
+	CLASS_BRAMBLE_THORN
+)
+
+func (class UnitClassOsn) String() string {
+	if class > CLASS_BRAMBLE_THORN {
+		class = CLASS_UNKNOWN
+	}
+	return []string{
+		"UNKNOWN",
+		"RUNNER",
+		"SOLDIER",
+		"MEDIC",
+		"SNIPER",
+		"HEAVY",
+		"SCRAMBLER",
+		"MOBI",
+		"BOMBSHELL",
+		"BRAMBLE",
+		"BRAMBLE_THORN",
+	}[int(class)]
+}
+
+func (class UnitClassOsn) AsWitsJSON() witsjson.UnitClassJSON {
+	if class > CLASS_BRAMBLE_THORN {
+		class = CLASS_UNKNOWN
+	}
+	return []witsjson.UnitClassJSON{
+		witsjson.UnitClassJSON(schema.CLASS_UNKNOWN),
+		witsjson.UnitClassJSON(schema.CLASS_RUNNER),
+		witsjson.UnitClassJSON(schema.CLASS_SOLDIER),
+		witsjson.UnitClassJSON(schema.CLASS_MEDIC),
+		witsjson.UnitClassJSON(schema.CLASS_SNIPER),
+		witsjson.UnitClassJSON(schema.CLASS_HEAVY),
+		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(schema.CLASS_THORN),
+	}[int(class)]
+}
+
+// OSN enumeration of the different squads a player can choose from.
+type UnitRaceOsn byte
+
+const (
+	RACE_UNKNOWN UnitRaceOsn = iota
+	RACE_FEEDBACK
+	RACE_ADORABLES
+	RACE_SCALLYWAGS
+	RACE_VEGGIENAUTS
+)
+
+func (race UnitRaceOsn) String() string {
+	if race > RACE_VEGGIENAUTS {
+		race = RACE_UNKNOWN
+	}
+	return []string{
+		"UNKNOWN",
+		"FEEDBACK",
+		"ADORABLES",
+		"SCALLYWAGS",
+		"VEGGIENAUTS",
+	}[int(race)]
+}
+
+func (race UnitRaceOsn) AsWitsJSON() witsjson.UnitRaceJSON {
+	if race > RACE_VEGGIENAUTS {
+		race = RACE_UNKNOWN
+	}
+	return []witsjson.UnitRaceJSON{
+		witsjson.UnitRaceJSON(schema.RACE_UNKNOWN),
+		witsjson.UnitRaceJSON(schema.RACE_FEEDBACK),
+		witsjson.UnitRaceJSON(schema.RACE_ADORABLES),
+		witsjson.UnitRaceJSON(schema.RACE_SCALLYWAGS),
+		witsjson.UnitRaceJSON(schema.RACE_VEGGIENAUTS),
+	}[race]
+}
