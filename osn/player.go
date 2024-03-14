@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/osn/player_role.go
+// github:kevindamm/wits-go/osn/player.go
 
 package osn
 
