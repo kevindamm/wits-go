@@ -25,8 +25,6 @@ import (
 )
 
 func TestHexCoord_UnmarshalJSON(t *testing.T) {
-	type args struct {
-	}
 	tests := []struct {
 		name    string
 		coord   schema.HexCoord

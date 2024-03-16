@@ -66,6 +66,7 @@ func (InvalidUnitState) HasActed() bool    { return true }
 func (InvalidUnitState) HasMoved() bool    { return true }
 func (InvalidUnitState) HasAlted() bool    { return true }
 
+// Parentage (e.g., bramble thorns when KO'd also KO their children).
 func (err InvalidUnitState) HasParent() bool       { return false }
 func (err InvalidUnitState) Parent() HexCoordIndex { return 0 }
 

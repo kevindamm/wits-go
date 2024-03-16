@@ -16,7 +16,7 @@
 
 package schema
 
-type GameMap interface {
+type GameMapDescription interface {
 	MapName() GameMapName
 	MapID() GameMapID
 	Terrain() map[HexCoordIndex]TileDefinition
