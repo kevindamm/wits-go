@@ -248,17 +248,24 @@ type SpawnList []schema.TileDefinition
 
 // Unmarshals the list of coordinates for spawn positions.
 func (defs *SpawnList) UnmarshalJSON(encoded []byte) error {
-	if err := UnmarshalTerrain(encoded, schema.TERRAIN_TYPE_SPAWN, defs); err != nil {
+	var all_teams [][]schema.HexCoord
+	if err := json.Unmarshal(encoded, &all_teams); err != nil {
 		return err
 	}
-	for i, def := range *defs {
-		if i < len(*defs)/2 {
-			continue
+	colorSpawns := func(spawns []schema.HexCoord, terrain schema.MapTerrain) {
+		for _, spawn := range spawns {
+			*defs = append(*defs, Tile(
+				terrain,
+				spawn.I(),
+				spawn.J()))
 		}
-		(*defs)[i] = Tile(
-			schema.TERRAIN_SPAWN_BLUE,
-			def.Position().I(),
-			def.Position().J())
+	}
+
+	colorSpawns(all_teams[0], schema.TERRAIN_SPAWN_RED)
+	colorSpawns(all_teams[1], schema.TERRAIN_SPAWN_BLUE)
+	if len(all_teams) > 2 {
+		colorSpawns(all_teams[2], schema.TERRAIN_SPAWN_GOLD)
+		colorSpawns(all_teams[3], schema.TERRAIN_SPAWN_GREEN)
 	}
 	return nil
 }
