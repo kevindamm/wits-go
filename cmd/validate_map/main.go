@@ -51,17 +51,17 @@ func main() {
 			if *debug {
 				fmt.Printf("parsing map %s\n", filename)
 			}
-			readAndValidateMap(filename)
+			readAndValidateGameMap(filename)
 		}
 	} else {
 		if *debug {
 			fmt.Printf("parsing map %s\n", filename)
 		}
-		readAndValidateMap(filename)
+		readAndValidateGameMap(filename)
 	}
 }
 
-func readAndValidateMap(filename string) {
+func readAndValidateGameMap(filename string) {
 	filedata, err := os.ReadFile(filename)
 	if err != nil {
 		fmt.Println(err)
@@ -81,9 +81,15 @@ func readAndValidateMap(filename string) {
 		return
 	}
 
+	// Ensure no two tiles are located at the same coordinate.
 	if err := checkExclusivity(gamemap.Terrain()); err != nil {
 		fmt.Println(err)
 		return
+	}
+
+	// Ensure that all units are closer to their own base than their enemy's.
+	if err := checkUnitBaseProximity(gamemap.Units(), gamemap.Terrain()); err != nil {
+
 	}
 }
 
@@ -203,4 +209,9 @@ func listSurroundingPositions(i, j int) []schema.HexCoord {
 		surrounding = append(surrounding, surrnext)
 	}
 	return surrounding
+}
+
+func checkUnitBaseProximity(units []schema.UnitInit, terrain witsjson.TerrainDefinition) error {
+
+	return nil
 }
