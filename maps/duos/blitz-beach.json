@@ -1,187 +1,57 @@
 {
   "name": "Blitz Beach",
-  "rows": 11,
-  "columns": 13,
-  "tiles": [
-    [
-      {"i": 0, "j": 0, "void": true},
-      {"i": 0, "j": 1},
-      {"i": 0, "j": 2},
-      {"i": 0, "j": 3, "void": true},
-      {"i": 0, "j": 4, "texture": 4},
-      {"i": 0, "j": 5, "bonus": {"team": ""}},
-      {"i": 0, "j": 6, "wall": 1},
-      {"i": 0, "j": 7, "wall": 1},
-      {"i": 0, "j": 8},
-      {"i": 0, "j": 9},
-      {"i": 0, "j": 10, "void": true}
+  "map_id": "oml/duos/blitz-beach",
+  "terrain": {
+    "floor": [
+      [0, 4], [1, 3], [1, 6],
+      [2, 3], [2, 4], [2, 6], [2, 7],
+      [3, 0], [3, 3], [3, 4], [3, 5], [3, 6], [3, 9],
+      [4, 2], [4, 3], [4, 4], [4, 5], [4, 6], [4, 7], [4, 8],
+      [5, 1], [5, 2], [5, 3], [5, 5], [5, 6], [5, 7], [5, 8],
+      [6, 1], [6, 2], [6, 4], [6, 5], [6, 6], [6, 8], [6, 9],
+      [7, 1], [7, 2], [7, 3], [7, 4], [7, 6], [7, 7], [7, 8],
+      [8, 2], [8, 3], [8, 4], [8, 5], [8, 6], [8, 7], [8, 8],
+      [9, 0], [9, 3], [9, 4], [9, 5], [9, 6], [9, 9],
+      [10, 3], [10, 4], [10, 6], [10, 7],
+      [11, 3], [11, 6], [12, 6]
     ],
-    [
-      {"i": 1, "j": 0},
-      {"i": 1, "j": 1, "base": {"team": "blue", "health": 5}},
-      {"i": 1, "j": 2},
-      {"i": 1, "j": 3, "texture": 4},
-      {"i": 1, "j": 4, "hole": true},
-      {"i": 1, "j": 5, "wall": 1},
-      {"i": 1, "j": 6, "texture": 1},
-      {"i": 1, "j": 7},
-      {"i": 1, "j": 8, "base": {"team": "red"}},
-      {"i": 1, "j": 9},
-      {"i": 1, "j": 10, "void": true}
+    "wall": [
+      [0, 6], [0, 7], [1, 5], [3, 2], [3, 7], [4, 0],
+      [4, 10], [5, 0], [5, 4], [5, 9], [6, 0],
+      [6, 10], [7, 0], [7, 5], [7, 9], [8, 0],
+      [8, 10], [9, 2], [9, 7], [11, 4], [12, 3], [12, 4]
     ],
-    [
-      {"i": 2, "j": 0, "void": true},
-      {"i": 2, "j": 1},
-      {"i": 2, "j": 2},
-      {"i": 2, "j": 3, "texture": 1},
-      {"i": 2, "j": 4, "texture": 1},
-      {"i": 2, "j": 5, "hole": true},
-      {"i": 2, "j": 6, "texture": 1},
-      {"i": 2, "j": 7, "texture": 1},
-      {"i": 2, "j": 8},
-      {"i": 2, "j": 9},
-      {"i": 2, "j": 10, "void": true}
+    "bonus": [
+      [0, 5], [12, 5], [6, 3], [6, 7]
     ],
-    [
-      {"i": 3, "j": 0, "texture": 1},
-      {"i": 3, "j": 1, "spawn": {"team": "blue"}},
-      {"i": 3, "j": 2, "wall": 1},
-      {"i": 3, "j": 3, "texture": 1},
-      {"i": 3, "j": 4, "texture": 1},
-      {"i": 3, "j": 5, "texture": 1},
-      {"i": 3, "j": 6, "texture": 1},
-      {"i": 3, "j": 7, "wall": 1},
-      {"i": 3, "j": 8, "spawn": {"team": "red"}},
-      {"i": 3, "j": 9, "texture": 1},
-      {"i": 3, "j": 10, "void": true}
+    "spawn": [
+      [[3, 8], [8, 9]],
+      [[3, 1], [8, 1]],
+      [[4, 9], [9, 8]],
+      [[4, 1], [9, 1]]
     ],
-    [
-      {"i": 4, "j": 0, "wall": 3},
-      {"i": 4, "j": 1, "spawn": {"team": "green"}},
-      {"i": 4, "j": 2, "texture": 1},
-      {"i": 4, "j": 3, "texture": 1},
-      {"i": 4, "j": 4, "texture": 1},
-      {"i": 4, "j": 5, "texture": 1},
-      {"i": 4, "j": 6, "texture": 1},
-      {"i": 4, "j": 7, "texture": 1},
-      {"i": 4, "j": 8, "texture": 1},
-      {"i": 4, "j": 9, "spawn": {"team": "yellow"}},
-      {"i": 4, "j": 10, "wall": 3}
-    ],
-    [
-      {"i": 5, "j": 0, "wall": 3},
-      {"i": 5, "j": 1, "texture": 1},
-      {"i": 5, "j": 2, "texture": 1},
-      {"i": 5, "j": 3, "texture": 1},
-      {"i": 5, "j": 4, "wall": 3},
-      {"i": 5, "j": 5, "texture": 1},
-      {"i": 5, "j": 6, "texture": 1},
-      {"i": 5, "j": 7, "texture": 1},
-      {"i": 5, "j": 8, "texture": 1},
-      {"i": 5, "j": 9, "wall": 3},
-      {"i": 5, "j": 10, "void": true}
-    ],
-    [
-      {"i": 6, "j": 0, "wall": 3},
-      {"i": 6, "j": 1, "texture": 1},
-      {"i": 6, "j": 2, "texture": 1},
-      {"i": 6, "j": 3, "bonus": {"team": ""}},
-      {"i": 6, "j": 4, "texture": 1},
-      {"i": 6, "j": 5, "texture": 1},
-      {"i": 6, "j": 6, "texture": 1},
-      {"i": 6, "j": 7, "bonus": {"team": ""}},
-      {"i": 6, "j": 8, "texture": 1},
-      {"i": 6, "j": 9, "texture": 1},
-      {"i": 6, "j": 10, "wall": 2}
-    ],
-    [
-      {"i": 7, "j": 0, "wall": 3},
-      {"i": 7, "j": 1, "texture": 1},
-      {"i": 7, "j": 2, "texture": 1},
-      {"i": 7, "j": 3, "texture": 1},
-      {"i": 7, "j": 4, "texture": 1},
-      {"i": 7, "j": 5, "wall": 3},
-      {"i": 7, "j": 6, "texture": 1},
-      {"i": 7, "j": 7, "texture": 1},
-      {"i": 7, "j": 8, "texture": 1},
-      {"i": 7, "j": 9, "wall": 3},
-      {"i": 7, "j": 10, "void": true}
-    ],
-    [
-      {"i": 8, "j": 0, "wall": 3},
-      {"i": 8, "j": 1, "spawn": {"team": "blue"}},
-      {"i": 8, "j": 2, "texture": 1},
-      {"i": 8, "j": 3, "texture": 1},
-      {"i": 8, "j": 4, "texture": 1},
-      {"i": 8, "j": 5, "texture": 1},
-      {"i": 8, "j": 6, "texture": 1},
-      {"i": 8, "j": 7, "texture": 1},
-      {"i": 8, "j": 8, "texture": 1},
-      {"i": 8, "j": 9, "spawn": {"team": "red"}},
-      {"i": 8, "j": 10, "wall": 3}
-    ],
-    [
-      {"i": 9, "j": 0, "texture": 1},
-      {"i": 9, "j": 1, "spawn": {"team": "green"}},
-      {"i": 9, "j": 2, "wall": 1},
-      {"i": 9, "j": 3, "texture": 1},
-      {"i": 9, "j": 4, "texture": 1},
-      {"i": 9, "j": 5, "texture": 1},
-      {"i": 9, "j": 6, "texture": 1},
-      {"i": 9, "j": 7, "wall": 1},
-      {"i": 9, "j": 8, "spawn": {"team": "yellow"}},
-      {"i": 9, "j": 9, "texture": 1},
-      {"i": 9, "j": 10, "void": true}
-    ],
-    [
-      {"i": 10, "j": 0, "void": true},
-      {"i": 10, "j": 1},
-      {"i": 10, "j": 2},
-      {"i": 10, "j": 3, "texture": 1},
-      {"i": 10, "j": 4, "texture": 1},
-      {"i": 10, "j": 5, "hole": true},
-      {"i": 10, "j": 6, "texture": 1},
-      {"i": 10, "j": 7, "texture": 1},
-      {"i": 10, "j": 8},
-      {"i": 10, "j": 9},
-      {"i": 10, "j": 10, "void": true}
-    ],
-    [
-      {"i": 11, "j": 0},
-      {"i": 11, "j": 1, "base": {"team": "green", "health": 5}},
-      {"i": 11, "j": 2},
-      {"i": 11, "j": 3, "texture": 1},
-      {"i": 11, "j": 4, "wall": 1},
-      {"i": 11, "j": 5, "hole": true},
-      {"i": 11, "j": 6, "texture": 4},
-      {"i": 11, "j": 7},
-      {"i": 11, "j": 8, "base": {"team": "yellow", "health": 5}},
-      {"i": 11, "j": 9},
-      {"i": 11, "j": 10, "void": true}
-    ],
-    [
-      {"i": 12, "j": 0, "void": true},
-      {"i": 12, "j": 1},
-      {"i": 12, "j": 2},
-      {"i": 12, "j": 3, "wall": 1},
-      {"i": 12, "j": 4, "wall": 1},
-      {"i": 12, "j": 5, "bonus": {"team": ""}},
-      {"i": 12, "j": 6, "texture": 4},
-      {"i": 12, "j": 7, "void": true},
-      {"i": 12, "j": 8},
-      {"i": 12, "j": 9},
-      {"i": 12, "j": 10, "void": true}
+    "base": [
+      [1, 8],
+      [1, 1],
+      [11, 8],
+      [11, 1]
     ]
-  ],
-  "units": [
-    {"i": 2, "j": 3, "type": "soldier", "team": "blue"},
-    {"i": 3, "j": 0, "type": "medic", "team": "blue"},
-    {"i": 4, "j": 8, "type": "heavy", "team": "red"},
-    {"i": 6, "j": 1, "type": "scout", "team": "green"},
-    {"i": 6, "j": 9, "type": "scout", "team": "red"},
-    {"i": 8, "j": 2, "type": "heavy", "team": "green"},
-    {"i": 9, "j": 9, "type": "medic", "team": "yellow"},
-    {"i": 10, "j": 7, "type": "soldier", "team": "yellow"}
-  ],
-  "pivot": {"i": 6, "j": 5}
+  },
+  "init": {
+    "units": [
+      { "team": "BLUE", "class": "SOLDIER", "coord": [2, 3] },
+      { "team": "BLUE", "class": "MEDIC", "coord": [3, 0] },
+      { "team": "RED", "class": "HEAVY", "coord": [4, 8] },
+      { "team": "GREEN", "class": "SCOUT", "coord": [6, 1] },
+      { "team": "RED", "class": "SCOUT", "coord": [6, 9] },
+      { "team": "GREEN", "class": "HEAVY", "coord": [8, 2] },
+      { "team": "GOLD", "class": "MEDIC", "coord": [9, 9] },
+      { "team": "GOLD", "class": "SOLDIER", "coord": [10, 7] }
+    ]
+  },
+  "rotate": {
+    "position": [6, 5],
+    "center": true
+  },
+  "legacy": true
 }

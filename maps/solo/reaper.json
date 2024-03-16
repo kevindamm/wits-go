@@ -1,6 +1,6 @@
 {
   "name": "Reaper",
-  "map_id": "oml/reaper",
+  "map_id": "oml/solo/reaper",
   "terrain": {
     "floor": [
       [0, 4], [0, 5], [0, 6], [0, 7],

@@ -1,6 +1,6 @@
 {
   "name": "Thorn Gulley",
-  "map_id": "oml/thorn-gulley",
+  "map_id": "oml/solo/thorn-gulley",
   "terrain": {
     "floor": [
       [0, 3], [0, 4], [0, 6], [0, 7], [0, 8],

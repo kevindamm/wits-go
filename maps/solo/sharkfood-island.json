@@ -1,6 +1,6 @@
 {
   "name": "Sharkfood Island",
-  "map_id": "oml/sharkfood-island",
+  "map_id": "oml/solo/sharkfood-island",
   "terrain": {
     "floor": [
       [0, 4], [0, 5], [0, 6], [0, 7],

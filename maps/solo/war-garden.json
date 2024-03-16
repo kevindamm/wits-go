@@ -1,6 +1,6 @@
 {
   "name": "War Garden",
-  "map_id": "oml/war-garden",
+  "map_id": "oml/solo/war-garden",
   "terrain": {
     "floor": [
       [0, 5], [0, 6], [0, 7],
