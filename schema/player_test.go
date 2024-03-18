@@ -32,6 +32,7 @@ func TestFriendlyEnum_Opponent(t *testing.T) {
 		{"self", schema.FR_SELF, schema.FR_ENEMY},
 		{"enemy", schema.FR_ENEMY, schema.FR_SELF},
 		{"ally", schema.FR_ALLY, schema.FR_ENEMY},
+		{"enemy", schema.FR_ENEMY2, schema.FR_SELF},
 		{"unknown", schema.FR_UNKNOWN, schema.FR_UNKNOWN},
 	}
 	for _, tt := range tests {

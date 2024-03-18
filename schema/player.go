@@ -78,7 +78,7 @@ func (role FriendlyEnum) Opponent() FriendlyEnum {
 	if role == FR_UNKNOWN {
 		return FR_UNKNOWN
 	}
-	if role == FR_ENEMY {
+	if role == FR_ENEMY || role == FR_ENEMY2 {
 		return FR_SELF
 	} else {
 		return FR_ENEMY

@@ -93,120 +93,120 @@ func TestGameMap_Unmarshal(t *testing.T) {
 		}
 
 		bonus := witsjson.BonusList{
-			witsjson.Tile(schema.TERRAIN_BONUS_NEUTRAL, 3, 4),
-			witsjson.Tile(schema.TERRAIN_BONUS_NEUTRAL, 9, 4),
+			witsjson.Tile("bonus", 3, 4),
+			witsjson.Tile("bonus", 9, 4),
 		}
-		if !reflect.DeepEqual(gamemap.Terrain().Bonus, bonus) {
+		if !reflect.DeepEqual(gamemap.Terrain().Bonus_, bonus) {
 			t.Errorf("GameMap JSON decoding, terrain definitions differ %v != %v",
-				gamemap.Terrain().Bonus, bonus)
+				gamemap.Terrain().Bonus_, bonus)
 		}
 
 		spawn := witsjson.SpawnList{
-			witsjson.Tile(schema.TERRAIN_SPAWN_RED, 2, 7),
-			witsjson.Tile(schema.TERRAIN_SPAWN_BLUE, 10, 7),
+			witsjson.Spawn(2, 7, schema.FR_SELF),
+			witsjson.Spawn(10, 7, schema.FR_ENEMY),
 		}
-		if !reflect.DeepEqual(gamemap.Terrain().Spawn, spawn) {
+		if !reflect.DeepEqual(gamemap.Terrain().Spawn_, spawn) {
 			t.Errorf("GameMap JSON decoding, spawn tiles differ %v != %v",
-				gamemap.Terrain().Spawn, spawn)
+				gamemap.Terrain().Spawn_, spawn)
 		}
 
 		base := witsjson.BaseList{
-			witsjson.Tile(schema.TERRAIN_BASE_RED, 2, 2),
-			witsjson.Tile(schema.TERRAIN_BASE_BLUE, 10, 2),
+			witsjson.Base(2, 2, schema.FR_SELF),
+			witsjson.Base(10, 2, schema.FR_ENEMY),
 		}
-		if !reflect.DeepEqual(gamemap.Terrain().Base, base) {
+		if !reflect.DeepEqual(gamemap.Terrain().Base_, base) {
 			t.Errorf("GameMap JSON decoding, spawn tiles differ %v != %v",
-				gamemap.Terrain().Base, base)
+				gamemap.Terrain().Base_, base)
 		}
 
 		floor := witsjson.FloorList{
-			witsjson.Tile(schema.TERRAIN_FLOOR, 0, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 0, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 0, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 0, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 1, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 1, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 1, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 1, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 1, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 2, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 2, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 2, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 3, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 3, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 3, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 3, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 4, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 2),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 5, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 2),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 6, 9),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 2),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 7, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 8, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 9, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 9, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 9, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 9, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 10, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 10, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 10, 8),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 11, 3),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 11, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 11, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 11, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 11, 7),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 12, 4),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 12, 5),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 12, 6),
-			witsjson.Tile(schema.TERRAIN_FLOOR, 12, 7),
+			witsjson.Tile("floor", 0, 4),
+			witsjson.Tile("floor", 0, 5),
+			witsjson.Tile("floor", 0, 6),
+			witsjson.Tile("floor", 0, 7),
+			witsjson.Tile("floor", 1, 3),
+			witsjson.Tile("floor", 1, 4),
+			witsjson.Tile("floor", 1, 5),
+			witsjson.Tile("floor", 1, 6),
+			witsjson.Tile("floor", 1, 7),
+			witsjson.Tile("floor", 2, 4),
+			witsjson.Tile("floor", 2, 5),
+			witsjson.Tile("floor", 2, 8),
+			witsjson.Tile("floor", 3, 3),
+			witsjson.Tile("floor", 3, 5),
+			witsjson.Tile("floor", 3, 7),
+			witsjson.Tile("floor", 3, 8),
+			witsjson.Tile("floor", 4, 3),
+			witsjson.Tile("floor", 4, 4),
+			witsjson.Tile("floor", 4, 5),
+			witsjson.Tile("floor", 4, 6),
+			witsjson.Tile("floor", 4, 7),
+			witsjson.Tile("floor", 4, 8),
+			witsjson.Tile("floor", 5, 2),
+			witsjson.Tile("floor", 5, 3),
+			witsjson.Tile("floor", 5, 4),
+			witsjson.Tile("floor", 5, 5),
+			witsjson.Tile("floor", 5, 6),
+			witsjson.Tile("floor", 5, 7),
+			witsjson.Tile("floor", 5, 8),
+			witsjson.Tile("floor", 6, 2),
+			witsjson.Tile("floor", 6, 3),
+			witsjson.Tile("floor", 6, 5),
+			witsjson.Tile("floor", 6, 6),
+			witsjson.Tile("floor", 6, 8),
+			witsjson.Tile("floor", 6, 9),
+			witsjson.Tile("floor", 7, 2),
+			witsjson.Tile("floor", 7, 3),
+			witsjson.Tile("floor", 7, 4),
+			witsjson.Tile("floor", 7, 5),
+			witsjson.Tile("floor", 7, 6),
+			witsjson.Tile("floor", 7, 7),
+			witsjson.Tile("floor", 7, 8),
+			witsjson.Tile("floor", 8, 3),
+			witsjson.Tile("floor", 8, 4),
+			witsjson.Tile("floor", 8, 5),
+			witsjson.Tile("floor", 8, 6),
+			witsjson.Tile("floor", 8, 7),
+			witsjson.Tile("floor", 8, 8),
+			witsjson.Tile("floor", 9, 3),
+			witsjson.Tile("floor", 9, 5),
+			witsjson.Tile("floor", 9, 7),
+			witsjson.Tile("floor", 9, 8),
+			witsjson.Tile("floor", 10, 4),
+			witsjson.Tile("floor", 10, 5),
+			witsjson.Tile("floor", 10, 8),
+			witsjson.Tile("floor", 11, 3),
+			witsjson.Tile("floor", 11, 4),
+			witsjson.Tile("floor", 11, 5),
+			witsjson.Tile("floor", 11, 6),
+			witsjson.Tile("floor", 11, 7),
+			witsjson.Tile("floor", 12, 4),
+			witsjson.Tile("floor", 12, 5),
+			witsjson.Tile("floor", 12, 6),
+			witsjson.Tile("floor", 12, 7),
 		}
-		if !reflect.DeepEqual(gamemap.Terrain().Floor, floor) {
+		if !reflect.DeepEqual(gamemap.Terrain().Floor_, floor) {
 			t.Errorf("GameMap JSON decoding, terrain definitions differ %v != %v",
-				gamemap.Terrain().Floor, floor)
+				gamemap.Terrain().Floor_, floor)
 		}
 
 		wall := witsjson.WallList{
-			witsjson.Tile(schema.TERRAIN_WALL, 0, 2),
-			witsjson.Tile(schema.TERRAIN_WALL, 0, 3),
-			witsjson.Tile(schema.TERRAIN_WALL, 2, 6),
-			witsjson.Tile(schema.TERRAIN_WALL, 3, 6),
-			witsjson.Tile(schema.TERRAIN_WALL, 4, 2),
-			witsjson.Tile(schema.TERRAIN_WALL, 4, 9),
-			witsjson.Tile(schema.TERRAIN_WALL, 8, 2),
-			witsjson.Tile(schema.TERRAIN_WALL, 8, 9),
-			witsjson.Tile(schema.TERRAIN_WALL, 9, 6),
-			witsjson.Tile(schema.TERRAIN_WALL, 10, 6),
-			witsjson.Tile(schema.TERRAIN_WALL, 12, 2),
-			witsjson.Tile(schema.TERRAIN_WALL, 12, 3),
+			witsjson.Tile("wall", 0, 2),
+			witsjson.Tile("wall", 0, 3),
+			witsjson.Tile("wall", 2, 6),
+			witsjson.Tile("wall", 3, 6),
+			witsjson.Tile("wall", 4, 2),
+			witsjson.Tile("wall", 4, 9),
+			witsjson.Tile("wall", 8, 2),
+			witsjson.Tile("wall", 8, 9),
+			witsjson.Tile("wall", 9, 6),
+			witsjson.Tile("wall", 10, 6),
+			witsjson.Tile("wall", 12, 2),
+			witsjson.Tile("wall", 12, 3),
 		}
-		if !reflect.DeepEqual(gamemap.Terrain().Wall, wall) {
+		if !reflect.DeepEqual(gamemap.Terrain().Wall_, wall) {
 			t.Errorf("GameMap JSON decoding, terrain definitions differ %v != %v",
-				gamemap.Terrain().Wall, wall)
+				gamemap.Terrain().Wall_, wall)
 		}
 
 		units := []schema.UnitInit{

@@ -69,6 +69,10 @@ func (init UnitInitJSON) Cost() schema.ActionPoints {
 	return schema.CostForUnit(schema.UnitClassEnum(init.Class_))
 }
 
+func (init UnitInitJSON) Health() schema.UnitHealth {
+	return 0 // receiver will use unit's default health.
+}
+
 func (init UnitInitJSON) Strength() schema.UnitHealth {
 	// Retrieves the strength for this unit
 	// (inaccuratelly generalized to 3 for specials)

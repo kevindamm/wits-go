@@ -91,6 +91,7 @@ type UnitInit interface {
 	Positional
 	Team() FriendlyEnum
 	Class() UnitClassEnum
+	Health() UnitHealth // if 0 value, use default
 }
 
 // The type of unit (determining its movement, health, actions, ...) can actually fit
