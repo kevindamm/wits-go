@@ -51,6 +51,8 @@ type TileDefinition interface {
 	IsBonus() bool
 
 	Team() FriendlyEnum
+	Typename() string
+	Equals(other TileDefinition) bool
 }
 
 // non-negative integer value for measuring distance between coordinates.

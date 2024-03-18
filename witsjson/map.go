@@ -49,7 +49,7 @@ func (gamemap GameMapJSON) MapName() schema.GameMapName {
 	return schema.GameMapName(gamemap.defn.Name)
 }
 
-func (gamemap GameMapJSON) Terrain() TerrainDefinition {
+func (gamemap GameMapJSON) Terrain() schema.TerrainDefinition {
 	if !gamemap.IsLoaded() {
 		return TerrainDefinition{}
 	}
@@ -118,24 +118,18 @@ type TerrainDefinition struct {
 	Base_  BaseList  `json:"base"`
 }
 
-func Tile(terrain string, i, j int) schema.TileDefinition {
+func NewTile(terrain string, i, j int) schema.TileDefinition {
 	return map[string]TerrainType{
-		"floor": FloorList_New,
-		"wall":  WallList_New,
-		"bonus": BonusList_New,
+		"FLOOR": FloorList_New,
+		"WALL":  WallList_New,
+		"BONUS": BonusList_New,
 	}[terrain](schema.NewHexCoord(i, j))
 }
-func Spawn(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
+func NewSpawn(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
 	return spawn{schema.NewHexCoord(i, j), team}
 }
-func Base(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
+func NewBase(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
 	return base{schema.NewHexCoord(i, j), team}
-}
-
-type TileDefinition schema.HexCoord
-
-func (def TileDefinition) Position() schema.HexCoord {
-	return schema.HexCoord(def)
 }
 
 func (terrain TerrainDefinition) Floor() []schema.TileDefinition {
@@ -174,7 +168,7 @@ func UnmarshalTerrain[T ~[]schema.TileDefinition](
 		if len(coord) != 2 {
 			return fmt.Errorf("terrain coordinate with incorrect dimensions %v", coord)
 		}
-		list = append(list, Tile(enum, coord[0], coord[1]))
+		list = append(list, NewTile(enum, coord[0], coord[1]))
 	}
 
 	*defs = T(list)
@@ -190,7 +184,7 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 	coords := make([][]int, 0)
 
 	switch enum {
-	case "floor":
+	case "FLOOR":
 		// match all the floor tiles
 		for _, item := range *data {
 			if item.IsFloor() {
@@ -198,7 +192,7 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 				coords = append(coords, []int{pos.I(), pos.J()})
 			}
 		}
-	case "wall":
+	case "WALL":
 		// match all the wall tiles
 		for _, item := range *data {
 			if item.IsWall() {
@@ -206,14 +200,14 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 				coords = append(coords, []int{pos.I(), pos.J()})
 			}
 		}
-	case "bonus":
+	case "BONUS":
 		for _, item := range *data {
 			if item.IsBonus() {
 				pos := item.Position()
 				coords = append(coords, []int{pos.I(), pos.J()})
 			}
 		}
-	case "spawn":
+	case "SPAWN":
 		// match any type of 'spawn' and collate by team.
 		teamspawns := make([][][]int, 2)
 		teamspawns[0] = make([][]int, 0)
@@ -229,7 +223,7 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 				teamspawns[index] = append(teamspawns[index], []int{pos.I(), pos.J()})
 			}
 		}
-	case "base":
+	case "BASE":
 		// match any type of 'base' and index by team
 		teambase := make([][]int, 2)
 		teambase[0] = make([]int, 0)
@@ -279,14 +273,20 @@ func (tile floor) IsSpawn() bool             { return false }
 func (tile floor) IsBase() bool              { return false }
 func (tile floor) IsBonus() bool             { return false }
 func (tile floor) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
+func (tile floor) Typename() string          { return "FLOOR" }
+func (tile floor) Equals(other schema.TileDefinition) bool {
+	return (other.IsFloor() &&
+		other.Position().I() == tile.Position().I() &&
+		other.Position().J() == tile.Position().J())
+}
 
 // Unmarshals the list of coordinates for floor positions.
 func (defs *FloorList) UnmarshalJSON(encoded []byte) error {
-	return UnmarshalTerrain(encoded, "floor", defs)
+	return UnmarshalTerrain(encoded, "FLOOR", defs)
 }
 
 func (defs *FloorList) MarshalJSON() ([]byte, error) {
-	return MarshalTerrain("floor", defs)
+	return MarshalTerrain("FLOOR", defs)
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_WALL.
@@ -307,14 +307,20 @@ func (tile wall) IsSpawn() bool             { return false }
 func (tile wall) IsBase() bool              { return false }
 func (tile wall) IsBonus() bool             { return false }
 func (tile wall) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
+func (tile wall) Typename() string          { return "WALL" }
+func (tile wall) Equals(other schema.TileDefinition) bool {
+	return (other.IsFloor() &&
+		other.Position().I() == tile.Position().I() &&
+		other.Position().J() == tile.Position().J())
+}
 
 // Unmarshals the list of coordinates for wall positions.
 func (defs *WallList) UnmarshalJSON(encoded []byte) error {
-	return UnmarshalTerrain(encoded, "wall", defs)
+	return UnmarshalTerrain(encoded, "WALL", defs)
 }
 
 func (defs *WallList) MarshalJSON() ([]byte, error) {
-	return MarshalTerrain("wall", defs)
+	return MarshalTerrain("WALL", defs)
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_SPAWN.
@@ -335,6 +341,12 @@ func (tile spawn) IsSpawn() bool             { return true }
 func (tile spawn) IsBase() bool              { return false }
 func (tile spawn) IsBonus() bool             { return false }
 func (tile spawn) Team() schema.FriendlyEnum { return tile.FriendlyEnum }
+func (tile spawn) Typename() string          { return "SPAWN" }
+func (tile spawn) Equals(other schema.TileDefinition) bool {
+	return (other.IsSpawn() &&
+		other.Position().I() == tile.Position().I() &&
+		other.Position().J() == tile.Position().J())
+}
 
 // Grow a two-team (solo) list of list of positions into a four-team (duos) list of lists.
 func grow_spawnslist(teamspawns_solo [][][]int) [][][]int {
@@ -366,7 +378,7 @@ func (defs *SpawnList) UnmarshalJSON(encoded []byte) error {
 }
 
 func (defs *SpawnList) MarshalJSON() ([]byte, error) {
-	return MarshalTerrain("spawn", defs)
+	return MarshalTerrain("SPAWN", defs)
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_BASE.
@@ -386,6 +398,12 @@ func (tile base) IsSpawn() bool             { return false }
 func (tile base) IsBase() bool              { return true }
 func (tile base) IsBonus() bool             { return false }
 func (tile base) Team() schema.FriendlyEnum { return tile.FriendlyEnum }
+func (tile base) Typename() string          { return "BASE" }
+func (tile base) Equals(other schema.TileDefinition) bool {
+	return (other.IsBase() &&
+		other.Position().I() == tile.Position().I() &&
+		other.Position().J() == tile.Position().J())
+}
 
 // Grow a two-team (solo) list of list of positions into a four-team (duos) list of lists.
 func grow_baselist(teambase_solo [][]int) [][]int {
@@ -415,7 +433,7 @@ func (defs *BaseList) UnmarshalJSON(encoded []byte) error {
 }
 
 func (defs *BaseList) MarshalJSON() ([]byte, error) {
-	return MarshalTerrain("base", defs)
+	return MarshalTerrain("BASE", defs)
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_BONUS.
@@ -436,14 +454,20 @@ func (tile bonus) IsSpawn() bool             { return false }
 func (tile bonus) IsBase() bool              { return false }
 func (tile bonus) IsBonus() bool             { return true }
 func (tile bonus) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
+func (tile bonus) Typename() string          { return "BONUS" }
+func (tile bonus) Equals(other schema.TileDefinition) bool {
+	return (other.IsBonus() &&
+		other.Position().I() == tile.Position().I() &&
+		other.Position().J() == tile.Position().J())
+}
 
 // Unmarshals the list of coordinates for bonus positions.
 func (defs *BonusList) UnmarshalJSON(encoded []byte) error {
-	return UnmarshalTerrain(encoded, "bonus", defs)
+	return UnmarshalTerrain(encoded, "BONUS", defs)
 }
 
 func (defs *BonusList) MarshalJSON() ([]byte, error) {
-	return MarshalTerrain("bonus", defs)
+	return MarshalTerrain("BONUS", defs)
 }
 
 // Initialization of map-related game state that is not terrain related.

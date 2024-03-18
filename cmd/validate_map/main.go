@@ -26,6 +26,7 @@ import (
 	"strings"
 
 	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go/state"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -51,21 +52,26 @@ func main() {
 			if *debug {
 				fmt.Printf("parsing map %s\n", filename)
 			}
-			readAndValidateGameMap(filename)
+			if _, err := readAndValidateGameMap(filename); err != nil {
+				fmt.Printf("error loading map %s\n", filename)
+				fmt.Println(err)
+			}
 		}
 	} else {
 		if *debug {
 			fmt.Printf("parsing map %s\n", filename)
 		}
-		readAndValidateGameMap(filename)
+		if _, err := readAndValidateGameMap(filename); err != nil {
+			fmt.Printf("error loading map %s\n", filename)
+			fmt.Println(err)
+		}
 	}
 }
 
-func readAndValidateGameMap(filename string) {
+func readAndValidateGameMap(filename string) (state.GameMap, error) {
 	filedata, err := os.ReadFile(filename)
 	if err != nil {
-		fmt.Println(err)
-		return
+		return state.GameMap{}, err
 	}
 
 	defer func() {
@@ -78,82 +84,79 @@ func readAndValidateGameMap(filename string) {
 	var gamemap witsjson.GameMapJSON
 	if err = json.Unmarshal(filedata, &gamemap); err != nil {
 		fmt.Println(err)
-		return
+		return state.GameMap{}, err
 	}
 
 	// Ensure no two tiles are located at the same coordinate.
 	if err := checkExclusivity(gamemap.Terrain()); err != nil {
 		fmt.Println(err)
-		return
+		return state.GameMap{}, err
 	}
 
-	// Ensure that all units are closer to their own base than their enemy's.
-	if err := checkUnitBaseProximity(gamemap.Units(), gamemap.Terrain()); err != nil {
-
-	}
+	return state.NewGameMap(gamemap), nil
 }
 
-func checkExclusivity(terrain witsjson.TerrainDefinition) error {
-	size := len(terrain.Floor) + len(terrain.Wall) + len(terrain.Bonus) + len(terrain.Spawn) + len(terrain.Base)
-	positions := make(map[int16]schema.MapTerrain, size)
+func checkExclusivity(terrain schema.TerrainDefinition) error {
+	size := len(terrain.Floor()) + len(terrain.Wall()) + len(terrain.Bonus()) + len(terrain.Spawn()) + len(terrain.Base())
+	positions := make(map[int16]schema.TileDefinition, size)
 	coord := func(hx schema.HexCoord) int16 {
 		// This is a bit of a cheat but we know that no coordinate value exceeds 12.  It'll fit with plenty of room.
 		// THIS WOULDN'T SCALE TO ARBITRARY USER COORDINATES AS THE REST OF THE SYSTEM EASILY WOULD.  do it better if it comes to that.
 		return int16((hx.I() << 8) + hx.J())
 	}
 
-	for _, floor := range terrain.Floor {
+	for _, floor := range terrain.Floor() {
 		hex := coord(floor.Position())
-		if positions[hex] != schema.TERRAIN_UNKNOWN {
+		if positions[hex] != nil {
 			fmt.Printf("Repeated floor position: [%d, %d]\n", floor.Position().I(), floor.Position().J())
 			return fmt.Errorf("coordinate repeat [%d, %d]", floor.Position().I(), floor.Position().J())
 		}
-		positions[coord(floor.Position())] = schema.TERRAIN_FLOOR
+		positions[coord(floor.Position())] = floor
 	}
-	for _, wall := range terrain.Wall {
+	for _, wall := range terrain.Wall() {
 		hex := coord(wall.Position())
-		if positions[hex] != schema.TERRAIN_UNKNOWN {
+		if positions[hex] != nil {
 			fmt.Printf("Coordinate [%d, %d] repeated betewen %s, %s",
-				wall.Position().I(), wall.Position().J(), positions[hex], wall.Terrain())
+				wall.Position().I(), wall.Position().J(), positions[hex].Typename(), wall.Typename())
 			return fmt.Errorf("coordinate repeat [%d, %d]", wall.Position().I(), wall.Position().J())
 		}
-		positions[coord(wall.Position())] = schema.TERRAIN_WALL
+		positions[coord(wall.Position())] = wall
 	}
-	for _, bonus := range terrain.Bonus {
+	for _, bonus := range terrain.Bonus() {
 		hex := coord(bonus.Position())
-		if positions[hex] != schema.TERRAIN_UNKNOWN {
+		if positions[hex] != nil {
 			fmt.Printf("Coordinate [%d, %d] repeated betewen %s, %s",
-				bonus.Position().I(), bonus.Position().J(), positions[hex], bonus.Terrain())
+				bonus.Position().I(), bonus.Position().J(), positions[hex].Typename(), bonus.Typename())
 			return fmt.Errorf("coordinate repeat [%d, %d]", bonus.Position().I(), bonus.Position().J())
 		}
-		positions[coord(bonus.Position())] = schema.TERRAIN_TYPE_BONUS
+		positions[coord(bonus.Position())] = bonus
 	}
-	for _, spawn := range terrain.Spawn {
+	for _, spawn := range terrain.Spawn() {
 		hex := coord(spawn.Position())
-		if positions[hex] != schema.TERRAIN_UNKNOWN {
+		if positions[hex] != nil {
 			fmt.Printf("Coordinate [%d, %d] repeated betewen %s, %s",
-				spawn.Position().I(), spawn.Position().J(), positions[hex], spawn.Terrain())
+				spawn.Position().I(), spawn.Position().J(), positions[hex].Typename(), spawn.Typename())
 			return fmt.Errorf("coordinate repeat [%d, %d]", spawn.Position().I(), spawn.Position().J())
 		}
-		positions[coord(spawn.Position())] = schema.TERRAIN_TYPE_SPAWN
+		positions[coord(spawn.Position())] = spawn
 	}
-	for _, base := range terrain.Base {
+	for _, base := range terrain.Base() {
 		hex := coord(base.Position())
-		if positions[hex] != schema.TERRAIN_UNKNOWN {
+		if positions[hex] != nil {
 			fmt.Printf("Coordinate [%d, %d] repeated betewen %s, %s",
-				base.Position().I(), base.Position().J(), positions[hex], base.Terrain())
+				base.Position().I(), base.Position().J(), positions[hex].Typename(), base.Typename())
 			return fmt.Errorf("coordinate repeat [%d, %d]", base.Position().I(), base.Position().J())
 		}
-		positions[coord(base.Position())] = schema.TERRAIN_TYPE_BASE
 		// Also check six coordinates surrounding base.
 		for _, neighbor := range listSurroundingPositions(base.Position().I(), base.Position().J()) {
 			hex := coord(neighbor)
-			if positions[hex] != schema.TERRAIN_UNKNOWN {
+			if positions[hex] != nil {
 				fmt.Printf("Coordinate [%d, %d] repeated betewen %s, %s",
-					neighbor.I(), neighbor.J(), positions[hex], base.Terrain())
+					neighbor.I(), neighbor.J(), positions[hex].Typename(), base.Typename())
 				return fmt.Errorf("coordinate collides with base [%d, %d]", neighbor.I(), neighbor.J())
 			}
 		}
+		positions[coord(base.Position())] = base
 	}
 
 	return nil
@@ -209,9 +212,4 @@ func listSurroundingPositions(i, j int) []schema.HexCoord {
 		surrounding = append(surrounding, surrnext)
 	}
 	return surrounding
-}
-
-func checkUnitBaseProximity(units []schema.UnitInit, terrain witsjson.TerrainDefinition) error {
-
-	return nil
 }
