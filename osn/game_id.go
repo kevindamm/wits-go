@@ -19,21 +19,24 @@ package osn
 import (
 	"encoding/json"
 	"strings"
+
+	"github.com/kevindamm/wits-go/schema"
 )
 
-type OsnGameID string
+// Extension of a game's ID which automatically shortens it when marshaling.
+type OsnGameID schema.GameID
 
-// Automatically trims the prefix when encoding.
+// Marshal the game ID (removing 48-character common prefix all games share).
 func (id OsnGameID) MarshalJSON() ([]byte, error) {
 	// Trim the common prefix off when writing the game ID.
 	return json.Marshal(id.ShortID())
 }
 
-// This 48~character string is the same across ALL game-replay identifiers.
-const COMMON_PREFIX string = "ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20Y"
+// Common prefix is overly redundant and does not need to keep taking up space.
+const commonprefix string = "ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20Y"
 
 func (id OsnGameID) ShortID() string {
-	return strings.TrimPrefix(string(id), COMMON_PREFIX)
+	return strings.TrimPrefix(string(id), commonprefix)
 }
 
 func (id *OsnGameID) UnmarshalJSON(encoded []byte) error {

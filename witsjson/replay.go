@@ -41,8 +41,8 @@ type GameReplayJSON struct {
 	Players_ []PlayerRoleJSON `json:"players"`
 }
 
-func (replay GameReplayJSON) GameID() schema.OsnGameID {
-	return replay.GameID_
+func (replay GameReplayJSON) GameID() schema.GameID {
+	return schema.GameID(replay.GameID_.ShortID())
 }
 
 func (replay GameReplayJSON) MapName() schema.GameMapName {

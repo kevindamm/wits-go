@@ -17,7 +17,7 @@
 package schema
 
 type GameReplay interface {
-	GameID() OsnGameID
+	GameID() GameID
 	MapID() GameMapID
 	MapTheme() string
 	Players() []PlayerRole
@@ -29,10 +29,7 @@ type GameReplay interface {
 
 // String alias for game_id values from OSN, with normalization of identity.
 // When generalizing to schema representation, only provide the shortened ID.
-type OsnGameID interface {
-	// Returns a shortened representation (trimming the zero-entropy prefix).
-	ShortID() string
-}
+type GameID string
 
 type GameState interface {
 	BaseHP(player FriendlyEnum) BaseHealth

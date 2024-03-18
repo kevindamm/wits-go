@@ -55,3 +55,42 @@ func TestOsnGameID_MarshalJSON(t *testing.T) {
 		})
 	}
 }
+
+func TestOsnGameID_MarshalRemoveJunk(t *testing.T) {
+	tests := []struct {
+		name   string
+		gameID osn.OsnGameID
+		want   []byte
+		want2  osn.OsnGameID
+	}{
+		{"with-prefix",
+			osn.OsnGameID("ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20Ygame-id"),
+			[]byte(`"game-id"`),
+			osn.OsnGameID("game-id")},
+		{"without-prefix",
+			osn.OsnGameID("ggame-id"),
+			[]byte(`"ggame-id"`),
+			osn.OsnGameID("ggame-id")},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			var got []byte
+			got, err := json.Marshal(tt.gameID)
+			if err != nil {
+				t.Error(err)
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("OsnGameID.MarshalJSON() = %v, want %v", got, tt.want)
+			}
+
+			var got2 osn.OsnGameID
+			err = json.Unmarshal(got, &got2)
+			if err != nil {
+				t.Error(err)
+			}
+			if !reflect.DeepEqual(string(got2), string(tt.want2)) {
+				t.Errorf("OsnGameID.UnmarshalJSON() = %v, want %v", got2, tt.want2)
+			}
+		})
+	}
+}
