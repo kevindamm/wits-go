@@ -202,7 +202,7 @@ func listSurroundingPositions(i, j int) []schema.HexCoord {
 	}
 
 	for k := 0; k < 6; k += 1 {
-		surrnext := schema.NewHexCoord(
+		surrnext := witsjson.NewHexCoord(
 			i+neighborTable[k][0],
 			j+neighborTable[k][1])
 		// Only positive coordinates are valid in the legacy coordinate system.
