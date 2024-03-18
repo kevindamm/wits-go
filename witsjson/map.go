@@ -57,7 +57,7 @@ func (gamemap GameMapJSON) Terrain() schema.TerrainDefinition {
 }
 
 func (gamemap GameMapJSON) Units() []schema.UnitInit {
-	if gamemap.defn == nil {
+	if !gamemap.IsLoaded() {
 		return nil
 	}
 	units := make([]schema.UnitInit, len(gamemap.defn.Init.Units))
@@ -123,13 +123,13 @@ func NewTile(terrain string, i, j int) schema.TileDefinition {
 		"FLOOR": FloorList_New,
 		"WALL":  WallList_New,
 		"BONUS": BonusList_New,
-	}[terrain](schema.NewHexCoord(i, j))
+	}[terrain](NewHexCoord(i, j))
 }
 func NewSpawn(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
-	return spawn{schema.NewHexCoord(i, j), team}
+	return spawn{NewHexCoord(i, j), team}
 }
 func NewBase(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
-	return base{schema.NewHexCoord(i, j), team}
+	return base{NewHexCoord(i, j), team}
 }
 
 func (terrain TerrainDefinition) Floor() []schema.TileDefinition {
@@ -253,18 +253,18 @@ func coerceTileDefs[T ~[]schema.TileDefinition](tiles T) []schema.TileDefinition
 }
 
 // Functor for a curried constructor of a specific tile type.
-type TerrainType func(schema.HexCoord) schema.TileDefinition
+type TerrainType func(HexCoordJSON) schema.TileDefinition
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_FLOOR.
 type FloorList []schema.TileDefinition
-type floor schema.HexCoord
+type floor HexCoordJSON
 
-func FloorList_New(coord schema.HexCoord) schema.TileDefinition {
+func FloorList_New(coord HexCoordJSON) schema.TileDefinition {
 	return floor(coord)
 }
 
 func (tile floor) Position() schema.HexCoord {
-	return schema.HexCoord(tile)
+	return HexCoordJSON(tile)
 }
 func (tile floor) CanWalk() bool             { return true }
 func (tile floor) IsFloor() bool             { return true }
@@ -291,14 +291,14 @@ func (defs *FloorList) MarshalJSON() ([]byte, error) {
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_WALL.
 type WallList []schema.TileDefinition
-type wall schema.HexCoord
+type wall HexCoordJSON
 
-func WallList_New(coord schema.HexCoord) schema.TileDefinition {
+func WallList_New(coord HexCoordJSON) schema.TileDefinition {
 	return wall(coord)
 }
 
 func (tile wall) Position() schema.HexCoord {
-	return schema.HexCoord(tile)
+	return HexCoordJSON(tile)
 }
 func (tile wall) CanWalk() bool             { return false }
 func (tile wall) IsFloor() bool             { return false }
@@ -360,7 +360,7 @@ func grow_spawnslist(teamspawns_solo [][][]int) [][][]int {
 
 // Unmarshals the list of coordinates for spawn positions.
 func (defs *SpawnList) UnmarshalJSON(encoded []byte) error {
-	var all_spawns [][]schema.HexCoord
+	var all_spawns [][]HexCoordJSON
 	if err := json.Unmarshal(encoded, &all_spawns); err != nil {
 		return err
 	}
@@ -417,7 +417,7 @@ func grow_baselist(teambase_solo [][]int) [][]int {
 
 // Unmarshals the list of coordinates for base positions.
 func (defs *BaseList) UnmarshalJSON(encoded []byte) error {
-	var bases []schema.HexCoord
+	var bases []HexCoordJSON
 	if err := json.Unmarshal(encoded, &bases); err != nil {
 		return err
 	}
@@ -438,14 +438,14 @@ func (defs *BaseList) MarshalJSON() ([]byte, error) {
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_BONUS.
 type BonusList []schema.TileDefinition
-type bonus schema.HexCoord
+type bonus HexCoordJSON
 
-func BonusList_New(coord schema.HexCoord) schema.TileDefinition {
+func BonusList_New(coord HexCoordJSON) schema.TileDefinition {
 	return bonus(coord)
 }
 
 func (tile bonus) Position() schema.HexCoord {
-	return schema.HexCoord(tile)
+	return HexCoordJSON(tile)
 }
 func (tile bonus) CanWalk() bool             { return true }
 func (tile bonus) IsFloor() bool             { return false }
@@ -476,8 +476,8 @@ type MapInit struct {
 }
 
 type Rotation struct {
-	Position schema.HexCoord `json:"position"`
-	Center   bool            `json:"center"`
+	Position HexCoordJSON `json:"position"`
+	Center   bool         `json:"center"`
 }
 
 type Reflection struct {

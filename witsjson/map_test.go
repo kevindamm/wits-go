@@ -226,27 +226,27 @@ func verifyTestGameMap(gamemap witsjson.GameMapJSON, t *testing.T) {
 
 	units := []schema.UnitInit{
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(1, 5),
+			witsjson.NewHexCoord(1, 5),
 			witsjson.FriendlyEnumJSON(schema.FR_SELF),
 			witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(3, 5),
+			witsjson.NewHexCoord(3, 5),
 			witsjson.FriendlyEnumJSON(schema.FR_SELF),
 			witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(3, 7),
+			witsjson.NewHexCoord(3, 7),
 			witsjson.FriendlyEnumJSON(schema.FR_SELF),
 			witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(9, 5),
+			witsjson.NewHexCoord(9, 5),
 			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
 			witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(9, 7),
+			witsjson.NewHexCoord(9, 7),
 			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
 			witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
 		witsjson.UnitInitJSON{
-			schema.NewHexCoord(11, 5),
+			witsjson.NewHexCoord(11, 5),
 			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
 			witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
 	}

@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/hex_coord_test.go
+// github:kevindamm/wits-go/witsjson/hex_coord_test.go
 
-package schema_test
+package witsjson_test
 
 import (
 	"encoding/json"
@@ -22,23 +22,24 @@ import (
 	"testing"
 
 	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go/witsjson"
 )
 
 func TestHexCoord_UnmarshalJSON(t *testing.T) {
 	tests := []struct {
 		name    string
-		coord   schema.HexCoord
+		coord   witsjson.HexCoordJSON
 		encoded string
 		wantErr bool
 	}{
-		{"basic", schema.NewHexCoord(4, -2), "[4, -2]", false},
-		{"asdict", schema.NewHexCoord(4, -2), `{ "i": 4, "j": -2 }`, false},
-		{"zero", schema.NewHexCoord(0, 0), "[0, 0]", false},
-		{"invalid", schema.HexCoord{}, "120", true},
+		{"basic", witsjson.NewHexCoord(4, -2), "[4, -2]", false},
+		{"asdict", witsjson.NewHexCoord(4, -2), `{ "i": 4, "j": -2 }`, false},
+		{"zero", witsjson.NewHexCoord(0, 0), "[0, 0]", false},
+		{"invalid", witsjson.HexCoordJSON{}, "120", true},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			var got schema.HexCoord
+			var got witsjson.HexCoordJSON
 			if err := json.Unmarshal([]byte(tt.encoded), &got); (err != nil) != tt.wantErr {
 				t.Errorf("HexCoord unmarshal (JSON) error = %v, wantErr %v", err, tt.wantErr)
 			}
@@ -56,9 +57,9 @@ func TestHexCoord_MarshalJSON(t *testing.T) {
 		want    string
 		wantErr bool
 	}{
-		{"basic", schema.NewHexCoord(1, 3), "[1,3]", false},
-		{"more", schema.NewHexCoord(4, 2), "[4,2]", false},
-		{"big", schema.NewHexCoord(1<<10, 9000), "[1024,9000]", false},
+		{"basic", witsjson.NewHexCoord(1, 3), "[1,3]", false},
+		{"more", witsjson.NewHexCoord(4, 2), "[4,2]", false},
+		{"big", witsjson.NewHexCoord(1<<10, 9000), "[1024,9000]", false},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

@@ -16,20 +16,11 @@
 
 package schema
 
-import (
-	"encoding/json"
-	"fmt"
-)
-
 // A two-dimensional coordinate for map locations.  Third coordinate is implicit.
 // There don't need to be format-specific representations for the raw coordinate.
-type HexCoord struct {
-	i int
-	j int
-}
-
-func NewHexCoord(i, j int) HexCoord {
-	return HexCoord{i, j}
+type HexCoord interface {
+	I() int
+	J() int
 }
 
 // This is a reference to a coordinate, the GameMap can convert it into HexCoord,
@@ -46,51 +37,3 @@ func NewHexCoord(i, j int) HexCoord {
 // visible tiles" can be constructed from these index values instead of coordinate
 // pairs, easier to serialize in JSON and easier to compare pairs of coordinates.
 type HexCoordIndex uint8
-
-func (coord HexCoord) I() int {
-	return coord.i
-}
-
-func (coord HexCoord) J() int {
-	return coord.j
-}
-
-// HexCoord is always marshaled as a 2D int array.  If some idiosyncratic
-// json handling wants to emit it as an object or properties, use the public
-// getters defined above to destructure the coordinate, but avoid doing so.
-func (coord HexCoord) MarshalJSON() ([]byte, error) {
-	asArray := []int{coord.i, coord.j}
-	return json.Marshal(asArray)
-}
-
-// The deserialization process first tries to parse it as an int array, checking
-// that it fits the dimension types.  Failing that, it will read the value as an
-// (i, j)-keyed jsondict representation.
-func (coord *HexCoord) UnmarshalJSON(encoded []byte) error {
-	// First attempt to parse it as a list of two integers.
-	array2D := make([]int, 2)
-	err := json.Unmarshal(encoded, &array2D)
-	if err == nil {
-		if len(array2D) != 2 {
-			return fmt.Errorf("HexCoord{} should have exactly 2 dimensions (found %d)", len(array2D))
-		}
-		coord.i = array2D[0]
-		coord.j = array2D[1]
-	} else {
-		var jsondict struct {
-			I int `json:"i"`
-			J int `json:"j"`
-		}
-		if err := json.Unmarshal(encoded, &jsondict); err != nil {
-			return err
-		}
-		coord.i = jsondict.I
-		coord.j = jsondict.J
-	}
-
-	return nil
-}
-
-func (coord HexCoord) String() string {
-	return fmt.Sprintf("<%d, %d>", coord.i, coord.j)
-}

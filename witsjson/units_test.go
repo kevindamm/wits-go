@@ -34,7 +34,7 @@ func TestUnitInit_JSON(t *testing.T) {
 		expect  witsjson.UnitInitJSON
 	}{
 		{"basic JSON", `{"class": "HEAVY", "coord": {"i": 1, "j": 2}, "team": "RED"}`,
-			true, witsjson.UnitInitJSON{schema.NewHexCoord(1, 2),
+			true, witsjson.UnitInitJSON{witsjson.NewHexCoord(1, 2),
 				witsjson.FriendlyEnumJSON(schema.FR_SELF),
 				witsjson.UnitClassJSON(schema.CLASS_HEAVY)}},
 	}

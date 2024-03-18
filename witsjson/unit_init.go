@@ -39,7 +39,7 @@ import (
 // initialization to construct the equivalent via NewUnit and into a TileState,
 // after a game match has begun.
 type UnitInitJSON struct {
-	Coord  schema.HexCoord  `json:"coord"`
+	Coord  HexCoordJSON     `json:"coord"`
 	Team_  FriendlyEnumJSON `json:"team"`
 	Class_ UnitClassJSON    `json:"class"`
 }
@@ -87,9 +87,9 @@ func (init UnitInitJSON) Distance() schema.TileDistance {
 func (unit *UnitInitJSON) UnmarshalJSON(encoded []byte) error {
 	// Only parse unit init as JSON.
 	var initial struct {
-		Coord schema.HexCoord `json:"coord"`
-		Team  string          `json:"team"`
-		Class string          `json:"class"`
+		Coord HexCoordJSON `json:"coord"`
+		Team  string       `json:"team"`
+		Class string       `json:"class"`
 	}
 	if err := json.Unmarshal(encoded, &initial); err != nil {
 		return err
