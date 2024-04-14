@@ -20,10 +20,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
-// Compatible with schema.PlayerRole interface, from a JSON-formatted replay.
+// Compatible with wits.PlayerRole interface, from a JSON-formatted replay.
 type PlayerRoleJSON struct {
 	PlayerID
 	Name_   string              `json:"name"`
@@ -36,41 +36,41 @@ type PlayerRoleJSON struct {
 	Wits_   int                 `json:"wits"`
 }
 
-func (role PlayerRoleJSON) Name() schema.PlayerName        { return schema.PlayerName(role.Name_) }
-func (role PlayerRoleJSON) Race() schema.UnitRaceEnum      { return schema.UnitRaceEnum(role.Race_) }
-func (role PlayerRoleJSON) Team() schema.FriendlyEnum      { return schema.FriendlyEnum(role.Team_) }
-func (role PlayerRoleJSON) Result() schema.TerminalStatus  { return schema.TerminalStatus(role.Result_) }
-func (role PlayerRoleJSON) Before() schema.PlayerStandings { return role.Before_ }
-func (role PlayerRoleJSON) After() schema.StandingsAfter   { return role.After_ }
-func (role PlayerRoleJSON) BaseHP() schema.BaseHealth      { return schema.BaseHealth(role.BaseHP_) }
-func (role PlayerRoleJSON) Wits() schema.ActionPoints      { return schema.ActionPoints(role.Wits_) }
+func (role PlayerRoleJSON) Name() wits.PlayerName             { return wits.PlayerName(role.Name_) }
+func (role PlayerRoleJSON) Race() wits.UnitRaceEnum           { return wits.UnitRaceEnum(role.Race_) }
+func (role PlayerRoleJSON) Team() wits.FriendlyEnum           { return wits.FriendlyEnum(role.Team_) }
+func (role PlayerRoleJSON) Result() wits.TerminalStatus       { return wits.TerminalStatus(role.Result_) }
+func (role PlayerRoleJSON) Before() wits.PlayerStandings      { return role.Before_ }
+func (role PlayerRoleJSON) After() wits.PlayerStandingsUpdate { return role.After_ }
+func (role PlayerRoleJSON) BaseHP() wits.BaseHealth           { return wits.BaseHealth(role.BaseHP_) }
+func (role PlayerRoleJSON) Wits() wits.ActionPoints           { return wits.ActionPoints(role.Wits_) }
 
 // May be inlined by other structs (see PlayerRoleJSON and player standings).
 type PlayerID struct {
-	GCID_ schema.GCID `json:"gcID"`
+	GCID_ wits.GCID `json:"gcID"`
 }
 
-func (id PlayerID) GCID() schema.GCID { return id.GCID_ }
+func (id PlayerID) GCID() wits.GCID { return id.GCID_ }
 
 // A JSON-compatible representation wrapping the team-association enum.
-type FriendlyEnumJSON schema.FriendlyEnum
+type FriendlyEnumJSON wits.FriendlyEnum
 
 func (team FriendlyEnumJSON) String() string {
-	return map[schema.FriendlyEnum]string{
-		schema.FR_SELF:    "RED",
-		schema.FR_ENEMY:   "BLUE",
-		schema.FR_ALLY:    "GOLD",
-		schema.FR_ENEMY2:  "GREEN",
-		schema.FR_UNKNOWN: "UNKNOWN",
-	}[schema.FriendlyEnum(team)]
+	return map[wits.FriendlyEnum]string{
+		wits.FR_SELF:    "RED",
+		wits.FR_ENEMY:   "BLUE",
+		wits.FR_ALLY:    "GOLD",
+		wits.FR_ENEMY2:  "GREEN",
+		wits.FR_UNKNOWN: "UNKNOWN",
+	}[wits.FriendlyEnum(team)]
 }
 
 func ParseTeam(color string) FriendlyEnumJSON {
 	return map[string]FriendlyEnumJSON{
-		"RED":   FriendlyEnumJSON(schema.FR_SELF),
-		"BLUE":  FriendlyEnumJSON(schema.FR_ENEMY),
-		"GOLD":  FriendlyEnumJSON(schema.FR_ALLY),
-		"GREEN": FriendlyEnumJSON(schema.FR_ENEMY2),
+		"RED":   FriendlyEnumJSON(wits.FR_SELF),
+		"BLUE":  FriendlyEnumJSON(wits.FR_ENEMY),
+		"GOLD":  FriendlyEnumJSON(wits.FR_ALLY),
+		"GREEN": FriendlyEnumJSON(wits.FR_ENEMY2),
 	}[color]
 }
 
@@ -80,9 +80,9 @@ func ParseTeam(color string) FriendlyEnumJSON {
 func (team *FriendlyEnumJSON) UnmarshalJSON(encoded []byte) error {
 	var intVal int
 	if err := json.Unmarshal(encoded, &intVal); err == nil {
-		// The schema uses 0 (the default value) as UNKNOWN,
+		// The wits uses 0 (the default value) as UNKNOWN,
 		// and OSN 0-indexed values are shifted when read.
-		*team = FriendlyEnumJSON(schema.FriendlyEnum(intVal))
+		*team = FriendlyEnumJSON(wits.FriendlyEnum(intVal))
 		return nil
 	}
 	var strVal string
@@ -107,16 +107,16 @@ type PlayerStandingsJSON struct {
 	Rank_ LeagueRankJSON `json:"rank"`
 }
 
-type LeagueTierJSON schema.LeagueTier
+type LeagueTierJSON wits.LeagueTier
 
-func (standings PlayerStandingsJSON) Tier() schema.LeagueTier {
-	return schema.LeagueTier(standings.Tier_)
+func (standings PlayerStandingsJSON) Tier() wits.LeagueTier {
+	return wits.LeagueTier(standings.Tier_)
 }
 
-type LeagueRankJSON schema.LeagueRank
+type LeagueRankJSON wits.LeagueRank
 
-func (standings PlayerStandingsJSON) Rank() schema.LeagueRank {
-	return schema.LeagueRank(standings.Rank_)
+func (standings PlayerStandingsJSON) Rank() wits.LeagueRank {
+	return wits.LeagueRank(standings.Rank_)
 }
 
 type StandingsAfterJSON struct {
@@ -125,12 +125,12 @@ type StandingsAfterJSON struct {
 	Delta_ int            `json:"delta"`
 }
 
-func (standings StandingsAfterJSON) Tier() schema.LeagueTier {
-	return schema.LeagueTier(standings.Tier_)
+func (standings StandingsAfterJSON) Tier() wits.LeagueTier {
+	return wits.LeagueTier(standings.Tier_)
 }
 
-func (standings StandingsAfterJSON) Rank() schema.LeagueRank {
-	return schema.LeagueRank(standings.Rank_)
+func (standings StandingsAfterJSON) Rank() wits.LeagueRank {
+	return wits.LeagueRank(standings.Rank_)
 }
 
 func (standings StandingsAfterJSON) Delta() int {
@@ -138,7 +138,7 @@ func (standings StandingsAfterJSON) Delta() int {
 }
 
 // This value type has hard-coded limits of 0..5 checked when decoding.
-type BaseHealth schema.BaseHealth
+type BaseHealth wits.BaseHealth
 
 func (health *BaseHealth) UnmarshalJSON(encoded []byte) error {
 	var hp int
@@ -149,8 +149,8 @@ func (health *BaseHealth) UnmarshalJSON(encoded []byte) error {
 		return fmt.Errorf("invalid base HP: %d", hp)
 	}
 
-	*health = BaseHealth(schema.BaseHealth(hp))
+	*health = BaseHealth(wits.BaseHealth(hp))
 	return nil
 }
 
-type TerminalStatusJSON schema.TerminalStatus
+type TerminalStatusJSON wits.TerminalStatus

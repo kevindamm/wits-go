@@ -17,11 +17,11 @@
 package osn
 
 import (
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
-type UnitStatus struct { // also see schema.UnitPlacement, schema.UnitTurnState
+type UnitStatus struct { // also see wits.UnitPlacement, wits.UnitTurnState
 	Index UnitIndex    `json:"identifier"`
 	Owner PlayerIndex  `json:"owner"`
 	Team  TeamIndex    `json:"team"`
@@ -58,7 +58,7 @@ type UnitHealth int
 
 // The unit's class (indicating their strength, distance, health, etc.) is
 // represented differently in OSN than it is in other representations, so
-// it gets its own enum here instead of relying only on schema.UnitClassEnum.
+// it gets its own enum here instead of relying only on wits.UnitClassEnum.
 type UnitClassOsn byte
 
 const (
@@ -99,17 +99,17 @@ func (class UnitClassOsn) AsWitsJSON() witsjson.UnitClassJSON {
 		class = CLASS_UNKNOWN
 	}
 	return []witsjson.UnitClassJSON{
-		witsjson.UnitClassJSON(schema.CLASS_UNKNOWN),
-		witsjson.UnitClassJSON(schema.CLASS_RUNNER),
-		witsjson.UnitClassJSON(schema.CLASS_SOLDIER),
-		witsjson.UnitClassJSON(schema.CLASS_MEDIC),
-		witsjson.UnitClassJSON(schema.CLASS_SNIPER),
-		witsjson.UnitClassJSON(schema.CLASS_HEAVY),
-		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
-		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
-		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
-		witsjson.UnitClassJSON(schema.CLASS_SPECIAL),
-		witsjson.UnitClassJSON(schema.CLASS_THORN),
+		witsjson.UnitClassJSON(wits.CLASS_UNKNOWN),
+		witsjson.UnitClassJSON(wits.CLASS_RUNNER),
+		witsjson.UnitClassJSON(wits.CLASS_SOLDIER),
+		witsjson.UnitClassJSON(wits.CLASS_MEDIC),
+		witsjson.UnitClassJSON(wits.CLASS_SNIPER),
+		witsjson.UnitClassJSON(wits.CLASS_HEAVY),
+		witsjson.UnitClassJSON(wits.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(wits.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(wits.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(wits.CLASS_SPECIAL),
+		witsjson.UnitClassJSON(wits.CLASS_THORN),
 	}[int(class)]
 }
 
@@ -142,10 +142,10 @@ func (race UnitRaceOsn) AsWitsJSON() witsjson.UnitRaceJSON {
 		race = RACE_UNKNOWN
 	}
 	return []witsjson.UnitRaceJSON{
-		witsjson.UnitRaceJSON(schema.RACE_UNKNOWN),
-		witsjson.UnitRaceJSON(schema.RACE_FEEDBACK),
-		witsjson.UnitRaceJSON(schema.RACE_ADORABLES),
-		witsjson.UnitRaceJSON(schema.RACE_SCALLYWAGS),
-		witsjson.UnitRaceJSON(schema.RACE_VEGGIENAUTS),
+		witsjson.UnitRaceJSON(wits.RACE_UNKNOWN),
+		witsjson.UnitRaceJSON(wits.RACE_FEEDBACK),
+		witsjson.UnitRaceJSON(wits.RACE_ADORABLES),
+		witsjson.UnitRaceJSON(wits.RACE_SCALLYWAGS),
+		witsjson.UnitRaceJSON(wits.RACE_VEGGIENAUTS),
 	}[race]
 }

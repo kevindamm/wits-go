@@ -12,9 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/status.go
+// github:kevindamm/wits-go/match.go
 
-package schema
+package wits
+
+// String for uniquely identifying the match between two players (seeded by
+// the player IDs and which sequence )
+type MatchID string
 
 // An enum describing the win or loss result, relative to the current player
 // (relative to player 1 if without context).

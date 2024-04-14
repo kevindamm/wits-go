@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/units.go
+// github:kevindamm/wits-go/units.go
 
-package schema
+package wits
 
 // Intrinsic (and invariant) properties of the Unit
 type Unit interface {
@@ -77,14 +77,6 @@ type UnitTurnStatus interface {
 type UnitPlacement interface {
 	UnitState
 	Placement
-}
-
-type Positional interface {
-	Position() HexCoord
-}
-
-type Placement interface {
-	Index() HexCoordIndex
 }
 
 type UnitInit interface {

@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/map.go
+// github:kevindamm/wits-go/map.go
 
-package schema
+package wits
 
 type MapDescription interface {
 	MapName() GameMapName

@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/player.go
+// github:kevindamm/wits-go/player.go
 
-package schema
+package wits
 
 // Player information as it pertains to a single match.
 type PlayerRole interface {
@@ -25,27 +25,13 @@ type PlayerRole interface {
 	Team() FriendlyEnum
 
 	Result() TerminalStatus
-	Before() PlayerStandings
-	After() StandingsAfter
 	BaseHP() BaseHealth
 	Wits() ActionPoints
 }
 
 // For identifying players globally.
 type PlayerID interface {
-	GCID() GCID
-}
-
-// The league & rank of each player at the beginning of the match.
-type PlayerStandings interface {
-	Tier() LeagueTier
-	Rank() LeagueRank
-}
-
-// The league & rank of each player as a result of the match outcome.
-type StandingsAfter interface {
-	PlayerStandings
-	Delta() int
+	PlayerKey() GCID
 }
 
 // A globally consistent identifier for players (from OML, via OSN)
@@ -53,12 +39,6 @@ type GCID string
 
 // The human-readable representation (may contain unicode)
 type PlayerName string
-
-// TODO explicit enum values for this in JSON
-type LeagueTier string
-
-// TODO exlpicit check for range [1..100] in JSON
-type LeagueRank int
 
 // Team alignment.
 type FriendlyEnum byte

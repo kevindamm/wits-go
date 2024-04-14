@@ -17,7 +17,7 @@
 package osn
 
 import (
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -46,29 +46,29 @@ type PlayerSettings struct {
 	Placeholder    Boolish      `json:"isPlaceHolder"`
 }
 
-func (player PlayerSettings) GCID() schema.GCID {
-	return schema.GCID(player.PlayerID)
+func (player PlayerSettings) GCID() wits.GCID {
+	return wits.GCID(player.PlayerID)
 }
 
-func (player PlayerSettings) Name() schema.PlayerName {
-	return schema.PlayerName(player.Name_)
+func (player PlayerSettings) Name() wits.PlayerName {
+	return wits.PlayerName(player.Name_)
 }
 
-func (player PlayerSettings) Race() schema.UnitRaceEnum {
-	return schema.UnitRaceEnum(player.Race_)
+func (player PlayerSettings) Race() wits.UnitRaceEnum {
+	return wits.UnitRaceEnum(player.Race_)
 }
 
-func (player PlayerSettings) Team() schema.FriendlyEnum {
+func (player PlayerSettings) Team() wits.FriendlyEnum {
 	if player.Index == PLAYER_1 {
-		return schema.FR_SELF
+		return wits.FR_SELF
 	} else if player.Index == PLAYER_2 {
-		return schema.FR_ENEMY
+		return wits.FR_ENEMY
 	} else if player.Index == PLAYER_3 {
-		return schema.FR_ALLY
+		return wits.FR_ALLY
 	} else if player.Index == PLAYER_4 {
-		return schema.FR_ENEMY2
+		return wits.FR_ENEMY2
 	} else {
-		return schema.FR_UNKNOWN
+		return wits.FR_UNKNOWN
 	}
 }
 
@@ -88,22 +88,22 @@ type PlayerUpdate struct {
 	Demoted    Boolish `json:"wasDemoted"`
 	Promoted   Boolish `json:"wasPrmomoted"`
 
-	OldLeague     LeagueTier `json:"oldLeague"`
-	OldLeagueRank LeagueRank `json:"oldLeagueRank"`
-	NewLeague     LeagueTier `json:"newLeague"`
-	NewLeagueRank LeagueRank `json:"newLeagueRank"`
-	Direction     Direction  `json:"rankDirection"`
-	PointsDelta   int        `json:"leaguePointsDelta"`
+	OldLeague     wits.LeagueTier `json:"oldLeague"`
+	OldLeagueRank wits.LeagueRank `json:"oldLeagueRank"`
+	NewLeague     wits.LeagueTier `json:"newLeague"`
+	NewLeagueRank wits.LeagueRank `json:"newLeagueRank"`
+	Direction     Direction       `json:"rankDirection"`
+	PointsDelta   int             `json:"leaguePointsDelta"`
 }
 
-func (update PlayerUpdate) Before() schema.PlayerStandings {
+func (update PlayerUpdate) Before() wits.PlayerStandings {
 	before := witsjson.PlayerStandingsJSON{
 		Tier_: witsjson.LeagueTierJSON(update.OldLeague),
 		Rank_: witsjson.LeagueRankJSON(update.OldLeagueRank)}
 	return before
 }
 
-func (update PlayerUpdate) After() schema.StandingsAfter {
+func (update PlayerUpdate) After() wits.PlayerStandingsUpdate {
 	after := witsjson.StandingsAfterJSON{
 		Tier_:  witsjson.LeagueTierJSON(update.NewLeague),
 		Rank_:  witsjson.LeagueRankJSON(update.NewLeagueRank),
@@ -133,6 +133,3 @@ func (color PlayerColor) String() string {
 		"BLUE", "RED", "GREEN", "GOLD",
 	}[int(color)]
 }
-
-type LeagueTier string
-type LeagueRank int

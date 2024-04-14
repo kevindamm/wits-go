@@ -20,10 +20,10 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
-// This is not a method offered in schema.GameReplay but perhaps it should be.
+// This is not a method offered in wits.GameReplay but perhaps it should be.
 func (replay GameReplayJSON) WriteJSON(filename string) error {
 	encoded, err := json.Marshal(replay)
 	if err != nil {
@@ -33,24 +33,24 @@ func (replay GameReplayJSON) WriteJSON(filename string) error {
 }
 
 type GameReplayJSON struct {
-	GameID_  OsnGameID          `json:"game_id"`
-	GameMap_ schema.GameMapName `json:"map_name"`
-	Init_    GameInitJSON       `json:"init,omitempty"`
-	Turns_   []PlayerTurnJSON   `json:"replay"`
+	GameID_  OsnGameID        `json:"game_id"`
+	GameMap_ wits.GameMapName `json:"map_name"`
+	Init_    GameInitJSON     `json:"init,omitempty"`
+	Turns_   []PlayerTurnJSON `json:"replay"`
 
 	Players_ []PlayerRoleJSON `json:"players"`
 }
 
-func (replay GameReplayJSON) GameID() schema.GameID {
-	return schema.GameID(replay.GameID_.ShortID())
+func (replay GameReplayJSON) GameID() wits.MatchID {
+	return wits.MatchID(replay.GameID_.ShortID())
 }
 
-func (replay GameReplayJSON) MapName() schema.GameMapName {
+func (replay GameReplayJSON) MapName() wits.GameMapName {
 	return replay.GameMap_
 }
 
-func (replay GameReplayJSON) MatchReplay() []schema.PlayerTurn {
-	turns := make([]schema.PlayerTurn, len(replay.Turns_))
+func (replay GameReplayJSON) MatchReplay() []wits.PlayerTurn {
+	turns := make([]wits.PlayerTurn, len(replay.Turns_))
 	// Unfortunately need to make a shallow copy here
 	// because golang does not have covariant return types.
 	for i, turn := range replay.Turns_ {
@@ -61,22 +61,22 @@ func (replay GameReplayJSON) MatchReplay() []schema.PlayerTurn {
 
 type GameInitJSON struct {
 	// Defaults for all these values are defined in the map (see GameMap)
-	Units_      []schema.UnitInit `json:"units,omitempty"`
-	UsedSpawns_ []schema.HexCoord `json:"used_spawns,omitempty"`
-	BonusWits_  []schema.HexCoord `json:"bonus_wits,omitempty"`
-	BaseHP_     []BaseHealth      `json:"base_hp,omitempty"` // all bases default 5hp
+	Units_      []wits.UnitInit `json:"units,omitempty"`
+	UsedSpawns_ []wits.HexCoord `json:"used_spawns,omitempty"`
+	BonusWits_  []wits.HexCoord `json:"bonus_wits,omitempty"`
+	BaseHP_     []BaseHealth    `json:"base_hp,omitempty"` // all bases default 5hp
 }
 
-func (init GameInitJSON) Units() []schema.UnitInit {
+func (init GameInitJSON) Units() []wits.UnitInit {
 	return init.Units_
 }
 
-func (init GameInitJSON) UsedSpawns() []schema.HexCoordIndex {
+func (init GameInitJSON) UsedSpawns() []wits.HexCoordIndex {
 	// TODO map needed for conversion, serialized format maybe shouldn't depend on indices
-	return []schema.HexCoordIndex{}
+	return []wits.HexCoordIndex{}
 }
 
-func (init GameInitJSON) BonusWits() []schema.HexCoordIndex {
+func (init GameInitJSON) BonusWits() []wits.HexCoordIndex {
 	// TODO map needed for conversion, serialized format maybe shouldn't depend on indices
-	return []schema.HexCoordIndex{}
+	return []wits.HexCoordIndex{}
 }

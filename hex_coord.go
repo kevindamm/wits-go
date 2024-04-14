@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/hex_coord.go
+// github:kevindamm/wits-go/hex_coord.go
 
-package schema
+package wits
 
 // A two-dimensional coordinate for map locations.  Third coordinate is implicit.
 // There don't need to be format-specific representations for the raw coordinate.
@@ -37,3 +37,23 @@ type HexCoord interface {
 // visible tiles" can be constructed from these index values instead of coordinate
 // pairs, easier to serialize in JSON and easier to compare pairs of coordinates.
 type HexCoordIndex uint8
+
+// Legacy maps and replays are in a column-major Euclidean coordinates.  Due to
+// the staggered vertical offset of neighboring hexagons in this structure, the
+// coordinates of odd columns are (i-1) and (i) from even columns.  The unit
+// vector representation of HexCoord is more suitable in general.
+type RectilinearCoord interface {
+	Column() uint
+	Row() uint
+	ToHexCoord() HexCoord
+}
+
+// Composable interface for units/tiles that are associated with a coordinate.
+type Positional interface {
+	Position() HexCoord
+}
+
+// Composable interface for units/tiles associated with a coordinate-index.
+type Placement interface {
+	Index() HexCoordIndex
+}

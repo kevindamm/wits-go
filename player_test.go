@@ -12,28 +12,28 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/player_test.go
+// github:kevindamm/wits-go/player_test.go
 
-package schema_test
+package wits_test
 
 import (
 	"reflect"
 	"testing"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
 func TestFriendlyEnum_Opponent(t *testing.T) {
 	tests := []struct {
 		name string
-		role schema.FriendlyEnum
-		want schema.FriendlyEnum
+		role wits.FriendlyEnum
+		want wits.FriendlyEnum
 	}{
-		{"self", schema.FR_SELF, schema.FR_ENEMY},
-		{"enemy", schema.FR_ENEMY, schema.FR_SELF},
-		{"ally", schema.FR_ALLY, schema.FR_ENEMY},
-		{"enemy", schema.FR_ENEMY2, schema.FR_SELF},
-		{"unknown", schema.FR_UNKNOWN, schema.FR_UNKNOWN},
+		{"self", wits.FR_SELF, wits.FR_ENEMY},
+		{"enemy", wits.FR_ENEMY, wits.FR_SELF},
+		{"ally", wits.FR_ALLY, wits.FR_ENEMY},
+		{"enemy", wits.FR_ENEMY2, wits.FR_SELF},
+		{"unknown", wits.FR_UNKNOWN, wits.FR_UNKNOWN},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

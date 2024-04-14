@@ -17,7 +17,6 @@
 package main
 
 import (
-	"encoding/json"
 	"flag"
 	"fmt"
 	"io/fs"
@@ -25,8 +24,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kevindamm/wits-go/schema"
-	"github.com/kevindamm/wits-go/state"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -52,54 +50,54 @@ func main() {
 			if *debug {
 				fmt.Printf("parsing map %s\n", filename)
 			}
-			if _, err := readAndValidateGameMap(filename); err != nil {
-				fmt.Printf("error loading map %s\n", filename)
-				fmt.Println(err)
-			}
+			//if _, err := readAndValidateGameMap(filename); err != nil {
+			//	fmt.Printf("error loading map %s\n", filename)
+			//	fmt.Println(err)
+			//}
 		}
 	} else {
 		if *debug {
 			fmt.Printf("parsing map %s\n", filename)
 		}
-		if _, err := readAndValidateGameMap(filename); err != nil {
-			fmt.Printf("error loading map %s\n", filename)
-			fmt.Println(err)
-		}
+		//if _, err := readAndValidateGameMap(filename); err != nil {
+		//	fmt.Printf("error loading map %s\n", filename)
+		//	fmt.Println(err)
+		//}
 	}
 }
 
-func readAndValidateGameMap(filename string) (state.GameMap, error) {
-	filedata, err := os.ReadFile(filename)
-	if err != nil {
-		return state.GameMap{}, err
-	}
+//func readAndValidateGameMap(filename string) (state.GameMap, error) {
+//	filedata, err := os.ReadFile(filename)
+//	if err != nil {
+//		return state.GameMap{}, err
+//	}
+//
+//	defer func() {
+//		if err := recover(); err != nil {
+//			fmt.Printf("error when reading map file %s\n", filename)
+//			fmt.Println(err)
+//		}
+//	}()
+//
+//	var gamemap witsjson.GameMapJSON
+//	if err = json.Unmarshal(filedata, &gamemap); err != nil {
+//		fmt.Println(err)
+//		return state.GameMap{}, err
+//	}
+//
+//	// Ensure no two tiles are located at the same coordinate.
+//	if err := checkExclusivity(gamemap.Terrain()); err != nil {
+//		fmt.Println(err)
+//		return state.GameMap{}, err
+//	}
+//
+//	return state.NewGameMap(gamemap), nil
+//}
 
-	defer func() {
-		if err := recover(); err != nil {
-			fmt.Printf("error when reading map file %s\n", filename)
-			fmt.Println(err)
-		}
-	}()
-
-	var gamemap witsjson.GameMapJSON
-	if err = json.Unmarshal(filedata, &gamemap); err != nil {
-		fmt.Println(err)
-		return state.GameMap{}, err
-	}
-
-	// Ensure no two tiles are located at the same coordinate.
-	if err := checkExclusivity(gamemap.Terrain()); err != nil {
-		fmt.Println(err)
-		return state.GameMap{}, err
-	}
-
-	return state.NewGameMap(gamemap), nil
-}
-
-func checkExclusivity(terrain schema.TerrainDefinition) error {
+func checkExclusivity(terrain wits.TerrainDefinition) error {
 	size := len(terrain.Floor()) + len(terrain.Wall()) + len(terrain.Bonus()) + len(terrain.Spawn()) + len(terrain.Base())
-	positions := make(map[int16]schema.TileDefinition, size)
-	coord := func(hx schema.HexCoord) int16 {
+	positions := make(map[int16]wits.TileDefinition, size)
+	coord := func(hx wits.HexCoord) int16 {
 		// This is a bit of a cheat but we know that no coordinate value exceeds 12.  It'll fit with plenty of room.
 		// THIS WOULDN'T SCALE TO ARBITRARY USER COORDINATES AS THE REST OF THE SYSTEM EASILY WOULD.  do it better if it comes to that.
 		return int16((hx.I() << 8) + hx.J())
@@ -189,8 +187,8 @@ func mapFiles(dirName string) <-chan string {
 	return fpathchan
 }
 
-func listSurroundingPositions(i, j int) []schema.HexCoord {
-	surrounding := make([]schema.HexCoord, 0)
+func listSurroundingPositions(i, j int) []wits.HexCoord {
+	surrounding := make([]wits.HexCoord, 0)
 
 	neighborTable := [][]int{
 		{-1, -1 + (i % 2)},

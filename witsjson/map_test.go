@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -107,7 +107,7 @@ func verifyTestGameMap(gamemap witsjson.GameMapJSON, t *testing.T) {
 		t.Errorf("GameMap JSON decode error, map Name [%v]", gamemap.MapName())
 	}
 
-	bonus := []schema.TileDefinition{
+	bonus := []wits.TileDefinition{
 		witsjson.NewTile("BONUS", 3, 4),
 		witsjson.NewTile("BONUS", 9, 4),
 	}
@@ -116,25 +116,25 @@ func verifyTestGameMap(gamemap witsjson.GameMapJSON, t *testing.T) {
 			gamemap.Terrain().Bonus(), bonus)
 	}
 
-	spawn := []schema.TileDefinition{
-		witsjson.NewSpawn(2, 7, schema.FR_SELF),
-		witsjson.NewSpawn(10, 7, schema.FR_ENEMY),
+	spawn := []wits.TileDefinition{
+		witsjson.NewSpawn(2, 7, wits.FR_SELF),
+		witsjson.NewSpawn(10, 7, wits.FR_ENEMY),
 	}
 	if !reflect.DeepEqual(gamemap.Terrain().Spawn(), spawn) {
 		t.Errorf("GameMap JSON decoding, spawn tiles differ %v != %v",
 			gamemap.Terrain().Spawn(), spawn)
 	}
 
-	base := []schema.TileDefinition{
-		witsjson.NewBase(2, 2, schema.FR_SELF),
-		witsjson.NewBase(10, 2, schema.FR_ENEMY),
+	base := []wits.TileDefinition{
+		witsjson.NewBase(2, 2, wits.FR_SELF),
+		witsjson.NewBase(10, 2, wits.FR_ENEMY),
 	}
 	if !reflect.DeepEqual(gamemap.Terrain().Base(), base) {
 		t.Errorf("GameMap JSON decoding, spawn tiles differ %v != %v",
 			gamemap.Terrain().Base(), base)
 	}
 
-	floor := []schema.TileDefinition{
+	floor := []wits.TileDefinition{
 		witsjson.NewTile("FLOOR", 0, 4),
 		witsjson.NewTile("FLOOR", 0, 5),
 		witsjson.NewTile("FLOOR", 0, 6),
@@ -205,7 +205,7 @@ func verifyTestGameMap(gamemap witsjson.GameMapJSON, t *testing.T) {
 			gamemap.Terrain().Floor(), floor)
 	}
 
-	wall := []schema.TileDefinition{
+	wall := []wits.TileDefinition{
 		witsjson.NewTile("WALL", 0, 2),
 		witsjson.NewTile("WALL", 0, 3),
 		witsjson.NewTile("WALL", 2, 6),
@@ -224,31 +224,31 @@ func verifyTestGameMap(gamemap witsjson.GameMapJSON, t *testing.T) {
 			gamemap.Terrain().Wall(), wall)
 	}
 
-	units := []schema.UnitInit{
+	units := []wits.UnitInit{
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(1, 5),
-			witsjson.FriendlyEnumJSON(schema.FR_SELF),
-			witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
+			witsjson.FriendlyEnumJSON(wits.FR_SELF),
+			witsjson.UnitClassJSON(wits.CLASS_HEAVY)},
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(3, 5),
-			witsjson.FriendlyEnumJSON(schema.FR_SELF),
-			witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
+			witsjson.FriendlyEnumJSON(wits.FR_SELF),
+			witsjson.UnitClassJSON(wits.CLASS_MEDIC)},
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(3, 7),
-			witsjson.FriendlyEnumJSON(schema.FR_SELF),
-			witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
+			witsjson.FriendlyEnumJSON(wits.FR_SELF),
+			witsjson.UnitClassJSON(wits.CLASS_SOLDIER)},
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(9, 5),
-			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
-			witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
+			witsjson.FriendlyEnumJSON(wits.FR_ENEMY),
+			witsjson.UnitClassJSON(wits.CLASS_MEDIC)},
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(9, 7),
-			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
-			witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
+			witsjson.FriendlyEnumJSON(wits.FR_ENEMY),
+			witsjson.UnitClassJSON(wits.CLASS_SOLDIER)},
 		witsjson.UnitInitJSON{
 			witsjson.NewHexCoord(11, 5),
-			witsjson.FriendlyEnumJSON(schema.FR_ENEMY),
-			witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
+			witsjson.FriendlyEnumJSON(wits.FR_ENEMY),
+			witsjson.UnitClassJSON(wits.CLASS_HEAVY)},
 	}
 	if !reflect.DeepEqual(gamemap.Units(), units) {
 		t.Errorf("GameMap JSON decoding, unit definitions differ: %v != %v",

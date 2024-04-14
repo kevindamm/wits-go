@@ -12,9 +12,32 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/actions.go
+// github:kevindamm/wits-go/replay.go
 
-package schema
+package wits
+
+type GameReplay interface {
+	GameID() MatchID
+	MapID() GameMapID
+	MapTheme() string
+	Players() []PlayerRole
+
+	InitState() GameInit
+	MatchReplay() []PlayerTurn
+	MatchResult() TerminalStatus
+}
+
+type GameState interface {
+	BaseHP(player FriendlyEnum) BaseHealth
+	BonusWits() []HexCoord
+	Units() []UnitPlacement
+}
+
+type GameInit interface {
+	Units() []UnitInit
+}
+
+type BaseHealth byte
 
 type PlayerTurn interface {
 	TurnCount() uint

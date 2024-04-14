@@ -12,29 +12,31 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// github:kevindamm/wits-go/schema/status_test.go
+// github:kevindamm/wits-go/match_test.go
 
-package schema
+package wits_test
 
 import (
 	"reflect"
 	"testing"
+
+	wits "github.com/kevindamm/wits-go"
 )
 
 func TestTerminalStatus_Opposing(t *testing.T) {
 	tests := []struct {
 		name   string
-		status TerminalStatus
-		want   TerminalStatus
+		status wits.TerminalStatus
+		want   wits.TerminalStatus
 	}{
-		{"unk", STATUS_UNKNOWN, STATUS_UNKNOWN},
-		{"delay", DELAY_OF_GAME, DELAY_OF_GAME},
-		{"destroy", VICTORY_DESTRUCTION, LOSS_DESTRUCTION},
-		{"extinguish", VICTORY_EXTINCTION, LOSS_EXTINCTION},
-		{"uncle", VICTORY_RESIGNATION, LOSS_RESIGNATION},
-		{"destroyed", LOSS_DESTRUCTION, VICTORY_DESTRUCTION},
-		{"extinct", LOSS_EXTINCTION, VICTORY_EXTINCTION},
-		{"resigning", LOSS_RESIGNATION, VICTORY_RESIGNATION},
+		{"unk", wits.STATUS_UNKNOWN, wits.STATUS_UNKNOWN},
+		{"delay", wits.DELAY_OF_GAME, wits.DELAY_OF_GAME},
+		{"destroy", wits.VICTORY_DESTRUCTION, wits.LOSS_DESTRUCTION},
+		{"extinguish", wits.VICTORY_EXTINCTION, wits.LOSS_EXTINCTION},
+		{"uncle", wits.VICTORY_RESIGNATION, wits.LOSS_RESIGNATION},
+		{"destroyed", wits.LOSS_DESTRUCTION, wits.VICTORY_DESTRUCTION},
+		{"extinct", wits.LOSS_EXTINCTION, wits.VICTORY_EXTINCTION},
+		{"resigning", wits.LOSS_RESIGNATION, wits.VICTORY_RESIGNATION},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

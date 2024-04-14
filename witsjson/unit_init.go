@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
 // Initial unit description, satisfies both Unit and UnitInit interfaces.
@@ -44,44 +44,44 @@ type UnitInitJSON struct {
 	Class_ UnitClassJSON    `json:"class"`
 }
 
-func (init UnitInitJSON) Position() schema.HexCoord {
+func (init UnitInitJSON) Position() wits.HexCoord {
 	return init.Coord
 }
 
-func (init UnitInitJSON) Class() schema.UnitClassEnum {
-	return schema.UnitClassEnum(init.Class_)
+func (init UnitInitJSON) Class() wits.UnitClassEnum {
+	return wits.UnitClassEnum(init.Class_)
 }
 
 func (init UnitInitJSON) IsSpecial() bool {
-	return schema.UnitClassEnum(init.Class_) == schema.CLASS_SPECIAL
+	return wits.UnitClassEnum(init.Class_) == wits.CLASS_SPECIAL
 }
 
-func (init UnitInitJSON) Race() schema.UnitRaceEnum {
-	return schema.RACE_UNKNOWN
+func (init UnitInitJSON) Race() wits.UnitRaceEnum {
+	return wits.RACE_UNKNOWN
 }
 
-func (init UnitInitJSON) Team() schema.FriendlyEnum {
-	return schema.FriendlyEnum(init.Team_)
+func (init UnitInitJSON) Team() wits.FriendlyEnum {
+	return wits.FriendlyEnum(init.Team_)
 }
 
-func (init UnitInitJSON) Cost() schema.ActionPoints {
+func (init UnitInitJSON) Cost() wits.ActionPoints {
 	// Retrieves the cost for this unit.
-	return schema.CostForUnit(schema.UnitClassEnum(init.Class_))
+	return wits.CostForUnit(wits.UnitClassEnum(init.Class_))
 }
 
-func (init UnitInitJSON) Health() schema.UnitHealth {
+func (init UnitInitJSON) Health() wits.UnitHealth {
 	return 0 // receiver will use unit's default health.
 }
 
-func (init UnitInitJSON) Strength() schema.UnitHealth {
+func (init UnitInitJSON) Strength() wits.UnitHealth {
 	// Retrieves the strength for this unit
 	// (inaccuratelly generalized to 3 for specials)
-	return schema.StrengthForUnit(schema.UnitClassEnum(init.Class_))
+	return wits.StrengthForUnit(wits.UnitClassEnum(init.Class_))
 }
 
-func (init UnitInitJSON) Distance() schema.TileDistance {
+func (init UnitInitJSON) Distance() wits.TileDistance {
 	// Retrieves the distance (visible ant motive) for this unit.
-	return schema.DistanceForUnit(schema.UnitClassEnum(init.Class_))
+	return wits.DistanceForUnit(wits.UnitClassEnum(init.Class_))
 }
 
 func (unit *UnitInitJSON) UnmarshalJSON(encoded []byte) error {
@@ -108,15 +108,15 @@ func (unit UnitInitJSON) GdlEncoding() string {
 
 // UNIT RACE
 
-type UnitRaceJSON schema.UnitRaceEnum
+type UnitRaceJSON wits.UnitRaceEnum
 
 func ParseRace(name string) UnitRaceJSON {
 	return map[string]UnitRaceJSON{
-		"UNKNOWN":     UnitRaceJSON(schema.RACE_UNKNOWN),
-		"FEEDBACK":    UnitRaceJSON(schema.RACE_FEEDBACK),
-		"ADORABLES":   UnitRaceJSON(schema.RACE_ADORABLES),
-		"SCALLYWAGS":  UnitRaceJSON(schema.RACE_SCALLYWAGS),
-		"VEGGIENAUTS": UnitRaceJSON(schema.RACE_VEGGIENAUTS),
+		"UNKNOWN":     UnitRaceJSON(wits.RACE_UNKNOWN),
+		"FEEDBACK":    UnitRaceJSON(wits.RACE_FEEDBACK),
+		"ADORABLES":   UnitRaceJSON(wits.RACE_ADORABLES),
+		"SCALLYWAGS":  UnitRaceJSON(wits.RACE_SCALLYWAGS),
+		"VEGGIENAUTS": UnitRaceJSON(wits.RACE_VEGGIENAUTS),
 	}[name]
 }
 
@@ -135,7 +135,7 @@ func (race *UnitRaceJSON) UnmarshalJSON(encoded []byte) error {
 }
 
 func (race UnitRaceJSON) MarshalJSON() ([]byte, error) {
-	encoded := schema.UnitRaceEnum(race).String()
+	encoded := wits.UnitRaceEnum(race).String()
 	if encoded == "UNKNOWN" {
 		return []byte{}, fmt.Errorf("unknown race %d", byte(race))
 	}
@@ -144,18 +144,18 @@ func (race UnitRaceJSON) MarshalJSON() ([]byte, error) {
 
 // UNIT CLASS
 
-type UnitClassJSON schema.UnitClassEnum
+type UnitClassJSON wits.UnitClassEnum
 
-func ParseClass(name string) schema.UnitClassEnum {
-	return map[string]schema.UnitClassEnum{
-		"UNKNOWN": schema.CLASS_UNKNOWN,
-		"RUNNER":  schema.CLASS_RUNNER,
-		"SOLDIER": schema.CLASS_SOLDIER,
-		"MEDIC":   schema.CLASS_MEDIC,
-		"SNIPER":  schema.CLASS_SNIPER,
-		"HEAVY":   schema.CLASS_HEAVY,
-		"THORN":   schema.CLASS_THORN,
-		"SPECIAL": schema.CLASS_SPECIAL,
+func ParseClass(name string) wits.UnitClassEnum {
+	return map[string]wits.UnitClassEnum{
+		"UNKNOWN": wits.CLASS_UNKNOWN,
+		"RUNNER":  wits.CLASS_RUNNER,
+		"SOLDIER": wits.CLASS_SOLDIER,
+		"MEDIC":   wits.CLASS_MEDIC,
+		"SNIPER":  wits.CLASS_SNIPER,
+		"HEAVY":   wits.CLASS_HEAVY,
+		"THORN":   wits.CLASS_THORN,
+		"SPECIAL": wits.CLASS_SPECIAL,
 	}[name]
 }
 
@@ -163,7 +163,7 @@ func (class *UnitClassJSON) UnmarshalJSON(encoded []byte) error {
 	var strVal string
 	if err := json.Unmarshal(encoded, &strVal); err == nil {
 		*class = UnitClassJSON(ParseClass(strVal))
-		if *class == UnitClassJSON(schema.CLASS_UNKNOWN) {
+		if *class == UnitClassJSON(wits.CLASS_UNKNOWN) {
 			return fmt.Errorf("unknown class in JSON [%s]", strVal)
 		}
 		return nil
@@ -172,10 +172,10 @@ func (class *UnitClassJSON) UnmarshalJSON(encoded []byte) error {
 	if err := json.Unmarshal(encoded, &intVal); err != nil {
 		return err
 	}
-	if intVal == uint(schema.CLASS_UNKNOWN) {
+	if intVal == uint(wits.CLASS_UNKNOWN) {
 		return fmt.Errorf("unknown class in JSON [%d]", intVal)
 	}
-	if intVal > uint(schema.CLASS_SPECIAL) {
+	if intVal > uint(wits.CLASS_SPECIAL) {
 		return fmt.Errorf("invalid class value [%d]", intVal)
 	}
 	*class = UnitClassJSON(intVal)
@@ -183,7 +183,7 @@ func (class *UnitClassJSON) UnmarshalJSON(encoded []byte) error {
 }
 
 func (class UnitClassJSON) MarshalJSON() ([]byte, error) {
-	encoded := schema.UnitClassEnum(class).String()
+	encoded := wits.UnitClassEnum(class).String()
 	if encoded == "UNKNOWN" {
 		return []byte{}, fmt.Errorf("marshaling unknown class %d", byte(class))
 	}

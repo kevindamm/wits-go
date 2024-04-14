@@ -20,20 +20,20 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
 // Game maps may be loaded as a complete definition or only referenced by name.
 // The game logic must load the complete map definition in order to simulate
 // the gameplay in its turns.
 type GameMapJSON struct {
-	id   schema.GameMapID
+	id   wits.GameMapID
 	defn *MapDefinition
 }
 
 // Whether the map has been loaded or not, its identifier is known.
-func (gamemap GameMapJSON) MapID() schema.GameMapID {
-	return schema.GameMapID(gamemap.id)
+func (gamemap GameMapJSON) MapID() wits.GameMapID {
+	return wits.GameMapID(gamemap.id)
 }
 
 // Returns true if the full map definition has been loaded from disk.
@@ -42,27 +42,27 @@ func (m GameMapJSON) IsLoaded() bool {
 	return m.defn != nil && len(m.defn.Terrain.Floor_) > 0
 }
 
-func (gamemap GameMapJSON) MapName() schema.GameMapName {
+func (gamemap GameMapJSON) MapName() wits.GameMapName {
 	if !gamemap.IsLoaded() {
 		return ""
 	}
-	return schema.GameMapName(gamemap.defn.Name)
+	return wits.GameMapName(gamemap.defn.Name)
 }
 
-func (gamemap GameMapJSON) Terrain() schema.TerrainDefinition {
+func (gamemap GameMapJSON) Terrain() wits.TerrainDefinition {
 	if !gamemap.IsLoaded() {
 		return TerrainDefinition{}
 	}
 	return gamemap.defn.Terrain
 }
 
-func (gamemap GameMapJSON) Units() []schema.UnitInit {
+func (gamemap GameMapJSON) Units() []wits.UnitInit {
 	if !gamemap.IsLoaded() {
 		return nil
 	}
-	units := make([]schema.UnitInit, len(gamemap.defn.Init.Units))
+	units := make([]wits.UnitInit, len(gamemap.defn.Init.Units))
 	for i, unit := range gamemap.defn.Init.Units {
-		units[i] = schema.UnitInit(unit)
+		units[i] = wits.UnitInit(unit)
 	}
 	return units
 }
@@ -85,9 +85,9 @@ func (m GameMapJSON) MarshalJSON() ([]byte, error) {
 // when found in a game replay encoding).  If it is not a string, we unmarshal
 // the map definition (as it appears in the map file representation).
 func (m *GameMapJSON) UnmarshalJSON(encoded []byte) error {
-	var mapID schema.GameMapID
+	var mapID wits.GameMapID
 	if err := json.Unmarshal(encoded, &mapID); err == nil {
-		m.id = schema.GameMapID(mapID)
+		m.id = wits.GameMapID(mapID)
 		return nil
 	}
 
@@ -95,7 +95,7 @@ func (m *GameMapJSON) UnmarshalJSON(encoded []byte) error {
 	if err := json.Unmarshal(encoded, &data); err != nil {
 		return err
 	}
-	m.id = schema.GameMapID(data.MapID)
+	m.id = wits.GameMapID(data.MapID)
 	m.defn = &data
 	return nil
 }
@@ -118,47 +118,47 @@ type TerrainDefinition struct {
 	Base_  BaseList  `json:"base"`
 }
 
-func NewTile(terrain string, i, j int) schema.TileDefinition {
+func NewTile(terrain string, i, j int) wits.TileDefinition {
 	return map[string]TerrainType{
 		"FLOOR": FloorList_New,
 		"WALL":  WallList_New,
 		"BONUS": BonusList_New,
 	}[terrain](NewHexCoord(i, j))
 }
-func NewSpawn(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
+func NewSpawn(i, j int, team wits.FriendlyEnum) wits.TileDefinition {
 	return spawn{NewHexCoord(i, j), team}
 }
-func NewBase(i, j int, team schema.FriendlyEnum) schema.TileDefinition {
+func NewBase(i, j int, team wits.FriendlyEnum) wits.TileDefinition {
 	return base{NewHexCoord(i, j), team}
 }
 
-func (terrain TerrainDefinition) Floor() []schema.TileDefinition {
+func (terrain TerrainDefinition) Floor() []wits.TileDefinition {
 	return coerceTileDefs(terrain.Floor_)
 }
 
-func (terrain TerrainDefinition) Wall() []schema.TileDefinition {
+func (terrain TerrainDefinition) Wall() []wits.TileDefinition {
 	return coerceTileDefs(terrain.Wall_)
 }
 
-func (terrain TerrainDefinition) Bonus() []schema.TileDefinition {
+func (terrain TerrainDefinition) Bonus() []wits.TileDefinition {
 	return coerceTileDefs(terrain.Bonus_)
 }
 
-func (terrain TerrainDefinition) Spawn() []schema.TileDefinition {
+func (terrain TerrainDefinition) Spawn() []wits.TileDefinition {
 	return coerceTileDefs(terrain.Spawn_)
 }
 
-func (terrain TerrainDefinition) Base() []schema.TileDefinition {
+func (terrain TerrainDefinition) Base() []wits.TileDefinition {
 	return coerceTileDefs(terrain.Base_)
 }
 
 // A generic approach to unmarshaling each list of coordinates into their
 // representative terrain type.  This provides the benefit of typed unmarshaling
 // of the JSON representation without the tedium of repetitive code.
-func UnmarshalTerrain[T ~[]schema.TileDefinition](
+func UnmarshalTerrain[T ~[]wits.TileDefinition](
 	encoded []byte, enum string, defs *T) error {
 
-	list := make([]schema.TileDefinition, 0)
+	list := make([]wits.TileDefinition, 0)
 	var coords [][]int
 	if err := json.Unmarshal(encoded, &coords); err != nil {
 		return err
@@ -179,7 +179,7 @@ func UnmarshalTerrain[T ~[]schema.TileDefinition](
 // The list of tile definitions may contain any terrain type, this method will
 // both filter and encode while keeping to the signature of JSON marshaling.
 // When filtering, it handles common classes (base, spawn, bonus) together.
-func MarshalTerrain[T ~[]schema.TileDefinition](
+func MarshalTerrain[T ~[]wits.TileDefinition](
 	enum string, data *T) ([]byte, error) {
 	coords := make([][]int, 0)
 
@@ -216,10 +216,10 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 			if item.IsSpawn() {
 				pos := item.Position()
 				team := item.Team()
-				if (team == schema.FR_ALLY || team == schema.FR_ENEMY2) && len(teamspawns) == 2 {
+				if (team == wits.FR_ALLY || team == wits.FR_ENEMY2) && len(teamspawns) == 2 {
 					teamspawns = grow_spawnslist(teamspawns)
 				}
-				index := int(team - schema.FR_SELF)
+				index := int(team - wits.FR_SELF)
 				teamspawns[index] = append(teamspawns[index], []int{pos.I(), pos.J()})
 			}
 		}
@@ -232,10 +232,10 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 			if item.IsBase() {
 				pos := item.Position()
 				team := item.Team()
-				if (team == schema.FR_ALLY || team == schema.FR_ENEMY2) && len(teambase) == 2 {
+				if (team == wits.FR_ALLY || team == wits.FR_ENEMY2) && len(teambase) == 2 {
 					teambase = grow_baselist(teambase)
 				}
-				index := int(team - schema.FR_SELF)
+				index := int(team - wits.FR_SELF)
 				teambase[index] = []int{pos.I(), pos.J()}
 			}
 		}
@@ -244,37 +244,37 @@ func MarshalTerrain[T ~[]schema.TileDefinition](
 	return json.Marshal(coords)
 }
 
-func coerceTileDefs[T ~[]schema.TileDefinition](tiles T) []schema.TileDefinition {
-	casted := make([]schema.TileDefinition, len(tiles))
+func coerceTileDefs[T ~[]wits.TileDefinition](tiles T) []wits.TileDefinition {
+	casted := make([]wits.TileDefinition, len(tiles))
 	for i, tile := range tiles {
-		casted[i] = schema.TileDefinition(tile)
+		casted[i] = wits.TileDefinition(tile)
 	}
 	return casted
 }
 
 // Functor for a curried constructor of a specific tile type.
-type TerrainType func(HexCoordJSON) schema.TileDefinition
+type TerrainType func(HexCoordJSON) wits.TileDefinition
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_FLOOR.
-type FloorList []schema.TileDefinition
+type FloorList []wits.TileDefinition
 type floor HexCoordJSON
 
-func FloorList_New(coord HexCoordJSON) schema.TileDefinition {
+func FloorList_New(coord HexCoordJSON) wits.TileDefinition {
 	return floor(coord)
 }
 
-func (tile floor) Position() schema.HexCoord {
+func (tile floor) Position() wits.HexCoord {
 	return HexCoordJSON(tile)
 }
-func (tile floor) CanWalk() bool             { return true }
-func (tile floor) IsFloor() bool             { return true }
-func (tile floor) IsWall() bool              { return false }
-func (tile floor) IsSpawn() bool             { return false }
-func (tile floor) IsBase() bool              { return false }
-func (tile floor) IsBonus() bool             { return false }
-func (tile floor) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
-func (tile floor) Typename() string          { return "FLOOR" }
-func (tile floor) Equals(other schema.TileDefinition) bool {
+func (tile floor) CanWalk() bool           { return true }
+func (tile floor) IsFloor() bool           { return true }
+func (tile floor) IsWall() bool            { return false }
+func (tile floor) IsSpawn() bool           { return false }
+func (tile floor) IsBase() bool            { return false }
+func (tile floor) IsBonus() bool           { return false }
+func (tile floor) Team() wits.FriendlyEnum { return wits.FR_UNKNOWN }
+func (tile floor) Typename() string        { return "FLOOR" }
+func (tile floor) Equals(other wits.TileDefinition) bool {
 	return (other.IsFloor() &&
 		other.Position().I() == tile.Position().I() &&
 		other.Position().J() == tile.Position().J())
@@ -290,25 +290,25 @@ func (defs *FloorList) MarshalJSON() ([]byte, error) {
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_WALL.
-type WallList []schema.TileDefinition
+type WallList []wits.TileDefinition
 type wall HexCoordJSON
 
-func WallList_New(coord HexCoordJSON) schema.TileDefinition {
+func WallList_New(coord HexCoordJSON) wits.TileDefinition {
 	return wall(coord)
 }
 
-func (tile wall) Position() schema.HexCoord {
+func (tile wall) Position() wits.HexCoord {
 	return HexCoordJSON(tile)
 }
-func (tile wall) CanWalk() bool             { return false }
-func (tile wall) IsFloor() bool             { return false }
-func (tile wall) IsWall() bool              { return true }
-func (tile wall) IsSpawn() bool             { return false }
-func (tile wall) IsBase() bool              { return false }
-func (tile wall) IsBonus() bool             { return false }
-func (tile wall) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
-func (tile wall) Typename() string          { return "WALL" }
-func (tile wall) Equals(other schema.TileDefinition) bool {
+func (tile wall) CanWalk() bool           { return false }
+func (tile wall) IsFloor() bool           { return false }
+func (tile wall) IsWall() bool            { return true }
+func (tile wall) IsSpawn() bool           { return false }
+func (tile wall) IsBase() bool            { return false }
+func (tile wall) IsBonus() bool           { return false }
+func (tile wall) Team() wits.FriendlyEnum { return wits.FR_UNKNOWN }
+func (tile wall) Typename() string        { return "WALL" }
+func (tile wall) Equals(other wits.TileDefinition) bool {
 	return (other.IsFloor() &&
 		other.Position().I() == tile.Position().I() &&
 		other.Position().J() == tile.Position().J())
@@ -324,25 +324,25 @@ func (defs *WallList) MarshalJSON() ([]byte, error) {
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_SPAWN.
-type SpawnList []schema.TileDefinition
+type SpawnList []wits.TileDefinition
 
 type spawn struct {
-	schema.HexCoord
-	schema.FriendlyEnum
+	wits.HexCoord
+	wits.FriendlyEnum
 }
 
-func (tile spawn) Position() schema.HexCoord {
+func (tile spawn) Position() wits.HexCoord {
 	return tile.HexCoord
 }
-func (tile spawn) CanWalk() bool             { return true }
-func (tile spawn) IsFloor() bool             { return false }
-func (tile spawn) IsWall() bool              { return false }
-func (tile spawn) IsSpawn() bool             { return true }
-func (tile spawn) IsBase() bool              { return false }
-func (tile spawn) IsBonus() bool             { return false }
-func (tile spawn) Team() schema.FriendlyEnum { return tile.FriendlyEnum }
-func (tile spawn) Typename() string          { return "SPAWN" }
-func (tile spawn) Equals(other schema.TileDefinition) bool {
+func (tile spawn) CanWalk() bool           { return true }
+func (tile spawn) IsFloor() bool           { return false }
+func (tile spawn) IsWall() bool            { return false }
+func (tile spawn) IsSpawn() bool           { return true }
+func (tile spawn) IsBase() bool            { return false }
+func (tile spawn) IsBonus() bool           { return false }
+func (tile spawn) Team() wits.FriendlyEnum { return tile.FriendlyEnum }
+func (tile spawn) Typename() string        { return "SPAWN" }
+func (tile spawn) Equals(other wits.TileDefinition) bool {
 	return (other.IsSpawn() &&
 		other.Position().I() == tile.Position().I() &&
 		other.Position().J() == tile.Position().J())
@@ -365,11 +365,11 @@ func (defs *SpawnList) UnmarshalJSON(encoded []byte) error {
 		return err
 	}
 
-	tiles := make([]schema.TileDefinition, 0)
+	tiles := make([]wits.TileDefinition, 0)
 	for i, spawnlist := range all_spawns {
 		for _, coord := range spawnlist {
 			tiles = append(tiles,
-				spawn{coord, schema.FR_SELF + schema.FriendlyEnum(i)})
+				spawn{coord, wits.FR_SELF + wits.FriendlyEnum(i)})
 		}
 	}
 
@@ -382,24 +382,24 @@ func (defs *SpawnList) MarshalJSON() ([]byte, error) {
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_BASE.
-type BaseList []schema.TileDefinition
+type BaseList []wits.TileDefinition
 type base struct {
-	schema.HexCoord
-	schema.FriendlyEnum
+	wits.HexCoord
+	wits.FriendlyEnum
 }
 
-func (tile base) Position() schema.HexCoord {
+func (tile base) Position() wits.HexCoord {
 	return tile.HexCoord
 }
-func (tile base) CanWalk() bool             { return false }
-func (tile base) IsFloor() bool             { return false }
-func (tile base) IsWall() bool              { return false }
-func (tile base) IsSpawn() bool             { return false }
-func (tile base) IsBase() bool              { return true }
-func (tile base) IsBonus() bool             { return false }
-func (tile base) Team() schema.FriendlyEnum { return tile.FriendlyEnum }
-func (tile base) Typename() string          { return "BASE" }
-func (tile base) Equals(other schema.TileDefinition) bool {
+func (tile base) CanWalk() bool           { return false }
+func (tile base) IsFloor() bool           { return false }
+func (tile base) IsWall() bool            { return false }
+func (tile base) IsSpawn() bool           { return false }
+func (tile base) IsBase() bool            { return true }
+func (tile base) IsBonus() bool           { return false }
+func (tile base) Team() wits.FriendlyEnum { return tile.FriendlyEnum }
+func (tile base) Typename() string        { return "BASE" }
+func (tile base) Equals(other wits.TileDefinition) bool {
 	return (other.IsBase() &&
 		other.Position().I() == tile.Position().I() &&
 		other.Position().J() == tile.Position().J())
@@ -422,10 +422,10 @@ func (defs *BaseList) UnmarshalJSON(encoded []byte) error {
 		return err
 	}
 
-	tiles := make([]schema.TileDefinition, 0)
+	tiles := make([]wits.TileDefinition, 0)
 	for i, coord := range bases {
 		tiles = append(tiles,
-			base{coord, schema.FR_SELF + schema.FriendlyEnum(i)})
+			base{coord, wits.FR_SELF + wits.FriendlyEnum(i)})
 	}
 
 	*defs = tiles
@@ -437,25 +437,25 @@ func (defs *BaseList) MarshalJSON() ([]byte, error) {
 }
 
 // Unpacked from a JSON of []HexCoord into a []TileDefinition of TERRAIN_TYPE_BONUS.
-type BonusList []schema.TileDefinition
+type BonusList []wits.TileDefinition
 type bonus HexCoordJSON
 
-func BonusList_New(coord HexCoordJSON) schema.TileDefinition {
+func BonusList_New(coord HexCoordJSON) wits.TileDefinition {
 	return bonus(coord)
 }
 
-func (tile bonus) Position() schema.HexCoord {
+func (tile bonus) Position() wits.HexCoord {
 	return HexCoordJSON(tile)
 }
-func (tile bonus) CanWalk() bool             { return true }
-func (tile bonus) IsFloor() bool             { return false }
-func (tile bonus) IsWall() bool              { return false }
-func (tile bonus) IsSpawn() bool             { return false }
-func (tile bonus) IsBase() bool              { return false }
-func (tile bonus) IsBonus() bool             { return true }
-func (tile bonus) Team() schema.FriendlyEnum { return schema.FR_UNKNOWN }
-func (tile bonus) Typename() string          { return "BONUS" }
-func (tile bonus) Equals(other schema.TileDefinition) bool {
+func (tile bonus) CanWalk() bool           { return true }
+func (tile bonus) IsFloor() bool           { return false }
+func (tile bonus) IsWall() bool            { return false }
+func (tile bonus) IsSpawn() bool           { return false }
+func (tile bonus) IsBase() bool            { return false }
+func (tile bonus) IsBonus() bool           { return true }
+func (tile bonus) Team() wits.FriendlyEnum { return wits.FR_UNKNOWN }
+func (tile bonus) Typename() string        { return "BONUS" }
+func (tile bonus) Equals(other wits.TileDefinition) bool {
 	return (other.IsBonus() &&
 		other.Position().I() == tile.Position().I() &&
 		other.Position().J() == tile.Position().J())

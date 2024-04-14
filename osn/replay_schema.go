@@ -19,6 +19,8 @@ package osn
 import (
 	"encoding/json"
 	"fmt"
+
+	"github.com/kevindamm/wits-go"
 )
 
 type GameReplay struct {
@@ -95,15 +97,15 @@ func (replay GameReplay) MarshalJSON() ([]byte, error) {
 	}
 
 	type Before struct {
-		GCID   GCID       `json:"gcID"`
-		League LeagueTier `json:"tier"`
-		Rank   LeagueRank `json:"rank"`
+		GCID   GCID            `json:"gcID"`
+		League wits.LeagueTier `json:"tier"`
+		Rank   wits.LeagueRank `json:"rank"`
 	}
 	type After struct {
-		GCID   GCID       `json:"gcID"`
-		League LeagueTier `json:"tier"`
-		Rank   LeagueRank `json:"rank"`
-		Delta  int        `json:"delta"`
+		GCID   GCID            `json:"gcID"`
+		League wits.LeagueTier `json:"tier"`
+		Rank   wits.LeagueRank `json:"rank"`
+		Delta  int             `json:"delta"`
 	}
 	type CapturedFormat struct {
 		Position HexCoord `json:"position"`

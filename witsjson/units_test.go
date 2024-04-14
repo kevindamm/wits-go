@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -35,8 +35,8 @@ func TestUnitInit_JSON(t *testing.T) {
 	}{
 		{"basic JSON", `{"class": "HEAVY", "coord": {"i": 1, "j": 2}, "team": "RED"}`,
 			true, witsjson.UnitInitJSON{witsjson.NewHexCoord(1, 2),
-				witsjson.FriendlyEnumJSON(schema.FR_SELF),
-				witsjson.UnitClassJSON(schema.CLASS_HEAVY)}},
+				witsjson.FriendlyEnumJSON(wits.FR_SELF),
+				witsjson.UnitClassJSON(wits.CLASS_HEAVY)}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -59,10 +59,10 @@ func TestUnitRaceJSON(t *testing.T) {
 		succeed bool
 		expect  witsjson.UnitRaceJSON
 	}{
-		{"basic1", `"FEEDBACK"`, true, witsjson.UnitRaceJSON(schema.RACE_FEEDBACK)},
-		{"basic2", `"ADORABLES"`, true, witsjson.UnitRaceJSON(schema.RACE_ADORABLES)},
-		{"basic3", `"SCALLYWAGS"`, true, witsjson.UnitRaceJSON(schema.RACE_SCALLYWAGS)},
-		{"basic4", `"VEGGIENAUTS"`, true, witsjson.UnitRaceJSON(schema.RACE_VEGGIENAUTS)},
+		{"basic1", `"FEEDBACK"`, true, witsjson.UnitRaceJSON(wits.RACE_FEEDBACK)},
+		{"basic2", `"ADORABLES"`, true, witsjson.UnitRaceJSON(wits.RACE_ADORABLES)},
+		{"basic3", `"SCALLYWAGS"`, true, witsjson.UnitRaceJSON(wits.RACE_SCALLYWAGS)},
+		{"basic4", `"VEGGIENAUTS"`, true, witsjson.UnitRaceJSON(wits.RACE_VEGGIENAUTS)},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -93,12 +93,12 @@ func TestUnitClassJSON(t *testing.T) {
 		succeed bool
 		expect  witsjson.UnitClassJSON
 	}{
-		{"standard", `"RUNNER"`, true, witsjson.UnitClassJSON(schema.CLASS_RUNNER)},
-		{"standard", `"MEDIC"`, true, witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
-		{"standard", `"SOLDIER"`, true, witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
-		{"standard", `"SNIPER"`, true, witsjson.UnitClassJSON(schema.CLASS_SNIPER)},
-		{"standard", `"HEAVY"`, true, witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
-		{"special", `"SPECIAL"`, true, witsjson.UnitClassJSON(schema.CLASS_SPECIAL)},
+		{"standard", `"RUNNER"`, true, witsjson.UnitClassJSON(wits.CLASS_RUNNER)},
+		{"standard", `"MEDIC"`, true, witsjson.UnitClassJSON(wits.CLASS_MEDIC)},
+		{"standard", `"SOLDIER"`, true, witsjson.UnitClassJSON(wits.CLASS_SOLDIER)},
+		{"standard", `"SNIPER"`, true, witsjson.UnitClassJSON(wits.CLASS_SNIPER)},
+		{"standard", `"HEAVY"`, true, witsjson.UnitClassJSON(wits.CLASS_HEAVY)},
+		{"special", `"SPECIAL"`, true, witsjson.UnitClassJSON(wits.CLASS_SPECIAL)},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -129,20 +129,20 @@ func TestUnitClassJSON_UnmarshalExtra(t *testing.T) {
 		succeed bool
 		expect  witsjson.UnitClassJSON
 	}{
-		{"unknwon", `"UNKNOWN"`, false, witsjson.UnitClassJSON(schema.CLASS_UNKNOWN)},
-		{"iunk", "0", false, witsjson.UnitClassJSON(schema.CLASS_UNKNOWN)},
-		{"istandard", strconv.Itoa(int(schema.CLASS_RUNNER)), true,
-			witsjson.UnitClassJSON(schema.CLASS_RUNNER)},
-		{"istandard", strconv.Itoa(int(schema.CLASS_MEDIC)), true,
-			witsjson.UnitClassJSON(schema.CLASS_MEDIC)},
-		{"istandard", strconv.Itoa(int(schema.CLASS_SOLDIER)), true,
-			witsjson.UnitClassJSON(schema.CLASS_SOLDIER)},
-		{"istandard", strconv.Itoa(int(schema.CLASS_SNIPER)), true,
-			witsjson.UnitClassJSON(schema.CLASS_SNIPER)},
-		{"istandard", strconv.Itoa(int(schema.CLASS_HEAVY)), true,
-			witsjson.UnitClassJSON(schema.CLASS_HEAVY)},
-		{"ispecial", strconv.Itoa(int(schema.CLASS_SPECIAL)), true,
-			witsjson.UnitClassJSON(schema.CLASS_SPECIAL)},
+		{"unknwon", `"UNKNOWN"`, false, witsjson.UnitClassJSON(wits.CLASS_UNKNOWN)},
+		{"iunk", "0", false, witsjson.UnitClassJSON(wits.CLASS_UNKNOWN)},
+		{"istandard", strconv.Itoa(int(wits.CLASS_RUNNER)), true,
+			witsjson.UnitClassJSON(wits.CLASS_RUNNER)},
+		{"istandard", strconv.Itoa(int(wits.CLASS_MEDIC)), true,
+			witsjson.UnitClassJSON(wits.CLASS_MEDIC)},
+		{"istandard", strconv.Itoa(int(wits.CLASS_SOLDIER)), true,
+			witsjson.UnitClassJSON(wits.CLASS_SOLDIER)},
+		{"istandard", strconv.Itoa(int(wits.CLASS_SNIPER)), true,
+			witsjson.UnitClassJSON(wits.CLASS_SNIPER)},
+		{"istandard", strconv.Itoa(int(wits.CLASS_HEAVY)), true,
+			witsjson.UnitClassJSON(wits.CLASS_HEAVY)},
+		{"ispecial", strconv.Itoa(int(wits.CLASS_SPECIAL)), true,
+			witsjson.UnitClassJSON(wits.CLASS_SPECIAL)},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

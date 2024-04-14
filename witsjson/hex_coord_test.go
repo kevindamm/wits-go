@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 	"github.com/kevindamm/wits-go/witsjson"
 )
 
@@ -53,7 +53,7 @@ func TestHexCoord_UnmarshalJSON(t *testing.T) {
 func TestHexCoord_MarshalJSON(t *testing.T) {
 	tests := []struct {
 		name    string
-		coord   schema.HexCoord
+		coord   wits.HexCoord
 		want    string
 		wantErr bool
 	}{

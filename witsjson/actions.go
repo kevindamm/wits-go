@@ -20,15 +20,15 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
 type PlayerTurnJSON struct {
-	Turn_    uint                  `json:"turn"`
-	Actions_ []schema.PlayerAction `json:"actions"`
+	Turn_    uint                `json:"turn"`
+	Actions_ []wits.PlayerAction `json:"actions"`
 
 	// Temporarily here so that we can validate the simulation against the intermediate states.
-	State_ schema.GameState `json:"state"`
+	State_ wits.GameState `json:"state"`
 }
 
 func (turn PlayerTurnJSON) TurnCount() uint {
@@ -36,27 +36,27 @@ func (turn PlayerTurnJSON) TurnCount() uint {
 }
 
 // On odd turns it is team 1's turn, on even turns it is team 2's turn.
-func (turn PlayerTurnJSON) Team() schema.FriendlyEnum {
+func (turn PlayerTurnJSON) Team() wits.FriendlyEnum {
 	// The subtraction from 2 makes the mod give {1, 2} values instead of {0, 1}.
-	return 2 - schema.FriendlyEnum(turn.Turn_%2)
+	return 2 - wits.FriendlyEnum(turn.Turn_%2)
 }
 
 // Works for both 1v1 and multiplayer.
-func (turn PlayerTurnJSON) Opponent() schema.FriendlyEnum {
-	if turn.Team() == schema.FR_ENEMY {
-		return schema.FR_SELF
+func (turn PlayerTurnJSON) Opponent() wits.FriendlyEnum {
+	if turn.Team() == wits.FR_ENEMY {
+		return wits.FR_SELF
 	} else {
-		return schema.FR_ENEMY
+		return wits.FR_ENEMY
 	}
 }
 
 // Give the list of actions performed for the current turn.
-func (turn PlayerTurnJSON) Actions() []schema.PlayerAction {
+func (turn PlayerTurnJSON) Actions() []wits.PlayerAction {
 	return turn.Actions_
 }
 
 // DEPRECATED: included for sanity checks over existing replays until proper testing is in place.
-func (turn PlayerTurnJSON) State() schema.GameState {
+func (turn PlayerTurnJSON) State() wits.GameState {
 	return turn.State_
 }
 
@@ -77,9 +77,9 @@ const (
 	TELEPORT_UNIT ActionNameJSON = "Teleport"
 )
 
-func ParseGenericAction(typename string, encoded []byte) (schema.PlayerAction, error) {
+func ParseGenericAction(typename string, encoded []byte) (wits.PlayerAction, error) {
 	if len(typename) == 0 {
-		return nil, schema.UnknownActionError{Name: `""`}
+		return nil, wits.UnknownActionError{Name: `""`}
 	}
 	switch ActionNameJSON(typename) {
 	case MOVE_UNIT:
@@ -105,13 +105,13 @@ func ParseGenericAction(typename string, encoded []byte) (schema.PlayerAction, e
 		return coerce[TeleportUnitAction](encoded)
 
 	case PASS_PLAY:
-		return schema.PassAction{}, nil
+		return wits.PassAction{}, nil
 	}
-	return nil, schema.UnknownActionError{Name: typename}
+	return nil, wits.UnknownActionError{Name: typename}
 }
 
 // Generic JSON-decoding routine for all PlayerAction implementing types.
-func coerce[T schema.PlayerAction](encoded []byte) (T, error) {
+func coerce[T wits.PlayerAction](encoded []byte) (T, error) {
 	var output struct {
 		Data T `json:"action"`
 	}
@@ -128,8 +128,8 @@ func coerce[T schema.PlayerAction](encoded []byte) (T, error) {
 // Moves a unit from a HexCoord position to a (different) HexCoord position.
 type MoveUnitAction struct {
 	playerActionJSON
-	From schema.HexCoord `json:"from"`
-	To   schema.HexCoord `json:"to"`
+	From wits.HexCoord `json:"from"`
+	To   wits.HexCoord `json:"to"`
 }
 
 func (action MoveUnitAction) ActionName() string { return string(MOVE_UNIT) }
@@ -139,7 +139,7 @@ func (action MoveUnitAction) RelVarEncoding() string {
 		action.From.I(), action.From.J(), action.To.I(), action.To.J())
 }
 
-func (action MoveUnitAction) Visit(state *schema.GameState) error {
+func (action MoveUnitAction) Visit(state *wits.GameState) error {
 	// Locate the unit for this action and move it to the indicated position.
 	// TODO
 	return nil
@@ -148,8 +148,8 @@ func (action MoveUnitAction) Visit(state *schema.GameState) error {
 // Heals a friendly unit to their initial HP + 1.
 type HealUnitAction struct {
 	playerActionJSON
-	Healer schema.HexCoord `json:"healer"`
-	Target schema.HexCoord `json:"target"`
+	Healer wits.HexCoord `json:"healer"`
+	Target wits.HexCoord `json:"target"`
 }
 
 func (action HealUnitAction) ActionName() string { return string(HEAL_UNIT) }
@@ -159,7 +159,7 @@ func (action HealUnitAction) RelVarEncoding() string {
 		action.Healer.I(), action.Healer.J(), action.Target.I(), action.Target.J())
 }
 
-func (action HealUnitAction) Visit(state *schema.GameState) error {
+func (action HealUnitAction) Visit(state *wits.GameState) error {
 	// Locate the target unit and update its health to class.hp+1
 	// TODO
 	return nil
@@ -168,8 +168,8 @@ func (action HealUnitAction) Visit(state *schema.GameState) error {
 // Units may be spawned only from specific locations on the map.
 type SpawnUnitAction struct {
 	playerActionJSON
-	Spawn schema.HexCoord `json:"spawn"`
-	Class UnitClassJSON   `json:"class"`
+	Spawn wits.HexCoord `json:"spawn"`
+	Class UnitClassJSON `json:"class"`
 }
 
 func (action SpawnUnitAction) ActionName() string { return string(SPAWN_UNIT) }
@@ -183,7 +183,7 @@ func (action SpawnUnitAction) RelVarEncoding() string {
 // not stored as part of the unit -- it is instead determined at the game state
 // (via turn reconstruction and a specialized game state).  This allows for a
 // unified implementation here, whether it was a SpawnTile or a Bramble.
-func (action SpawnUnitAction) Visit(state *schema.GameState) error {
+func (action SpawnUnitAction) Visit(state *wits.GameState) error {
 	// TODO
 	return nil
 }
@@ -193,8 +193,8 @@ func (action SpawnUnitAction) Visit(state *schema.GameState) error {
 // state.  The action itself only needs to mention the attacker's location and
 // the location of the unit's target (only units may attack).
 type AttackAction struct {
-	Agent  schema.HexCoord `json:"agent"`
-	Target schema.HexCoord `json:"target"`
+	Agent  wits.HexCoord `json:"agent"`
+	Target wits.HexCoord `json:"target"`
 }
 
 func (action AttackAction) ActionName() string { return string(ATTACK) }
@@ -204,7 +204,7 @@ func (action AttackAction) RelVarEncoding() string {
 		action.Agent.I(), action.Agent.J(), action.Target.I(), action.Target.J())
 }
 
-func (action AttackAction) Visit(state *schema.GameState) error {
+func (action AttackAction) Visit(state *wits.GameState) error {
 	// TODO
 	return nil
 }
@@ -212,8 +212,8 @@ func (action AttackAction) Visit(state *schema.GameState) error {
 // This is a special action for the Scrambler unit class.  It converts the unit
 // of an opposing team onto the player's team.
 type CharmUnitAction struct {
-	Agent  schema.HexCoord `json:"agent"`
-	Target schema.HexCoord `json:"target"`
+	Agent  wits.HexCoord `json:"agent"`
+	Target wits.HexCoord `json:"target"`
 }
 
 func (action CharmUnitAction) ActionName() string { return string(CHARM_UNIT) }
@@ -223,13 +223,13 @@ func (action CharmUnitAction) RelVarEncoding() string {
 		action.Agent.I(), action.Agent.J(), action.Target.I(), action.Target.J())
 }
 
-func (action CharmUnitAction) Visit(state *schema.GameState) error {
+func (action CharmUnitAction) Visit(state *wits.GameState) error {
 	// TODO
 	return nil
 }
 
 type ToggleAltAction struct {
-	schema.HexCoord `json:"position"`
+	wits.HexCoord `json:"position"`
 }
 
 func (action ToggleAltAction) ActionName() string { return string(TOGGLE_ALT) }
@@ -238,15 +238,15 @@ func (action ToggleAltAction) RelVarEncoding() string {
 	return fmt.Sprintf(`["toggle", ["ij", %d, %d]]`, action.I(), action.J())
 }
 
-func (action ToggleAltAction) Visit(state *schema.GameState) error {
+func (action ToggleAltAction) Visit(state *wits.GameState) error {
 	// TODO
 	return nil
 }
 
 type TeleportUnitAction struct {
-	schema.HexCoord `json:"mobi"`
-	From            schema.HexCoord `json:"from"`
-	To              schema.HexCoord `json:"to"`
+	wits.HexCoord `json:"mobi"`
+	From          wits.HexCoord `json:"from"`
+	To            wits.HexCoord `json:"to"`
 }
 
 func (action TeleportUnitAction) ActionName() string { return string(TELEPORT_UNIT) }
@@ -258,7 +258,7 @@ func (action TeleportUnitAction) RelVarEncoding() string {
 		action.To.I(), action.To.J())
 }
 
-func (action TeleportUnitAction) Visit(state *schema.GameState) error {
+func (action TeleportUnitAction) Visit(state *wits.GameState) error {
 	// TODO
 	return nil
 }

@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/kevindamm/wits-go/schema"
+	"github.com/kevindamm/wits-go"
 )
 
 // Extension of a game's ID which automatically shortens it when marshaling.
-type OsnGameID schema.GameID
+type OsnGameID wits.MatchID
 
 // Marshal the game ID (removing 48-character common prefix all games share).
 func (id OsnGameID) MarshalJSON() ([]byte, error) {

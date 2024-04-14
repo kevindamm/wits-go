@@ -14,7 +14,7 @@
 //
 // github:kevindamm/wits-go/schema/errors.go
 
-package schema
+package wits
 
 import "fmt"
 
