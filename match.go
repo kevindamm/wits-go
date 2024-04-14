@@ -36,7 +36,7 @@ const (
 	LOSS_RESIGNATION
 )
 
-// Differentiating bit for non-unknown/defaulting game results.
+// Differentiating bit for (win/loss) result, in non-unknown/defaulting game results.
 const WINLOSS_BIT TerminalStatus = 0b0100
 
 // Converts win or loss status to the equivalent state from the opponent's view.
