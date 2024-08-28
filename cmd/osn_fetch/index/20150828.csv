@@ -1,0 +1,907 @@
+game_id,game_type,season,created,player_names,player_ids,player_leagues,player_races,player_orders,map_id,map_name,turn_count,replay_fetched,player_winner,engine
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZP9pgkM    ,3,7,2015-08-28 13:27:36,"{""*mostly harmless*"",arisp1974}","{26014,15063}","{3,3}","{4,3}",\N,14,Skull Duggery,57,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b7PqAkM    ,5,7,2015-08-28 14:55:37,"{meah?,crusherking,HillDragon,clover_41}","{99522,139109,80357,17014}","{0,4,0,4}","{4,3,3,2}",\N,18,Mechanism,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAobe2sgkM    ,3,7,2015-08-28 20:28:02,"{Joanmaru,""Jisabell 26""}","{41391,5541}","{4,3}","{2,1}",\N,3,Foundry (V2),10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c3lyAkM    ,3,7,2015-08-28 14:56:35,"{Matt-Pat,badpokemon}","{157803,2616}","{0,1}","{3,1}",\N,3,Foundry (V2),12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fWfrAsM    ,3,7,2015-08-28 23:54:19,"{gpruitt,.BlueMono.}","{8035,86154}","{1,1}","{3,3}",\N,3,Foundry (V2),7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdq4pQoM    ,3,7,2015-08-28 02:32:44,"{MaisaDuarte,jj2749}","{74756,27262}","{3,3}","{3,3}",\N,3,Foundry (V2),18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d3XjwgM    ,3,7,2015-08-28 14:03:49,"{HowComeYouSuck?,naggelos86}","{84173,39204}","{4,4}","{2,3}",\N,3,Foundry (V2),9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY664QkM    ,2,7,2015-08-28 04:19:21,"{rula,""*(:Extra Wide Body:)*""}","{157850,76021}","{0,0}","{3,4}",\N,3,Foundry (V2),4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgaXsrwkM    ,3,7,2015-08-28 08:50:08,"{JDLintz,Evilreasons12345}","{5602,152682}","{3,2}","{4,3}",\N,3,Foundry (V2),65,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Yel6wgM    ,3,7,2015-08-28 01:36:53,"{""Guess Who"",than.newell}","{156964,157534}","{3,2}","{3,1}",\N,3,Foundry (V2),15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbDarQoM    ,3,7,2015-08-28 19:19:07,"{Cheeze,i0ner0us}","{154629,156478}","{2,2}","{2,1}",\N,3,Foundry (V2),3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c3l8AsM    ,3,7,2015-08-28 19:01:11,"{bettinanyc,LXMachina}","{16684,157383}","{2,2}","{2,4}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aeghQoM    ,3,7,2015-08-28 16:40:06,"{moskal1q,Parmeniotrue}","{67920,156719}","{3,3}","{3,1}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDArvW9sgkM    ,3,7,2015-08-28 07:33:34,"{mcsegameguy99,rank68}","{1613,39249}","{3,4}","{2,2}",\N,3,Foundry (V2),25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd2ZpAoM    ,3,7,2015-08-28 23:14:33,"{DeChamp01,hey_you}","{53291,109101}","{3,2}","{4,3}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYPcuQkM    ,3,7,2015-08-28 20:56:08,"{""BIG G the one and only"",""THE Hoggleg""}","{106843,102120}","{2,2}","{4,3}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fvjqAoM    ,3,7,2015-08-28 12:08:52,"{canyonrunner,jackoneal}","{4840,25335}","{3,3}","{3,4}",\N,3,Foundry (V2),12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfy_7woM    ,3,7,2015-08-28 12:56:16,"{Kroberts96,IDontWantToGoOnTheCart}","{60393,53977}","{2,2}","{1,3}",\N,3,Foundry (V2),15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZXg-AgM    ,3,7,2015-08-28 17:50:21,"{Babyhands97,Emuboy}","{156515,157732}","{1,1}","{3,1}",\N,3,Foundry (V2),21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsezYrwkM    ,3,7,2015-08-28 05:33:51,"{Agilla,Tierce174}","{148154,157475}","{1,1}","{3,1}",\N,3,Foundry (V2),11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ebM9AoM    ,3,7,2015-08-28 10:24:19,"{Awwdii,gutzanu}","{18309,5188}","{2,2}","{2,3}",\N,3,Foundry (V2),7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZPzsQoM    ,3,7,2015-08-28 19:30:23,"{Quadsomy21,.=[WakoFlaco]=.}","{20444,28405}","{4,3}","{3,3}",\N,3,Foundry (V2),26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbLmogkM    ,3,7,2015-08-28 22:16:15,"{~LaLune~,burbache}","{74061,13379}","{2,2}","{3,3}",\N,3,Foundry (V2),18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZmTvwsM    ,3,7,2015-08-28 13:15:37,"{jerryboy,julykid}","{157730,155985}","{1,1}","{1,3}",\N,3,Foundry (V2),15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkevK7woM    ,3,7,2015-08-28 19:48:41,"{neurotic42,stac1nator429}","{35515,137498}","{3,3}","{1,3}",\N,3,Foundry (V2),13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAof_i-AsM    ,2,7,2015-08-28 16:11:06,"{timstein79,""Karin fres""}","{156522,157558}","{0,0}","{1,3}",\N,3,Foundry (V2),29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fnHsAkM    ,3,7,2015-08-28 00:24:37,"{littletimebomb,dwiggall}","{71315,4951}","{3,3}","{1,3}",\N,3,Foundry (V2),30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_ujotQsM    ,3,7,2015-08-28 03:23:41,"{panya7,Yaretzk1}","{157011,15377}","{3,1}","{2,4}",\N,3,Foundry (V2),18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscKfuwoM    ,3,7,2015-08-28 06:04:28,"{PrestonTheDonkey,Robdog99}","{62878,50266}","{3,3}","{4,3}",\N,3,Foundry (V2),11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAod_98woM    ,2,7,2015-08-28 10:45:07,"{AudioDriver,AnousFace}","{3019,153621}","{0,0}","{1,3}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aGWhwkM    ,3,7,2015-08-28 19:19:08,"{Freszh,CatsForHands}","{136830,157896}","{1,0}","{3,3}",\N,13,Reaper,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8ejCtgsM    ,3,7,2015-08-28 18:16:30,"{Amico,KevSmash}","{87650,10051}","{3,3}","{2,1}",\N,13,Reaper,40,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZrvuAoM    ,3,7,2015-08-28 12:10:11,"{ericmuhr,D3w}","{132072,149930}","{3,3}","{4,1}",\N,6,Sweetie Plains,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbX5pAoM    ,3,7,2015-08-28 12:09:17,"{D3w,USPUNX}","{149930,27663}","{3,3}","{1,3}",\N,7,Peekaboo,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b7PqAoM    ,2,7,2015-08-28 23:19:43,"{mo0onbound,Caspen}","{144088,156618}","{0,0}","{3,4}",\N,9,Long Nine,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4d7I4gsM    ,2,7,2015-08-28 23:33:40,"{Li7tl3Game,ShaolinSage}","{157867,157763}","{0,0}","{3,4}",\N,9,Long Nine,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZzuoAsM    ,2,7,2015-08-28 23:26:53,"{Zumafire,Juicecup007}","{157656,157655}","{0,0}","{3,3}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcy8pAsM    ,3,7,2015-08-28 23:35:44,"{Pash-gun,ARobb}","{15787,138120}","{3,3}","{3,3}",\N,7,Peekaboo,36,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YSWsAkM    ,3,7,2015-08-28 23:39:31,"{makinw,MrGoiaba}","{69610,154397}","{2,2}","{3,3}",\N,7,Peekaboo,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcCp8wgM    ,3,7,2015-08-28 23:26:46,"{pangerho,fishcake}","{71583,76462}","{3,3}","{1,4}",\N,13,Reaper,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsen37wgM    ,3,7,2015-08-28 23:50:24,"{Bebu,hahahahahaha21}","{76410,4072}","{4,3}","{2,3}",\N,13,Reaper,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c-N-QgM    ,3,7,2015-08-28 23:46:08,"{.BlueMono.,juniperinlove}","{86154,157883}","{2,0}","{2,3}",\N,13,Reaper,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseeusQoM    ,2,7,2015-08-28 23:37:05,"{Alphora,juniperinlove}","{157884,157883}","{0,0}","{3,3}",\N,10,Sharkfood Island,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbOquwkM    ,3,7,2015-08-28 23:51:45,"{i_am_sparta,seber1an}","{1169,39284}","{3,3}","{3,3}",\N,10,Sharkfood Island,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fzmsQkM    ,3,7,2015-08-28 23:22:56,"{JuggerNut2181,-.DuMontster.-}","{25899,26987}","{4,4}","{3,1}",\N,10,Sharkfood Island,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYGMsAkM    ,3,7,2015-08-28 23:28:49,"{""[]:Bob Sacamano:[]"",Designerbeatnik}","{23498,59917}","{2,3}","{3,1}",\N,14,Skull Duggery,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA3ufWhQsM    ,3,7,2015-08-28 23:59:25,"{AvsFan21Rocks,""Zauberspruch Bann""}","{39010,63417}","{3,3}","{4,1}",\N,6,Sweetie Plains,67,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4d7I4gkM    ,3,7,2015-08-28 23:35:04,"{thcdoremi,StimpyStimp}","{2082,1016}","{5,5}","{2,3}",\N,6,Sweetie Plains,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d3y8wgM    ,3,7,2015-08-28 23:29:43,"{gpruitt,Alphora}","{8035,157884}","{1,0}","{3,3}",\N,16,Sweet Tooth,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZzgpAsM    ,3,7,2015-08-28 23:27:59,"{""Night Owl"",fhavko}","{106946,3104}","{4,4}","{1,2}",\N,12,Thorn Gulley,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b709gsM    ,3,7,2015-08-28 23:53:17,"{fhavko,dunglert10}","{3104,38010}","{4,4}","{2,1}",\N,12,Thorn Gulley,40,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkayXvwsM    ,3,7,2015-08-28 23:59:16,"{Voce,Jooz1514}","{153202,41105}","{3,3}","{3,3}",\N,12,Thorn Gulley,59,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscX2qAkM    ,3,7,2015-08-28 23:44:46,"{chriskyle2000,Kroberts96}","{156827,60393}","{1,2}","{3,3}",\N,15,War Garden,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbb1tQsM    ,2,7,2015-08-28 23:33:35,"{erikajuliana,MasterA}","{34847,137957}","{0,0}","{3,3}",\N,15,War Garden,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8azLuQoM    ,3,7,2015-08-28 23:51:09,"{""[]:Bob Sacamano:[]"",chief_1988}","{23498,22859}","{2,3}","{3,3}",\N,15,War Garden,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscSzsQoM    ,3,7,2015-08-28 23:27:36,"{deezace,kieronbm}","{41783,72051}","{3,3}","{1,3}",\N,15,War Garden,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf62pgsM    ,3,7,2015-08-28 23:20:21,"{UVVU,ARobb}","{95897,138120}","{3,3}","{3,3}",\N,15,War Garden,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbqqpwkM    ,3,7,2015-08-28 22:59:16,"{Damm,TheDobber9}","{152120,39173}","{3,3}","{2,1}",\N,4,Glitch,38,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0deirAsM    ,3,7,2015-08-28 22:54:23,"{kiteralf,Cachet..DuMonay}","{2198,89491}","{3,3}","{2,3}",\N,4,Glitch,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdz8pgoM    ,3,7,2015-08-28 22:56:53,"{Cachet..DuMonay,Carolina2Cali}","{89491,37438}","{3,3}","{3,1}",\N,4,Glitch,32,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d2jpgsM    ,3,7,2015-08-28 23:14:19,"{this-is-jimmy,TuxedoSquid}","{17593,156567}","{3,2}","{1,3}",\N,4,Glitch,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHzugkM    ,3,7,2015-08-28 23:07:47,"{wasabi2k,dwiggall}","{41581,4951}","{3,3}","{3,3}",\N,4,Glitch,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbLBugsM    ,3,7,2015-08-28 23:14:53,"{alicedala,korruptkoncepts}","{73985,38863}","{3,3}","{1,3}",\N,9,Long Nine,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc7UuQoM    ,3,7,2015-08-28 23:01:57,"{Jewlz:),uhhokay}","{77471,152149}","{2,2}","{3,2}",\N,7,Peekaboo,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoaT3twsM    ,3,7,2015-08-28 23:11:32,"{""Slade Wild One III"",""Mike ZK7""}","{22718,80313}","{3,3}","{1,4}",\N,7,Peekaboo,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dqV-QgM    ,3,7,2015-08-28 23:01:56,"{""laser mimas"",Stands-24}","{940,2717}","{2,2}","{1,3}",\N,13,Reaper,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fPPsQsM    ,3,7,2015-08-28 23:16:03,"{brianpf28,sparty}","{40316,135383}","{4,3}","{2,2}",\N,13,Reaper,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YCo7AoM    ,3,7,2015-08-28 23:07:40,"{""Alex "",Death101}","{123328,121146}","{3,3}","{4,3}",\N,10,Sharkfood Island,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZWOkggM    ,3,7,2015-08-28 23:15:36,"{Parmeniotrue,3dward52}","{156719,42534}","{3,3}","{3,3}",\N,10,Sharkfood Island,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYuKowoM    ,2,7,2015-08-28 23:08:46,"{Bloodkipz,""Concept of Glory""}","{157905,1422}","{0,0}","{3,3}",\N,10,Sharkfood Island,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8bzgowoM    ,3,7,2015-08-28 23:03:51,"{""Mr. Serge F"",onoff}","{22956,16113}","{4,5}","{2,3}",\N,14,Skull Duggery,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZjWkQkM    ,2,7,2015-08-28 23:17:00,"{[Didac],ShaolinSage}","{157906,157763}","{0,0}","{3,4}",\N,14,Skull Duggery,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscfjrQkM    ,3,7,2015-08-28 22:44:04,"{""Shaq A Tack"",Laborious}","{156689,148793}","{2,2}","{3,3}",\N,14,Skull Duggery,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YHUqgoM    ,3,7,2015-08-28 22:44:03,"{ajfbigal,""Bryc3 94""}","{39372,26065}","{3,4}","{3,3}",\N,14,Skull Duggery,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cqNswoM    ,3,7,2015-08-28 23:16:31,"{""Loke the Great"",LordKelson}","{152009,24348}","{3,3}","{1,1}",\N,6,Sweetie Plains,30,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8cnVrQoM    ,3,7,2015-08-28 23:13:18,"{""laser mimas"",Stands-24}","{940,2717}","{2,2}","{1,3}",\N,6,Sweetie Plains,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cKQ3woM    ,3,7,2015-08-28 23:18:39,"{neurotic42,""Alex ""}","{35515,123328}","{3,3}","{1,4}",\N,6,Sweetie Plains,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZPy4QoM    ,3,7,2015-08-28 23:09:14,"{StimpyStimp,""Mr. Serge F""}","{1016,22956}","{5,4}","{2,2}",\N,6,Sweetie Plains,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd_gmQgM    ,3,7,2015-08-28 22:45:14,"{""J3n 43 :)"",-=go8lue12=-}","{156141,24665}","{2,3}","{4,1}",\N,16,Sweet Tooth,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Y3duwsM    ,3,7,2015-08-28 22:56:54,"{""Bryc3 94"",love_blah}","{26065,4204}","{4,4}","{3,3}",\N,16,Sweet Tooth,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYvUvAkM    ,3,7,2015-08-28 22:51:14,"{mattwang97,Jonson5357}","{36802,150201}","{3,3}","{1,4}",\N,12,Thorn Gulley,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbTItgkM    ,3,7,2015-08-28 22:49:25,"{r0untaz,yesh4u}","{6326,1473}","{3,3}","{3,3}",\N,15,War Garden,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd3SqAkM    ,3,7,2015-08-28 22:47:53,"{Knever,EastArete}","{155675,4719}","{3,3}","{2,2}",\N,15,War Garden,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eqc-AgM    ,5,7,2015-08-28 23:06:35,"{timdoke,""Fungoid Face"",""Raepher Tachoy"",MarutanRay}","{1953,41732,75764,17210}","{4,4,4,4}","{3,1,2,1}",\N,18,Mechanism,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoff0rwoM    ,3,7,2015-08-28 22:41:50,"{7anker120,Viciousdane}","{156230,5512}","{3,3}","{1,1}",\N,3,Foundry (V2),20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZXp8wsM    ,3,7,2015-08-28 22:04:32,"{みっきい72,""Your Nickname Wisely""}","{155680,157598}","{1,0}","{3,3}",\N,4,Glitch,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbnhvwsM    ,2,7,2015-08-28 22:19:46,"{-(8londie)-,""*(:Extra Wide Body:)*""}","{157145,76021}","{0,0}","{1,3}",\N,9,Long Nine,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cTjqwsM    ,2,7,2015-08-28 22:41:46,"{erikajuliana,MasterA}","{34847,137957}","{0,0}","{3,3}",\N,9,Long Nine,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8dj8qgoM    ,3,7,2015-08-28 22:11:53,"{mp3killer,Danannnn}","{157256,68728}","{2,1}","{3,3}",\N,9,Long Nine,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscvcrwoM    ,2,7,2015-08-28 22:39:29,"{kes_167,Shward202}","{157159,157903}","{0,0}","{3,3}",\N,9,Long Nine,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdmdpwsM    ,2,7,2015-08-28 22:06:52,"{""Sean Mc"",sdkraemer}","{37163,156852}","{0,0}","{3,3}",\N,7,Peekaboo,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfW-pwoM    ,3,7,2015-08-28 22:06:29,"{cjrogers80,OhhMan1}","{22493,156676}","{3,3}","{1,3}",\N,7,Peekaboo,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseKapQsM    ,3,7,2015-08-28 22:36:21,"{Vanatina,Laborious}","{112479,148793}","{3,2}","{4,3}",\N,7,Peekaboo,44,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAmpSkrwoM    ,3,7,2015-08-28 22:21:37,"{chainsaw76,JohnyA33}","{17406,33142}","{5,4}","{3,3}",\N,7,Peekaboo,93,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbWi5QgM    ,3,7,2015-08-28 22:23:41,"{~LaLune~,burbache}","{74061,13379}","{2,2}","{3,3}",\N,13,Reaper,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fy7pAoM    ,3,7,2015-08-28 22:30:43,"{Matt-Pat,sarahluna13}","{157803,95072}","{1,1}","{3,3}",\N,13,Reaper,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseOErQkM    ,3,7,2015-08-28 22:16:00,"{Cachet..DuMonay,panya7}","{89491,157011}","{3,3}","{3,4}",\N,13,Reaper,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdG_vAsM    ,2,7,2015-08-28 22:39:31,"{Dsd125,bose}","{157904,157902}","{0,0}","{3,3}",\N,10,Sharkfood Island,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4baw6wgM    ,3,7,2015-08-28 22:42:37,"{""RobY MN"",TDmaster1234}","{69649,22059}","{3,3}","{3,1}",\N,10,Sharkfood Island,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YPV_ggM    ,2,7,2015-08-28 22:23:42,"{KarinaGaz,""Lizik lizik""}","{152662,33835}","{0,0}","{3,1}",\N,10,Sharkfood Island,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfmkuAoM    ,3,7,2015-08-28 22:37:39,"{CapnFire,blacksnake666}","{148646,21829}","{3,3}","{1,1}",\N,10,Sharkfood Island,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfyRugoM    ,2,7,2015-08-28 22:41:53,"{ShaolinSage,""This guy always""}","{157763,63032}","{0,0}","{4,2}",\N,10,Sharkfood Island,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkf6N4AkM    ,3,7,2015-08-28 22:44:03,"{~LaLune~,burbache}","{74061,13379}","{2,2}","{3,3}",\N,14,Skull Duggery,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYiytAkM    ,3,7,2015-08-28 22:11:05,"{KSmerfz,STOMPtown14}","{18256,100867}","{3,3}","{4,3}",\N,14,Skull Duggery,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Z6UqAsM    ,3,7,2015-08-28 22:05:27,"{Laborious,TuxedoSquid}","{148793,156567}","{2,2}","{3,3}",\N,6,Sweetie Plains,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_svR4QgM    ,3,7,2015-08-28 22:11:47,"{Tiecoon,jzgers}","{1651,5368}","{4,4}","{3,2}",\N,6,Sweetie Plains,39,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkemSpgoM    ,3,7,2015-08-28 22:39:07,"{ajfbigal,brianpf28}","{39372,40316}","{3,4}","{2,4}",\N,6,Sweetie Plains,30,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fzwsAkM    ,3,7,2015-08-28 22:10:34,"{ksim820,Rebeccap127}","{80259,65670}","{3,3}","{3,1}",\N,16,Sweet Tooth,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY6fpQsM    ,3,7,2015-08-28 22:08:07,"{isabellacaroh,sub0}","{11730,137348}","{3,3}","{3,2}",\N,15,War Garden,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cr2tAoM    ,5,7,2015-08-28 22:11:07,"{Arthurdbco,matthewfiore,""50 is cuten 20 here"",""~ BoZo420 ~""}","{67772,30397,60436,157124}","{0,1,0,2}","{2,1,4,3}",\N,11,Acrospire,34,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbDvqwoM    ,5,7,2015-08-28 22:26:06,"{almontys,Scorpio_140,[-Pat-],Yostreed}","{1048,157619,157300,152852}","{0,0,0,2}","{1,3,3,3}",\N,8,Blitz Beach,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwbuUpwoM    ,3,7,2015-08-28 21:31:38,"{TuxedoSquid,aadpiraat4}","{156567,7205}","{2,2}","{3,3}",\N,4,Glitch,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdqdowkM    ,3,7,2015-08-28 21:41:21,"{""Fe Chef"",brianpf28}","{14074,40316}","{3,4}","{3,1}",\N,4,Glitch,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8erkrgkM    ,2,7,2015-08-28 21:47:48,"{Letsgophils17,ShaolinSage}","{151538,157763}","{0,0}","{3,4}",\N,4,Glitch,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0af6uAsM    ,3,7,2015-08-28 21:47:00,"{kohnan,Mike72384}","{38950,29841}","{4,4}","{2,1}",\N,9,Long Nine,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Y-9gAgM    ,3,7,2015-08-28 21:43:16,"{madagi,dunglert10}","{753,38010}","{3,4}","{2,1}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkevK7wgM    ,3,7,2015-08-28 21:35:20,"{""g0t um coach"",Craigmoadeeb}","{37040,17197}","{3,3}","{1,4}",\N,9,Long Nine,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfvO8ggM    ,2,7,2015-08-28 21:31:18,"{G3ntleB3ast,TrentNied}","{38978,157879}","{0,0}","{1,3}",\N,7,Peekaboo,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bn5ugkM    ,3,7,2015-08-28 21:44:33,"{""Serhat Cpt."",USPUNX}","{146151,27663}","{3,3}","{3,4}",\N,7,Peekaboo,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkemS5ggM    ,3,7,2015-08-28 22:00:34,"{a4gritten,Litsyemir}","{7583,3285}","{2,2}","{4,3}",\N,13,Reaper,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeu09ggM    ,2,7,2015-08-28 21:45:41,"{Emuboy,justo5000}","{157732,152805}","{0,0}","{3,2}",\N,10,Sharkfood Island,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdm4owsM    ,3,7,2015-08-28 21:28:17,"{MartinKJ86,Scorpio_140}","{152373,157619}","{3,0}","{1,3}",\N,10,Sharkfood Island,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Z2w-AkM    ,3,7,2015-08-28 21:22:08,"{""electric uncle"",megatonbboy}","{41832,1015}","{3,3}","{1,3}",\N,14,Skull Duggery,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZqVsAsM    ,3,7,2015-08-28 21:20:36,"{gpruitt,jerryboy}","{8035,157730}","{1,1}","{3,3}",\N,14,Skull Duggery,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAse3MqAkM    ,3,7,2015-08-28 21:58:47,"{juniperinlove,c.ack}","{157883,105003}","{0,2}","{3,3}",\N,14,Skull Duggery,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cuf5wgM    ,3,7,2015-08-28 21:57:13,"{TuxedoSquid,bbskillbb}","{156567,74881}","{2,2}","{3,3}",\N,14,Skull Duggery,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cueuwkM    ,3,7,2015-08-28 21:42:32,"{Juiryanhe,AudioDriver}","{151982,3019}","{3,3}","{3,4}",\N,6,Sweetie Plains,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsafGqwoM    ,3,7,2015-08-28 21:49:34,"{KevSmash,sparty}","{10051,135383}","{3,3}","{2,2}",\N,6,Sweetie Plains,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eiqqAkM    ,3,7,2015-08-28 21:21:14,"{""J3n 43 :)"",""Dwk Yo""}","{156141,129819}","{2,2}","{4,3}",\N,16,Sweet Tooth,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZqS6wgM    ,3,7,2015-08-28 21:41:29,"{Jonmack52,jerryboy}","{157371,157730}","{1,1}","{3,1}",\N,16,Sweet Tooth,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4f-D9goM    ,3,7,2015-08-28 22:00:05,"{Pacman_8_me,Lordben752}","{152436,66821}","{2,2}","{4,3}",\N,15,War Garden,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsa6oswkM    ,2,7,2015-08-28 21:56:53,"{""Squid Gurl"",""This guy always""}","{155869,63032}","{0,0}","{3,1}",\N,15,War Garden,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcavrAsM    ,3,7,2015-08-28 21:34:53,"{LizReznor,""Tirey 72""}","{60113,87694}","{3,3}","{3,3}",\N,15,War Garden,35,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8ZzlvwoM    ,3,7,2015-08-28 21:40:36,"{""Alex "",KarinaGaz}","{123328,152662}","{3,3}","{4,3}",\N,15,War Garden,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZbo5QgM    ,3,7,2015-08-28 22:00:17,"{""Alex "",KarinaGaz}","{123328,152662}","{3,3}","{4,3}",\N,15,War Garden,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwd-2kAgM    ,3,7,2015-08-28 21:53:08,"{""Jackmeriuses Tacktheritrix"",iangilman}","{26936,143437}","{3,3}","{2,3}",\N,15,War Garden,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_p2HjgsM    ,5,7,2015-08-28 21:43:05,"{HamptonDad007,ajfbigal,Welshbri,aknights}","{1635,39372,139630,50818}","{3,3,3,1}","{2,2,2,3}",\N,1,Machination,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgc7QsgoM    ,5,7,2015-08-28 21:40:51,"{lisaniz13,baderfo,niziole1,bmike}","{1298,19231,1297,179}","{3,4,3,4}","{1,3,3,3}",\N,1,Machination,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwYT38goM    ,3,7,2015-08-28 20:59:16,"{c.ack,""Mr Rocque""}","{105003,66237}","{2,2}","{3,3}",\N,4,Glitch,29,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdaAmwoM    ,2,7,2015-08-28 20:44:20,"{""This guy always"",Mdot2785}","{63032,156621}","{0,0}","{2,3}",\N,4,Glitch,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdHh5QgM    ,3,7,2015-08-28 20:55:32,"{""Bryc3 94"",""Young /\\\\""}","{26065,87467}","{4,4}","{3,1}",\N,4,Glitch,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsd20vwsM    ,3,7,2015-08-28 20:31:55,"{Droperidol.,kimchinabe}","{52174,18038}","{4,4}","{3,3}",\N,4,Glitch,58,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YeRvQoM    ,3,7,2015-08-28 20:37:28,"{lucfig,HowComeYouSuck?}","{87321,84173}","{4,4}","{2,2}",\N,4,Glitch,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsa3ipwoM    ,3,7,2015-08-28 21:01:08,"{""Thai Christian"",mattwang97}","{25933,36802}","{3,3}","{2,4}",\N,4,Glitch,36,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkf6NkAgM    ,3,7,2015-08-28 20:22:37,"{~LaLune~,burbache}","{74061,13379}","{2,2}","{3,3}",\N,4,Glitch,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZWn-woM    ,2,7,2015-08-28 20:11:40,"{Alphora,juniperinlove}","{157884,157883}","{0,0}","{3,3}",\N,9,Long Nine,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4busqgoM    ,3,7,2015-08-28 20:23:09,"{dbruntz1125,hahahahahaha21}","{18695,4072}","{3,4}","{2,3}",\N,9,Long Nine,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d_MqwoM    ,3,7,2015-08-28 20:23:28,"{neurotic42,megatonbboy}","{35515,1015}","{3,3}","{1,3}",\N,9,Long Nine,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fzxqAoM    ,2,7,2015-08-28 21:03:12,"{bgrock,""Sean Mc""}","{131785,37163}","{0,0}","{2,3}",\N,7,Peekaboo,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfvO8gsM    ,2,7,2015-08-28 20:37:06,"{""van Hovelen"",ithinkthecatisill}","{154055,131579}","{0,0}","{3,3}",\N,10,Sharkfood Island,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fyYvgsM    ,3,7,2015-08-28 20:38:30,"{TDmaster1234,mattwang97}","{22059,36802}","{3,3}","{1,2}",\N,10,Sharkfood Island,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY66oQoM    ,3,7,2015-08-28 21:07:29,"{rikky1977,""goku ssj4""}","{39768,3846}","{3,3}","{2,1}",\N,14,Skull Duggery,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cqo9QgM    ,3,7,2015-08-28 21:05:57,"{""THE Hoggleg"",Lordben752}","{102120,66821}","{2,2}","{3,3}",\N,14,Skull Duggery,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfuZqwkM    ,3,7,2015-08-28 20:50:05,"{Hellobro72,IDontWantToGoOnTheCart}","{157664,53977}","{0,2}","{3,3}",\N,6,Sweetie Plains,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZaxvAoM    ,3,7,2015-08-28 20:15:12,"{imasundrop,daileader}","{8505,67733}","{3,3}","{2,2}",\N,16,Sweet Tooth,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fnc_gkM    ,3,7,2015-08-28 20:28:32,"{burbache,GenocidalSpark}","{13379,154136}","{2,0}","{3,2}",\N,16,Sweet Tooth,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZjJsAoM    ,3,7,2015-08-28 21:03:14,"{LTtrain21,DarkAttack}","{33660,2560}","{2,2}","{3,1}",\N,12,Thorn Gulley,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YXPowoM    ,3,7,2015-08-28 20:19:19,"{""- thedudeabides -"",blasianD}","{7159,155836}","{4,4}","{2,4}",\N,12,Thorn Gulley,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcaaqAsM    ,3,7,2015-08-28 20:17:18,"{Carolina2Cali,Craigmoadeeb}","{37438,17197}","{3,3}","{1,3}",\N,15,War Garden,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaq1pAkM    ,3,7,2015-08-28 20:14:24,"{angelic,""Thai Christian""}","{77178,25933}","{3,3}","{3,2}",\N,15,War Garden,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aSBsAsM    ,3,7,2015-08-28 20:27:58,"{AvsFan21Rocks,Craigmoadeeb}","{39010,17197}","{3,3}","{3,4}",\N,15,War Garden,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAzo69vQkM    ,5,7,2015-08-28 21:09:58,"{TonytheCapeGuy,Phamilly,MrJSaul,beepea8}","{63540,2782,9819,312}","{3,3,3,3}","{2,2,2,4}",\N,8,Blitz Beach,49,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0baYogkM    ,5,7,2015-08-28 20:57:52,"{sub0,J-town-33,iDragonRazor,[Caleb254]}","{137348,70666,28207,68546}","{2,2,3,2}","{1,3,3,1}",\N,1,Machination,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZLv6gkM    ,5,7,2015-08-28 20:59:10,"{Tidders,Noisyshot,uckfou,vane6994}","{4264,84289,14317,111770}","{2,2,2,2}","{1,3,2,2}",\N,1,Machination,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbqqpwsM    ,5,7,2015-08-28 21:01:57,"{CUY219,Noisyshot,trevor.mcbride45,al0nn1}","{157663,84289,7778,73413}","{0,0,0,0}","{3,3,3,2}",\N,18,Mechanism,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eKguwkM    ,3,7,2015-08-28 19:31:22,"{kes_167,rup121}","{157159,151231}","{3,2}","{3,3}",\N,4,Glitch,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYys-woM    ,3,7,2015-08-28 19:49:52,"{-Mahler1-,""laser mimas""}","{157769,940}","{2,2}","{3,1}",\N,4,Glitch,54,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkb2VuwoM    ,3,7,2015-08-28 19:53:19,"{Jaybird203,SamOTS}","{155975,157445}","{1,0}","{1,3}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbXuuQkM    ,2,7,2015-08-28 19:49:47,"{Alphora,juniperinlove}","{157884,157883}","{0,0}","{3,3}",\N,9,Long Nine,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfnnowsM    ,3,7,2015-08-28 19:39:15,"{vintagepulps,g00df00t}","{71574,258}","{4,4}","{3,2}",\N,9,Long Nine,34,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YHHsQkM    ,3,7,2015-08-28 19:48:50,"{""{CEELOW•415}"",""Vlad Vos""}","{149325,150504}","{3,3}","{1,3}",\N,9,Long Nine,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8ZiPogsM    ,3,7,2015-08-28 19:57:58,"{mickydunks81,Mintybreath}","{72069,129023}","{4,4}","{2,3}",\N,7,Peekaboo,29,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfHxvgsM    ,3,7,2015-08-28 19:27:02,"{DeChamp01,__Taay__23}","{53291,50022}","{3,3}","{4,1}",\N,7,Peekaboo,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY3S_wkM    ,3,7,2015-08-28 19:58:25,"{Mintybreath,Ramme45}","{129023,9273}","{4,4}","{4,3}",\N,7,Peekaboo,45,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYSpsgkM    ,3,7,2015-08-28 19:32:23,"{deezace,KarinaGaz}","{41783,152662}","{3,3}","{1,3}",\N,13,Reaper,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fX5rQkM    ,3,7,2015-08-28 19:27:15,"{alexdamaro13,timstein79}","{18539,156522}","{2,3}","{3,1}",\N,13,Reaper,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZrgrAkM    ,3,7,2015-08-28 19:30:01,"{""Fe Chef 2"",Ubiquemuzik}","{76646,3903}","{3,3}","{3,2}",\N,10,Sharkfood Island,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwdHduAkM    ,3,7,2015-08-28 20:03:51,"{leopold31,neurotic42}","{7613,35515}","{3,3}","{3,1}",\N,10,Sharkfood Island,47,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fjStwoM    ,3,7,2015-08-28 19:44:25,"{""Roaring-Lion 108"",USPUNX}","{60280,27663}","{3,3}","{2,4}",\N,10,Sharkfood Island,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ceC7wsM    ,3,7,2015-08-28 19:51:09,"{brianpf28,Jayseg822}","{40316,72777}","{4,3}","{2,3}",\N,14,Skull Duggery,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8cqFpAkM    ,3,7,2015-08-28 19:48:32,"{""RobY MN"",""people in purple""}","{69649,38909}","{3,3}","{2,1}",\N,14,Skull Duggery,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0f2DsgkM    ,3,7,2015-08-28 19:27:32,"{""Kid Midnight"",gigiblendubin}","{6705,111573}","{3,3}","{3,3}",\N,14,Skull Duggery,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8YDitAoM    ,2,7,2015-08-28 19:33:55,"{""tune 61"",farisbueller}","{157864,1695}","{0,0}","{3,3}",\N,14,Skull Duggery,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cyWpgkM    ,3,7,2015-08-28 20:00:52,"{KarinaGaz,Dadateyont}","{152662,149323}","{3,3}","{3,1}",\N,6,Sweetie Plains,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYrcpQkM    ,3,7,2015-08-28 19:51:55,"{""{CEELOW•415}"",littletimebomb}","{149325,71315}","{3,3}","{1,1}",\N,6,Sweetie Plains,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aiWpwkM    ,3,7,2015-08-28 19:33:20,"{belisar1us,giorgaky}","{1213,14429}","{5,5}","{2,2}",\N,6,Sweetie Plains,38,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoZWx-ggM    ,3,7,2015-08-28 19:38:24,"{Airbornemil,Amico}","{69026,87650}","{3,3}","{4,2}",\N,16,Sweet Tooth,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fes9QoM    ,2,7,2015-08-28 19:45:01,"{""Roaring-Lion 108"",incognitobot}","{60280,60279}","{0,0}","{2,1}",\N,16,Sweet Tooth,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_piA-wkM    ,3,7,2015-08-28 20:00:28,"{Spidêr,kal013}","{859,150178}","{4,3}","{2,3}",\N,16,Sweet Tooth,37,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYLttAsM    ,3,7,2015-08-28 19:32:07,"{dunglert10,""Night Owl""}","{38010,106946}","{4,4}","{1,4}",\N,12,Thorn Gulley,33,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bX89wkM    ,3,7,2015-08-28 19:37:42,"{Cachet..DuMonay,Airbornemil}","{89491,69026}","{3,3}","{3,4}",\N,15,War Garden,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvu_6rwoM    ,5,7,2015-08-28 20:09:44,"{galakz,unclepappi777,twinkleigh,""II W4RD3N II""}","{845,38179,2912,155757}","{2,4,2,4}","{3,2,3,2}",\N,1,Machination,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwdO3rAkM    ,3,7,2015-08-28 19:19:10,"{AwesomeNinja678,Drace2000}","{57027,21476}","{2,2}","{1,3}",\N,9,Long Nine,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseLMuAoM    ,2,7,2015-08-28 19:19:09,"{pollytoxD,J4vi3r16}","{157897,157899}","{0,0}","{3,3}",\N,9,Long Nine,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aanuAoM    ,3,7,2015-08-28 19:26:37,"{mmog83,MiguelFfm}","{8406,1292}","{3,3}","{2,1}",\N,7,Peekaboo,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e2PoAoM    ,2,7,2015-08-28 19:19:08,"{johnny5r,Smelli96}","{603,157892}","{0,0}","{4,3}",\N,7,Peekaboo,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAlszv-ggM    ,3,7,2015-08-28 19:19:07,"{Wakenator,Dockers}","{1971,145681}","{4,4}","{3,2}",\N,7,Peekaboo,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdTyowoM    ,3,7,2015-08-28 19:19:10,"{""-:- LoLo7 -:-"",R2T3}","{157901,156828}","{0,2}","{3,2}",\N,7,Peekaboo,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA7uKd-woM    ,3,7,2015-08-28 19:19:11,"{Pyp3r,""WTF-None available""}","{757,70332}","{4,4}","{3,2}",\N,13,Reaper,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0a6h9QoM    ,2,7,2015-08-28 19:21:54,"{incognitobot,""Roaring-Lion 108""}","{60279,60280}","{0,0}","{2,4}",\N,13,Reaper,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYrqvQsM    ,3,7,2015-08-28 19:19:07,"{mkk196,Mitchell}","{157448,156832}","{1,2}","{3,3}",\N,13,Reaper,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseKa5QgM    ,2,7,2015-08-28 19:19:08,"{rioux.max,""Haffman Haffner""}","{157614,98257}","{0,0}","{3,3}",\N,10,Sharkfood Island,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYaptgsM    ,2,7,2015-08-28 19:26:51,"{""Moomin Thunder"",dramaticjean}","{17008,157882}","{0,0}","{2,3}",\N,14,Skull Duggery,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dGwqgoM    ,3,7,2015-08-28 19:19:09,"{Dylan,""( j 19 )""}","{104128,8771}","{2,2}","{3,3}",\N,14,Skull Duggery,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cKM_gkM    ,3,7,2015-08-28 19:22:15,"{""gomes 34"",Tine}","{157881,157781}","{0,0}","{3,3}",\N,14,Skull Duggery,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e2TvgoM    ,3,7,2015-08-28 19:19:08,"{magel1234,Yousef_qutub}","{157894,157612}","{0,0}","{3,1}",\N,6,Sweetie Plains,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkb63-ggM    ,3,7,2015-08-28 19:19:10,"{wendy.mahem,Stormagetten}","{8128,157900}","{2,0}","{3,3}",\N,6,Sweetie Plains,5,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaC8ugkM    ,2,7,2015-08-28 19:19:08,"{""This guy always"",LookAtTheBunny}","{63032,154811}","{0,0}","{1,3}",\N,6,Sweetie Plains,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcepvQsM    ,3,7,2015-08-28 19:19:08,"{Jewish87,Freszh}","{157895,136830}","{0,1}","{3,3}",\N,16,Sweet Tooth,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkazkqgoM    ,3,7,2015-08-28 19:26:15,"{KSmerfz,DeChamp01}","{18256,53291}","{3,3}","{4,4}",\N,16,Sweet Tooth,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaebtgoM    ,2,7,2015-08-28 19:21:22,"{""Roaring-Lion 108"",incognitobot}","{60280,60279}","{0,0}","{4,3}",\N,12,Thorn Gulley,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZTbtAoM    ,3,7,2015-08-28 19:19:08,"{Cookie*!,RetroPandroo}","{157893,157632}","{0,3}","{3,3}",\N,12,Thorn Gulley,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbCVowoM    ,3,7,2015-08-28 19:19:09,"{Must1455,g00se2468}","{157898,157575}","{0,0}","{3,3}",\N,15,War Garden,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaKpvwoM    ,5,7,2015-08-28 19:19:10,"{Abutorky,Evilreasons12345,Yousef_qutub,Z4phon}","{88446,152682,157612,36873}","{0,0,0,0}","{4,3,4,3}",\N,1,Machination,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZadvgoM    ,5,7,2015-08-28 19:19:12,"{i0ner0us,pijto,Carolina2Cali,fofi29}","{156478,145609,37438,157605}","{0,0,2,0}","{1,3,1,3}",\N,1,Machination,5,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Zfv5AgM    ,5,7,2015-08-28 19:19:10,"{TrailerParkCharlie,Yousef_qutub,kservy9,Abutorky}","{3122,157612,134690,88446}","{3,0,3,0}","{3,3,3,3}",\N,18,Mechanism,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ebMtAoM    ,5,7,2015-08-28 19:19:09,"{daileader,77Jolly77,""Максим Титик"",Kaspanaze88}","{67733,2216,157591,150193}","{1,1,0,1}","{2,3,3,3}",\N,17,Sugar Rock,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fj1qwkM    ,3,7,2015-08-28 19:06:54,"{__Taay__23,alexdamaro13}","{50022,18539}","{3,2}","{1,3}",\N,4,Glitch,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYKkvgkM    ,3,7,2015-08-28 19:19:06,"{lalalacy7,sarahluna13}","{99453,95072}","{1,1}","{3,3}",\N,4,Glitch,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fPIswkM    ,3,7,2015-08-28 08:43:55,"{rcsum,ykatansa}","{14379,38347}","{5,5}","{2,3}",\N,9,Long Nine,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoYeeqQkM    ,3,7,2015-08-28 19:06:07,"{Agilla,EhsEmDoubleU}","{148154,677}","{1,2}","{3,3}",\N,7,Peekaboo,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cyC-wgM    ,3,7,2015-08-28 19:19:06,"{sarahluna13,lalalacy7}","{95072,99453}","{1,1}","{3,3}",\N,7,Peekaboo,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA7qW4hgsM    ,3,7,2015-08-28 19:19:04,"{--.Max.--,BHP}","{1466,155379}","{3,4}","{4,3}",\N,13,Reaper,28,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8azs_gkM    ,3,7,2015-08-28 19:16:12,"{Agilla,EhsEmDoubleU}","{148154,677}","{1,2}","{3,3}",\N,13,Reaper,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscjYogsM    ,3,7,2015-08-28 18:57:23,"{""crazyguy 68"",""Evil Chris""}","{24072,4921}","{3,3}","{3,1}",\N,10,Sharkfood Island,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZCPgQoM    ,3,7,2015-08-28 19:10:36,"{deadblue,Kroberts96}","{1162,60393}","{2,2}","{2,1}",\N,10,Sharkfood Island,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ3h9gkM    ,3,7,2015-08-28 19:14:08,"{BerkUlasTR,bettinanyc}","{157791,16684}","{0,2}","{3,3}",\N,10,Sharkfood Island,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ee9pwsM    ,2,7,2015-08-28 19:19:07,"{pierat05,cmgrazi}","{157890,157891}","{0,0}","{3,3}",\N,10,Sharkfood Island,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfaDpgsM    ,2,7,2015-08-28 19:19:04,"{Schnäbizägg,""Choose wisely""}","{157603,157601}","{0,0}","{3,3}",\N,10,Sharkfood Island,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ebMtAkM    ,3,7,2015-08-28 19:07:10,"{Psych65,mb359}","{34442,106720}","{3,3}","{1,1}",\N,14,Skull Duggery,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ffmpQoM    ,3,7,2015-08-28 19:19:07,"{Chrestkid,jamesTheGameMan}","{143350,157073}","{2,2}","{3,3}",\N,14,Skull Duggery,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dmZqAsM    ,3,7,2015-08-28 19:14:28,"{gabriellamen,schnippig}","{13243,155835}","{3,2}","{3,3}",\N,6,Sweetie Plains,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA3oiytQoM    ,3,7,2015-08-28 19:19:07,"{ZASE,Carolina2Cali}","{155623,37438}","{3,3}","{4,1}",\N,6,Sweetie Plains,34,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYWfvgsM    ,3,7,2015-08-28 19:09:20,"{kimchinabe,Scholardesign}","{18038,34893}","{4,4}","{1,2}",\N,6,Sweetie Plains,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgdPn_goM    ,3,7,2015-08-28 19:07:17,"{""Shaq A Tack"",gutzanu}","{156689,5188}","{2,2}","{3,3}",\N,6,Sweetie Plains,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aD6tAsM    ,3,7,2015-08-28 19:14:57,"{Craigmoadeeb,Carolina2Cali}","{17197,37438}","{3,3}","{4,1}",\N,16,Sweet Tooth,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscHY_AoM    ,3,7,2015-08-28 19:12:25,"{...Thorndor...,""The Mighty THOR""}","{156965,130613}","{3,3}","{1,4}",\N,16,Sweet Tooth,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwebWugkM    ,3,7,2015-08-28 19:19:07,"{Crystalquester,Theblondebond00}","{156911,156791}","{0,1}","{3,4}",\N,16,Sweet Tooth,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwenhsgoM    ,3,7,2015-08-28 19:19:04,"{clitcommander,divinevelocity}","{118790,153038}","{2,2}","{3,1}",\N,12,Thorn Gulley,35,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b6loAkM    ,3,7,2015-08-28 19:04:21,"{kpjr22,armandu7}","{1202,3484}","{3,3}","{1,3}",\N,15,War Garden,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZTooQoM    ,3,7,2015-08-28 18:59:23,"{ayal,Dedanista}","{145446,41660}","{3,3}","{3,3}",\N,15,War Garden,36,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaXQrAkM    ,3,7,2015-08-28 19:18:37,"{Ingrid,Karateka}","{156782,152776}","{2,1}","{2,1}",\N,15,War Garden,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZyOsgkM    ,2,7,2015-08-28 19:19:03,"{Heman.98,Yossarin38}","{157886,156967}","{0,0}","{3,3}",\N,15,War Garden,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4evXugkM    ,5,7,2015-08-28 19:04:13,"{zxznicole,Svengali360,godlee,""Fungoid Face""}","{27707,1997,155096,41732}","{4,4,4,4}","{2,3,3,1}",\N,1,Machination,29,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Yz-7AoM    ,2,7,2015-08-28 18:13:56,"{gmaster615,akselKohen}","{157880,47750}","{0,0}","{3,3}",\N,3,Foundry (V2),3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc3L8ggM    ,3,7,2015-08-28 13:20:19,"{Scha,MiguelFfm}","{156806,1292}","{3,3}","{1,1}",\N,4,Glitch,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaGE4QkM    ,2,7,2015-08-28 18:43:42,"{Sedo,Emuboy}","{130529,157732}","{0,0}","{3,3}",\N,4,Glitch,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bjdrAkM    ,3,7,2015-08-28 18:31:28,"{myninja208,""HI THIS IS DOG""}","{1208,146765}","{4,3}","{2,1}",\N,9,Long Nine,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fiRsgoM    ,3,7,2015-08-28 18:30:21,"{Jonson5357,mattwang97}","{150201,36802}","{3,3}","{4,4}",\N,9,Long Nine,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_qL2nwoM    ,3,7,2015-08-28 18:39:16,"{Tandoku,""Prof. Chicken""}","{150785,959}","{3,3}","{3,1}",\N,9,Long Nine,51,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eKPsAoM    ,3,7,2015-08-28 18:43:35,"{""TheFaraaz "",I0ner0us}","{76195,156478}","{4,2}","{2,1}",\N,7,Peekaboo,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAzreo8gsM    ,3,7,2015-08-28 18:23:35,"{""That's Mike"",celinannette}","{128825,2329}","{3,2}","{3,1}",\N,7,Peekaboo,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aTl6QgM    ,3,7,2015-08-28 18:42:38,"{I0ner0us,""TheFaraaz ""}","{156478,76195}","{2,4}","{1,2}",\N,7,Peekaboo,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bzEuwoM    ,3,7,2015-08-28 18:35:52,"{Mike72384,SanDiego2}","{29841,4944}","{4,4}","{3,2}",\N,7,Peekaboo,32,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcy85AsM    ,3,7,2015-08-28 18:44:30,"{PatrickMichael1968,I0ner0us}","{88101,156478}","{2,2}","{3,1}",\N,13,Reaper,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaO1uAkM    ,3,7,2015-08-28 18:54:18,"{-=go8lue12=-,""Dwk Yo""}","{24665,129819}","{3,2}","{1,3}",\N,10,Sharkfood Island,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdmUrAkM    ,2,7,2015-08-28 18:25:46,"{juniperinlove,Alphora}","{157883,157884}","{0,0}","{3,3}",\N,10,Sharkfood Island,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b709gkM    ,2,7,2015-08-28 18:46:50,"{tonyb41790,nestor.fenoy}","{23072,23235}","{0,0}","{1,2}",\N,10,Sharkfood Island,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cOptQoM    ,3,7,2015-08-28 18:41:23,"{PotaszAndroid,Mike72384}","{147337,29841}","{4,4}","{2,2}",\N,10,Sharkfood Island,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc3LsgsM    ,2,7,2015-08-28 18:39:54,"{Parmeniotrue,""Philly Brewer""}","{156719,157885}","{0,0}","{3,3}",\N,10,Sharkfood Island,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0brA-AgM    ,2,7,2015-08-28 18:56:41,"{SpaceRanger,skyearthsea}","{155260,3168}","{0,0}","{3,4}",\N,10,Sharkfood Island,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseydqAoM    ,3,7,2015-08-28 18:43:35,"{Wilks6044,tweeto}","{38337,81602}","{3,3}","{3,4}",\N,10,Sharkfood Island,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZjWoQkM    ,3,7,2015-08-28 18:32:11,"{DeChamp01,"": znar :""}","{53291,156301}","{3,3}","{4,3}",\N,14,Skull Duggery,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAlsKShwkM    ,3,7,2015-08-28 18:09:05,"{BrianAwesomeson,[X3JA]}","{39076,26625}","{3,4}","{2,2}",\N,6,Sweetie Plains,75,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0a6h9QgM    ,2,7,2015-08-28 18:54:27,"{""Moomin Thunder"",dramaticjean}","{17008,157882}","{0,0}","{4,3}",\N,6,Sweetie Plains,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsa32tgoM    ,3,7,2015-08-28 18:38:28,"{""Littol Bean"",Dchalom}","{113432,155392}","{3,3}","{3,1}",\N,16,Sweet Tooth,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZHDvwkM    ,3,7,2015-08-28 18:29:44,"{Jessimacuh,KSmerfz}","{20049,18256}","{2,3}","{1,4}",\N,16,Sweet Tooth,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8cCQqwoM    ,3,7,2015-08-28 18:39:41,"{StimpyStimp,crusherking}","{1016,139109}","{5,5}","{2,3}",\N,12,Thorn Gulley,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwbKZvQkM    ,3,7,2015-08-28 18:38:39,"{s1ck_tones,neverfrowning}","{126320,4388}","{3,3}","{3,1}",\N,15,War Garden,28,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkf34rgsM    ,5,7,2015-08-28 18:16:28,"{""Moomin Thunder"",""gomes 34"",dramaticjean,__Taay__23}","{17008,157881,157882,50022}","{0,0,0,2}","{3,3,3,1}",\N,5,Candy Core Mine,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAodqqqwkM    ,5,7,2015-08-28 18:28:10,"{Voiddweller_,miildredd,Onename619,godlee}","{110663,155144,40758,155096}","{1,2,1,2}","{3,2,3,3}",\N,18,Mechanism,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bW78AsM    ,3,7,2015-08-28 17:33:25,"{KSmerfz,divinevelocity}","{18256,153038}","{3,2}","{4,3}",\N,3,Foundry (V2),22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cr2jAgM    ,3,7,2015-08-28 17:49:40,"{turtleduff,schnippig}","{42051,155835}","{2,2}","{2,3}",\N,4,Glitch,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbjnrgoM    ,3,7,2015-08-28 17:39:59,"{StacyMSinGR,gordissimo}","{155525,3245}","{3,3}","{3,4}",\N,4,Glitch,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8fiGowoM    ,3,7,2015-08-28 17:36:49,"{Karmuega,Litsyemir}","{4958,3285}","{2,2}","{4,1}",\N,4,Glitch,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY_ZtAkM    ,3,7,2015-08-28 18:01:17,"{Neocon61,aadpiraat4}","{149710,7205}","{2,2}","{3,3}",\N,9,Long Nine,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfPwqAoM    ,3,7,2015-08-28 17:46:22,"{===badass33===,""Hannes Haak""}","{4365,28612}","{3,3}","{4,2}",\N,7,Peekaboo,36,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z_E-AoM    ,3,7,2015-08-28 18:00:17,"{BerkUlasTR,I0ner0us}","{157791,156478}","{0,2}","{3,1}",\N,13,Reaper,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cnjswoM    ,3,7,2015-08-28 17:57:25,"{Mattodio,Cayoodles}","{13947,43404}","{3,3}","{4,2}",\N,13,Reaper,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZCP_gsM    ,3,7,2015-08-28 17:37:57,"{StacyMSinGR,ayal}","{155525,145446}","{3,3}","{3,3}",\N,10,Sharkfood Island,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbW3rAkM    ,3,7,2015-08-28 17:40:20,"{OhhMan1,moounir}","{156676,8901}","{3,3}","{3,3}",\N,10,Sharkfood Island,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAka-npAkM    ,3,7,2015-08-28 17:38:14,"{NewAmbsterdam,TKMagic83}","{25290,68291}","{4,3}","{3,3}",\N,10,Sharkfood Island,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbnrsAkM    ,3,7,2015-08-28 17:50:02,"{KevSmash,""Waiting for More....""}","{10051,9977}","{3,4}","{2,1}",\N,10,Sharkfood Island,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZX96ggM    ,3,7,2015-08-28 17:51:06,"{my0SDG,Raxor117}","{24417,15826}","{3,3}","{1,3}",\N,10,Sharkfood Island,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbGYmggM    ,3,7,2015-08-28 17:43:31,"{""{CEELOW•415}"",flu...}","{149325,5434}","{3,3}","{1,3}",\N,14,Skull Duggery,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYr_sgsM    ,3,7,2015-08-28 18:03:13,"{Ubiquemuzik,little-green}","{3903,155637}","{3,3}","{2,3}",\N,14,Skull Duggery,34,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdOdvQoM    ,3,7,2015-08-28 17:48:18,"{Rebeccap127,KarinaGaz}","{65670,152662}","{3,3}","{3,3}",\N,14,Skull Duggery,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8eynqgoM    ,3,7,2015-08-28 18:06:09,"{Kroberts96,Lordben752}","{60393,66821}","{2,2}","{1,3}",\N,14,Skull Duggery,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ36pwoM    ,3,7,2015-08-28 17:45:47,"{Tidders,KBSmalltalk}","{4264,42467}","{3,3}","{3,1}",\N,14,Skull Duggery,33,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ezR6wsM    ,2,7,2015-08-28 17:57:39,"{TrentNied,Mdot2785}","{157879,156621}","{0,0}","{3,3}",\N,6,Sweetie Plains,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsen3rwkM    ,3,7,2015-08-28 17:43:41,"{Ticat_squab,Carolina2Cali}","{41816,37438}","{3,3}","{1,1}",\N,16,Sweet Tooth,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfSkpAkM    ,3,7,2015-08-28 17:59:45,"{StacyMSinGR,""dugger 11""}","{155525,22724}","{3,3}","{3,3}",\N,16,Sweet Tooth,34,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cKa4AgM    ,3,7,2015-08-28 17:33:29,"{StacyMSinGR,NewThomas}","{155525,611}","{3,3}","{3,1}",\N,16,Sweet Tooth,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdTyowsM    ,3,7,2015-08-28 17:52:54,"{KarinaGaz,Sedo}","{152662,130529}","{3,3}","{3,3}",\N,12,Thorn Gulley,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAse_NvAkM    ,3,7,2015-08-28 17:41:07,"{__Taay__23,""Hannes Haak""}","{50022,28612}","{3,3}","{1,2}",\N,12,Thorn Gulley,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdyw9gsM    ,3,7,2015-08-28 17:35:56,"{Ricard.Kelly,""Hannes Haak""}","{140302,28612}","{2,3}","{4,2}",\N,15,War Garden,41,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA3tSiqwoM    ,5,7,2015-08-28 17:57:21,"{fossilfuelsman,-.DuMontster.-,dbruntz1125,Wakenator}","{14443,26987,18695,1971}","{4,4,4,4}","{2,2,3,3}",\N,8,Blitz Beach,40,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAjqXz-wgM    ,5,7,2015-08-28 17:32:46,"{""fa shay"",sorbeda74,rayz6234,giorgaky}","{3180,15989,73213,14429}","{4,4,4,4}","{3,3,2,2}",\N,8,Blitz Beach,34,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfCipwoM    ,3,7,2015-08-28 17:26:47,"{mb359,KSmerfz}","{106720,18256}","{3,3}","{1,2}",\N,3,Foundry (V2),12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfi6sAkM    ,3,7,2015-08-28 16:44:34,"{""{CEELOW•415}"",StacyMSinGR}","{149325,155525}","{3,3}","{1,3}",\N,3,Foundry (V2),18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdjhtQkM    ,3,7,2015-08-28 16:43:23,"{aurianemoindrot,""Courreges 13""}","{6212,157017}","{2,3}","{3,1}",\N,3,Foundry (V2),14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdqitAoM    ,3,7,2015-08-28 17:29:54,"{""{CEELOW•415}"",megatonbboy}","{149325,1015}","{3,3}","{1,3}",\N,4,Glitch,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4b6ZqQkM    ,3,7,2015-08-28 16:47:02,"{jmarnstein,giorgaky}","{19583,14429}","{5,5}","{2,2}",\N,4,Glitch,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fDmrQoM    ,3,7,2015-08-28 17:06:55,"{JCUAce,DeChamp01}","{7651,53291}","{3,3}","{4,4}",\N,9,Long Nine,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZWi4AoM    ,3,7,2015-08-28 16:58:04,"{""ПТН ПНХ ua "",""The Dominant Killer Sr""}","{39102,41273}","{4,4}","{3,3}",\N,9,Long Nine,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsanCuAoM    ,3,7,2015-08-28 17:15:45,"{""B3as7 Mazt3r"",Emuboy}","{157238,157732}","{1,1}","{1,3}",\N,9,Long Nine,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8biAvwoM    ,3,7,2015-08-28 17:10:15,"{PotaszAndroid,""* j*77 *""}","{147337,14907}","{4,4}","{2,2}",\N,9,Long Nine,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZyT8wgM    ,3,7,2015-08-28 17:14:16,"{""  Anne801  "",sergeysha}","{144024,146751}","{3,3}","{1,3}",\N,9,Long Nine,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfisoQkM    ,3,7,2015-08-28 16:46:24,"{Rebeccap127,""No way""}","{65670,4452}","{3,3}","{2,3}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbrFrwoM    ,3,7,2015-08-28 16:41:33,"{Jonmack52,jerryboy}","{157371,157730}","{1,1}","{3,3}",\N,9,Long Nine,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYT_7ggM    ,2,7,2015-08-28 17:28:21,"{dean-m22,leekor12}","{40188,48702}","{0,0}","{2,3}",\N,7,Peekaboo,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaqhuQkM    ,2,7,2015-08-28 16:36:37,"{Robdog99,mdhommy}","{50266,55016}","{0,0}","{4,1}",\N,7,Peekaboo,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcPYugsM    ,3,7,2015-08-28 17:31:22,"{""THE Hoggleg"",*HankdaTank*}","{102120,157174}","{2,2}","{3,3}",\N,13,Reaper,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYHPrQsM    ,3,7,2015-08-28 16:46:10,"{-.DuMontster.-,JuggerNut2181}","{26987,25899}","{4,4}","{2,3}",\N,13,Reaper,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaHe4AgM    ,3,7,2015-08-28 17:31:04,"{cartersays,deezace}","{24265,41783}","{3,3}","{3,1}",\N,14,Skull Duggery,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ezQswsM    ,3,7,2015-08-28 17:07:23,"{""{CEELOW•415}"",""paul boos""}","{149325,4968}","{3,3}","{1,2}",\N,14,Skull Duggery,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YLi8gsM    ,3,7,2015-08-28 16:55:03,"{""sunshinestater :)"",xamexBR}","{157878,157733}","{0,1}","{3,3}",\N,14,Skull Duggery,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZb8tAsM    ,3,7,2015-08-28 16:48:38,"{tweeto,Damm}","{81602,152120}","{3,3}","{4,4}",\N,14,Skull Duggery,33,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAodDa5QoM    ,2,7,2015-08-28 16:55:18,"{meah?,bread}","{99522,83369}","{0,0}","{3,3}",\N,12,Thorn Gulley,50,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscmQuwkM    ,3,7,2015-08-28 16:45:18,"{""Roaring-Lion 108"",USPUNX}","{60280,27663}","{3,3}","{2,1}",\N,12,Thorn Gulley,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fr0twkM    ,3,7,2015-08-28 16:48:13,"{jwalk,__.zman.__}","{140296,41654}","{3,3}","{1,2}",\N,12,Thorn Gulley,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZL8-AgM    ,3,7,2015-08-28 17:20:03,"{onoff,""ПТН ПНХ ua ""}","{16113,39102}","{5,4}","{3,3}",\N,15,War Garden,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fnI7wkM    ,3,7,2015-08-28 16:58:18,"{Seibert,""Jekk Manaka""}","{152923,6607}","{3,3}","{4,3}",\N,15,War Garden,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkb63ugkM    ,5,7,2015-08-28 16:49:08,"{francis1910,Zeca,baderfo,""DanB Utah""}","{155237,155657,19231,2001}","{4,4,4,4}","{3,3,3,3}",\N,1,Machination,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bzE-woM    ,5,7,2015-08-28 17:28:02,"{lovestain__,""Whitney Rules"",TrailerParkCharlie,Robdog99}","{129421,40326,3122,50266}","{3,2,3,2}","{3,3,1,1}",\N,18,Mechanism,24,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bLcoAsM    ,3,7,2015-08-28 16:10:16,"{myninja208,""HI THIS IS DOG""}","{1208,146765}","{4,3}","{2,1}",\N,3,Foundry (V2),13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbmctwsM    ,3,7,2015-08-28 16:11:50,"{Redclaw0823,""i am todd""}","{89168,4198}","{3,3}","{3,4}",\N,4,Glitch,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0erCsQsM    ,3,7,2015-08-28 15:39:43,"{StonerPwner420,Rebeccap127}","{7546,65670}","{3,3}","{3,1}",\N,4,Glitch,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfqs5QkM    ,3,7,2015-08-28 15:55:22,"{StonerPwner420,Rebeccap127}","{7546,65670}","{3,3}","{3,1}",\N,4,Glitch,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0enyuAkM    ,3,7,2015-08-28 15:52:31,"{""Fe Chef"",BrianAwesomeson}","{14074,39076}","{3,3}","{3,2}",\N,4,Glitch,39,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z7Q_wgM    ,3,7,2015-08-28 15:41:10,"{Vanatina,Robdog99}","{112479,50266}","{3,3}","{4,3}",\N,9,Long Nine,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscegsAkM    ,2,7,2015-08-28 16:29:32,"{Sedo,Emuboy}","{130529,157732}","{0,0}","{3,1}",\N,9,Long Nine,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAka7-7wgM    ,3,7,2015-08-28 15:51:56,"{2bestest,deewhy}","{72316,154738}","{2,3}","{1,3}",\N,9,Long Nine,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eq44AoM    ,3,7,2015-08-28 15:48:02,"{Danannnn,jerryboy}","{68728,157730}","{1,1}","{3,3}",\N,7,Peekaboo,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZ7fpwkM    ,3,7,2015-08-28 15:49:58,"{Droperidol.,""Young /\\\\""}","{52174,87467}","{4,4}","{3,1}",\N,7,Peekaboo,36,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbT1sQoM    ,3,7,2015-08-28 15:50:02,"{#BURGO#,mattwang97}","{89960,36802}","{3,3}","{1,1}",\N,13,Reaper,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYmogggM    ,3,7,2015-08-28 15:50:13,"{StonerPwner420,Rebeccap127}","{7546,65670}","{3,3}","{3,3}",\N,13,Reaper,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbu4rwsM    ,2,7,2015-08-28 16:09:47,"{Sedo,Emuboy}","{130529,157732}","{0,0}","{4,1}",\N,13,Reaper,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZjpowsM    ,3,7,2015-08-28 16:22:51,"{egmoney27,timshih129}","{34743,21226}","{3,3}","{4,2}",\N,10,Sharkfood Island,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaHUrwkM    ,3,7,2015-08-28 16:36:06,"{jtc139,astuto1971}","{22274,10192}","{3,2}","{3,3}",\N,10,Sharkfood Island,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ebzsgsM    ,3,7,2015-08-28 16:34:21,"{makinw,TuxedoSquid}","{69610,156567}","{2,2}","{3,1}",\N,14,Skull Duggery,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY3SvwkM    ,3,7,2015-08-28 16:25:10,"{schneeheinrich,StacyMSinGR}","{1445,155525}","{3,3}","{3,3}",\N,14,Skull Duggery,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc6etQkM    ,3,7,2015-08-28 15:39:28,"{""señor queso"",leopold31}","{143365,7613}","{3,3}","{3,3}",\N,14,Skull Duggery,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseSTrgoM    ,3,7,2015-08-28 16:35:56,"{pump-n-jump,gutzanu}","{154869,5188}","{2,2}","{3,3}",\N,14,Skull Duggery,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAzvvVvwsM    ,3,7,2015-08-28 15:50:37,"{Dgambo25,player}","{38398,140763}","{4,3}","{2,3}",\N,6,Sweetie Plains,31,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YLi8gkM    ,3,7,2015-08-28 16:12:38,"{yazrice99,-.DuMontster.-}","{153111,26987}","{4,4}","{2,2}",\N,6,Sweetie Plains,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ayE-QkM    ,3,7,2015-08-28 15:57:14,"{NewThomas,StacyMSinGR}","{611,155525}","{3,3}","{4,3}",\N,16,Sweet Tooth,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YeNogoM    ,3,7,2015-08-28 16:06:11,"{flythesun,schneeheinrich}","{92646,1445}","{3,3}","{3,3}",\N,16,Sweet Tooth,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeaT6QoM    ,3,7,2015-08-28 15:50:26,"{brianpf28,""Fe Chef""}","{40316,14074}","{4,3}","{2,3}",\N,12,Thorn Gulley,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YDr-wgM    ,3,7,2015-08-28 15:36:59,"{Scha,SethNoel}","{156806,5828}","{3,3}","{3,3}",\N,12,Thorn Gulley,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0filpgkM    ,3,7,2015-08-28 15:39:14,"{jackoneal,moskal1q}","{25335,67920}","{3,3}","{3,3}",\N,15,War Garden,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bjctAoM    ,3,7,2015-08-28 16:03:20,"{""ПТН ПНХ ua "",crosbiola}","{39102,1250}","{4,4}","{3,1}",\N,15,War Garden,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaaWswkM    ,2,7,2015-08-28 14:47:25,"{>>Lewer<<,justo5000}","{137887,152805}","{0,0}","{1,2}",\N,3,Foundry (V2),18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcbQ4AoM    ,3,7,2015-08-28 15:14:58,"{Mistykninja,C0uvelaire}","{42959,38006}","{4,3}","{2,3}",\N,3,Foundry (V2),35,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfrxpAoM    ,3,7,2015-08-28 15:33:24,"{Cue36,blasianD}","{84110,155836}","{3,4}","{3,4}",\N,4,Glitch,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZSxuAoM    ,3,7,2015-08-28 14:50:47,"{PrestonTheDonkey,johnnyblittle}","{62878,27447}","{3,3}","{4,3}",\N,4,Glitch,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeO88wgM    ,3,7,2015-08-28 15:28:59,"{spacechef,dunglert10}","{1446,38010}","{4,4}","{1,1}",\N,4,Glitch,42,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dSOqQsM    ,3,7,2015-08-28 15:35:57,"{""l1s 98"",""S1meon 42""}","{157877,156211}","{0,1}","{3,3}",\N,9,Long Nine,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcyb4gsM    ,3,7,2015-08-28 15:24:14,"{treims15,""S1meon 42""}","{61658,156211}","{1,1}","{3,3}",\N,7,Peekaboo,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYz3qAsM    ,3,7,2015-08-28 15:14:01,"{julykid,detcross}","{155985,157224}","{1,1}","{3,3}",\N,13,Reaper,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ama_ggM    ,3,7,2015-08-28 14:51:17,"{Designerbeatnik,wolvenspirit}","{59917,154138}","{3,3}","{1,3}",\N,10,Sharkfood Island,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYfV8QoM    ,3,7,2015-08-28 15:25:03,"{TheRinger,kohnan}","{118820,38950}","{4,4}","{1,2}",\N,14,Skull Duggery,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZqVsAoM    ,3,7,2015-08-28 15:32:53,"{NewThomas,MiguelFfm}","{611,1292}","{3,3}","{1,1}",\N,6,Sweetie Plains,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbu_nQkM    ,3,7,2015-08-28 15:11:44,"{EhsEmDoubleU,pijto}","{677,145609}","{2,0}","{3,3}",\N,6,Sweetie Plains,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbH8uwoM    ,3,7,2015-08-28 15:17:59,"{dunglert10,djoklhune}","{38010,1816}","{4,4}","{1,3}",\N,16,Sweet Tooth,36,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bX89wgM    ,3,7,2015-08-28 15:08:42,"{lolsicle,Agilla}","{157694,148154}","{1,1}","{4,3}",\N,16,Sweet Tooth,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0abp8AkM    ,3,7,2015-08-28 14:54:37,"{Karmuega,TuxedoSquid}","{4958,156567}","{2,2}","{1,3}",\N,16,Sweet Tooth,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dTntAkM    ,3,7,2015-08-28 15:17:05,"{pangerho,isabellacaroh}","{71583,11730}","{3,3}","{1,3}",\N,16,Sweet Tooth,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cy67woM    ,3,7,2015-08-28 15:11:56,"{TheRev,Scramburgler}","{76331,36076}","{4,4}","{1,1}",\N,16,Sweet Tooth,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4a_79ggM    ,3,7,2015-08-28 14:56:04,"{2bestest,Zane279}","{72316,71022}","{2,1}","{1,1}",\N,12,Thorn Gulley,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cvj9wkM    ,3,7,2015-08-28 14:41:16,"{LeftHandToad,gordissimo}","{9739,3245}","{3,3}","{3,4}",\N,12,Thorn Gulley,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fe7vAsM    ,3,7,2015-08-28 14:44:52,"{KellyWergs,oeat07}","{72513,67437}","{2,3}","{3,2}",\N,12,Thorn Gulley,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c3liAsM    ,2,7,2015-08-28 15:34:11,"{Tine,ShaolinSage}","{157781,157763}","{0,0}","{3,3}",\N,15,War Garden,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvtmDuAoM    ,5,7,2015-08-28 15:22:16,"{Daviriosw,Parks-,bmike,The-Swan}","{20538,16798,179,138574}","{0,3,0,3}","{3,2,2,3}",\N,11,Acrospire,61,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAobSDrAoM    ,5,7,2015-08-28 15:09:43,"{""marz 80!"",""xx uNo xx"",TEDZ2013,bigmonkeynads}","{2363,1172,22125,41628}","{3,3,3,3}","{2,2,2,3}",\N,5,Candy Core Mine,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_or_swoM    ,5,7,2015-08-28 15:05:20,"{Death101,Mintybreath,UVVU,Pyp3r}","{121146,129023,95897,757}","{3,4,3,4}","{3,1,1,2}",\N,5,Candy Core Mine,54,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoZbaogoM    ,5,7,2015-08-28 15:16:07,"{""! Jane 97 !"",UVVU,bmike,Death101}","{76546,95897,179,121146}","{4,3,4,3}","{3,2,3,3}",\N,18,Mechanism,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd-PowoM    ,3,7,2015-08-28 14:19:16,"{IDontWantToGoOnTheCart,""( j 19 )""}","{53977,8771}","{2,2}","{3,3}",\N,4,Glitch,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bzxoAkM    ,3,7,2015-08-28 14:19:17,"{Ydres,SimTycoon}","{156657,157333}","{3,3}","{4,2}",\N,4,Glitch,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkePRuwsM    ,3,7,2015-08-28 14:39:42,"{Randoms101,rellzaddixion}","{39758,103361}","{2,2}","{1,3}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwYafuwoM    ,3,7,2015-08-28 14:19:16,"{Shadow.,Scha}","{72610,156806}","{3,3}","{4,1}",\N,9,Long Nine,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dOLuAkM    ,2,7,2015-08-28 14:30:45,"{elleprachano,KD42}","{152980,152979}","{0,0}","{3,3}",\N,9,Long Nine,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fzB5QgM    ,2,7,2015-08-28 14:19:10,"{Mighty_Joel,Schnäbizägg}","{157602,157603}","{0,0}","{3,3}",\N,9,Long Nine,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbHntgoM    ,3,7,2015-08-28 14:24:55,"{jamieg60,divinevelocity}","{7935,153038}","{3,2}","{3,3}",\N,9,Long Nine,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeGBsgkM    ,3,7,2015-08-28 14:19:16,"{Airbornemil,Shadow.}","{69026,72610}","{3,3}","{4,2}",\N,7,Peekaboo,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ2c-gkM    ,2,7,2015-08-28 14:19:10,"{""This guy always"",cheese119}","{63032,157875}","{0,0}","{1,3}",\N,7,Peekaboo,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4b3TtQsM    ,3,7,2015-08-28 14:35:12,"{2bestest,""Fribby Dibby""}","{72316,156929}","{2,1}","{3,3}",\N,13,Reaper,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAodWjuQkM    ,2,7,2015-08-28 14:19:17,"{airoscar,Mr.Dickbutt}","{157126,157198}","{0,0}","{3,3}",\N,10,Sharkfood Island,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY2W6AgM    ,2,7,2015-08-28 14:23:08,"{""Stinkwhistle McCracken"",PeuswahBoy}","{82167,82168}","{0,0}","{3,1}",\N,10,Sharkfood Island,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaTf-goM    ,3,7,2015-08-28 14:21:13,"{app0jax,NewThomas}","{156694,611}","{3,3}","{3,3}",\N,10,Sharkfood Island,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAge36qwoM    ,3,7,2015-08-28 14:19:10,"{Parmeniotrue,Theblondebond00}","{156719,156791}","{3,1}","{3,3}",\N,6,Sweetie Plains,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfDc7ggM    ,3,7,2015-08-28 14:20:22,"{""DR. Magno"",Amico}","{140760,87650}","{3,3}","{2,1}",\N,6,Sweetie Plains,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaHKvgkM    ,3,7,2015-08-28 14:32:23,"{""dugger 11"",Scha}","{22724,156806}","{3,3}","{3,3}",\N,6,Sweetie Plains,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bX8jwgM    ,3,7,2015-08-28 14:26:53,"{D3w,Mhun86}","{149930,143941}","{3,3}","{1,3}",\N,12,Thorn Gulley,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbvdqAoM    ,2,7,2015-08-28 14:28:00,"{<~(dizzle)~>,justo5000}","{157876,152805}","{0,0}","{3,2}",\N,12,Thorn Gulley,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscK6vQoM    ,3,7,2015-08-28 14:19:10,"{jamesTheGameMan,--Dennis2010--}","{157073,70503}","{2,3}","{3,4}",\N,12,Thorn Gulley,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvuWxsgoM    ,3,7,2015-08-28 14:19:16,"{""Ω The Final Boss Ω"",mikoysobie}","{156259,23647}","{4,4}","{2,3}",\N,12,Thorn Gulley,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZOArgsM    ,3,7,2015-08-28 14:41:12,"{Carolina2Cali,flymo97}","{37438,16973}","{3,3}","{1,3}",\N,15,War Garden,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfKKrgsM    ,3,7,2015-08-28 14:37:08,"{sdmario,<jaguarpaw>}","{36098,63278}","{5,5}","{3,3}",\N,15,War Garden,29,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdWLsAsM    ,4,7,2015-08-28 14:19:10,"{cochelee,""Clint "",aecohen,CM_Lynxus}","{156425,8130,156426,73408}","{0,0,0,0}","{4,3,3,1}",\N,8,Blitz Beach,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbuG6QgM    ,5,7,2015-08-28 14:19:17,"{badpokemon,AudioDriver,Bastiboy321,AnousFace}","{2616,3019,157541,153621}","{0,1,0,1}","{3,3,3,3}",\N,8,Blitz Beach,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHlqwsM    ,5,7,2015-08-28 14:19:17,"{Ronald,Zeox120,Supercords,taka8181}","{116864,49457,43117,36773}","{2,2,2,2}","{2,1,3,3}",\N,5,Candy Core Mine,5,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fWK5QgM    ,3,7,2015-08-28 14:19:10,"{428flabyvie7h,Supernotch}","{157500,2509}","{0,2}","{3,3}",\N,4,Glitch,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcuvtAkM    ,3,7,2015-08-28 14:19:06,"{Kroberts96,""jh4y 22 :-)""}","{60393,157871}","{2,0}","{1,3}",\N,9,Long Nine,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_pvnrAkM    ,3,7,2015-08-28 14:19:09,"{IdiotMoron,""rico hico""}","{157173,157180}","{1,0}","{3,3}",\N,9,Long Nine,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbODoAkM    ,3,7,2015-08-28 14:13:03,"{jakeMOSSman,bmike}","{26442,179}","{3,3}","{4,4}",\N,9,Long Nine,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Z3zowsM    ,3,7,2015-08-28 14:19:09,"{jyscw,empanadilladeatun}","{154377,157873}","{1,0}","{3,3}",\N,9,Long Nine,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bqKtAkM    ,2,7,2015-08-28 14:19:09,"{""Choose wisely"",Mighty_Joel}","{157601,157602}","{0,0}","{3,3}",\N,9,Long Nine,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eXNqgoM    ,3,7,2015-08-28 14:08:38,"{KevSmash,Cachet..DuMonay}","{10051,89491}","{3,3}","{2,3}",\N,7,Peekaboo,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e20ugkM    ,3,7,2015-08-28 14:19:09,"{wendy.mahem,""--Soni 64--""}","{8128,157834}","{2,0}","{3,3}",\N,13,Reaper,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkda3oAoM    ,2,7,2015-08-28 14:19:09,"{k1ngman99,pyridoxal}","{157852,143089}","{0,0}","{3,3}",\N,13,Reaper,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dyPpwsM    ,2,7,2015-08-28 14:19:06,"{TheGense,30pguy}","{2200,8362}","{0,0}","{3,4}",\N,10,Sharkfood Island,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ffxtAoM    ,2,7,2015-08-28 14:19:06,"{Mighty_Joel,Schnäbizägg}","{157602,157603}","{0,0}","{3,3}",\N,10,Sharkfood Island,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cKQnwsM    ,3,7,2015-08-28 14:18:22,"{StacyMSinGR,""Roaring-Lion 108""}","{155525,60280}","{3,3}","{3,4}",\N,10,Sharkfood Island,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcLj5woM    ,2,7,2015-08-28 14:19:05,"{""4r4m "",r0untaz}","{157870,6326}","{0,0}","{3,3}",\N,14,Skull Duggery,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvtKjtwkM    ,3,7,2015-08-28 14:19:06,"{skamanbobo,Shadow.}","{35468,72610}","{3,3}","{2,3}",\N,14,Skull Duggery,26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgdzJ9QsM    ,3,7,2015-08-28 14:19:05,"{JezzwonZ,-.DuMontster.-}","{145735,26987}","{4,4}","{1,2}",\N,6,Sweetie Plains,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aeT4ggM    ,3,7,2015-08-28 14:19:06,"{Zeox120,Badger}","{49457,147990}","{2,2}","{2,3}",\N,6,Sweetie Plains,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZ7hsgoM    ,3,7,2015-08-28 14:16:26,"{julykid,""AJP2001 :)""}","{155985,157869}","{1,0}","{3,3}",\N,16,Sweet Tooth,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaWyqwoM    ,3,7,2015-08-28 14:19:09,"{OlavHetle,aNiemann}","{150817,157475}","{1,1}","{1,3}",\N,16,Sweet Tooth,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aPlpgoM    ,3,7,2015-08-28 14:15:03,"{""Hannes Haak"",JaviSato}","{28612,156891}","{3,3}","{2,3}",\N,16,Sweet Tooth,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_q29_wgM    ,3,7,2015-08-28 14:19:09,"{brenkartch,thruax}","{15091,3201}","{3,3}","{3,3}",\N,12,Thorn Gulley,33,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aH7nggM    ,3,7,2015-08-28 14:15:31,"{Cachet..DuMonay,DarkStar32}","{89491,1345}","{3,3}","{3,1}",\N,12,Thorn Gulley,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4f6f-gkM    ,3,7,2015-08-28 14:06:54,"{Damm,Jonson5357}","{152120,150201}","{3,3}","{1,4}",\N,12,Thorn Gulley,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_oqbogkM    ,2,7,2015-08-28 14:19:06,"{Soul.Bandit,Wexx}","{96847,155693}","{0,0}","{4,3}",\N,15,War Garden,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z7vtAoM    ,3,7,2015-08-28 14:19:06,"{428flabyvie7h,CM_Lynxus}","{157500,73408}","{0,3}","{3,1}",\N,15,War Garden,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cahqgoM    ,3,7,2015-08-28 14:19:09,"{jjackson2064,bob123-}","{103297,30255}","{2,2}","{3,3}",\N,15,War Garden,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dnb7QgM    ,5,7,2015-08-28 14:19:08,"{70MMY47,gordissimo,pijto,PrestonTheDonkey}","{157861,3245,145609,62878}","{0,0,0,0}","{3,3,3,4}",\N,8,Blitz Beach,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dPBsAoM    ,5,7,2015-08-28 14:14:46,"{SRNOBODY,SanDiego2,""g0t um coach"",sportssinco}","{60691,4944,37040,2045}","{4,4,4,4}","{3,3,3,2}",\N,8,Blitz Beach,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbPS9gkM    ,3,7,2015-08-28 13:21:59,"{arisp1974,r0untaz}","{15063,6326}","{3,3}","{3,4}",\N,4,Glitch,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHMvAoM    ,3,7,2015-08-28 13:47:55,"{Ubiquemuzik,Ning3206}","{3903,125003}","{3,3}","{2,3}",\N,9,Long Nine,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY67sQoM    ,3,7,2015-08-28 14:00:47,"{Bexby42,Parmeniotrue}","{149528,156719}","{2,3}","{3,1}",\N,9,Long Nine,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZOUgAoM    ,3,7,2015-08-28 13:48:11,"{Kentinue_yq,""electric uncle""}","{85797,41832}","{3,3}","{3,1}",\N,7,Peekaboo,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4evX-ggM    ,3,7,2015-08-28 13:35:46,"{Richipedia,R2T3}","{21792,156828}","{2,2}","{3,3}",\N,7,Peekaboo,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY3ZsAoM    ,3,7,2015-08-28 13:52:12,"{carlmlane,""- BarnBridge -""}","{157468,152405}","{1,1}","{1,3}",\N,10,Sharkfood Island,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cbK-ggM    ,3,7,2015-08-28 13:30:15,"{Cue36,armandu7}","{84110,3484}","{3,3}","{3,3}",\N,10,Sharkfood Island,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaayrQoM    ,3,7,2015-08-28 13:39:51,"{""The Mighty THOR"",KarinaGaz}","{130613,152662}","{3,3}","{3,3}",\N,14,Skull Duggery,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fS2vgkM    ,3,7,2015-08-28 13:12:20,"{Packerplayas52,2e3}","{71774,1614}","{3,3}","{2,1}",\N,14,Skull Duggery,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcybkgoM    ,3,7,2015-08-28 13:41:51,"{JohnyA33,giorgaky}","{33142,14429}","{4,5}","{2,2}",\N,6,Sweetie Plains,31,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b2_pQoM    ,3,7,2015-08-28 13:14:16,"{Scha,""Littol Bean""}","{156806,113432}","{3,3}","{3,3}",\N,6,Sweetie Plains,47,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bXEqwsM    ,3,7,2015-08-28 13:22:09,"{badpokemon,Emuboy}","{2616,157732}","{1,1}","{3,3}",\N,6,Sweetie Plains,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b2RsAsM    ,3,7,2015-08-28 13:50:24,"{seanboren,NewThomas}","{147848,611}","{3,3}","{3,1}",\N,6,Sweetie Plains,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YbOuQoM    ,3,7,2015-08-28 13:26:09,"{a4gritten,""BIG G the one and only""}","{7583,106843}","{2,2}","{4,1}",\N,6,Sweetie Plains,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_p_u5ggM    ,2,7,2015-08-28 14:04:39,"{JesseWarren,Thepaulguy}","{9910,127889}","{0,0}","{2,2}",\N,6,Sweetie Plains,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZHpvQsM    ,3,7,2015-08-28 13:48:07,"{Stands-24,GeneralVodka}","{2717,156518}","{2,1}","{1,3}",\N,16,Sweet Tooth,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfnOtAsM    ,3,7,2015-08-28 14:02:35,"{carlmlane,Tierce174}","{157468,157475}","{1,1}","{1,2}",\N,16,Sweet Tooth,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdetqAsM    ,3,7,2015-08-28 13:56:08,"{mmrod01,gigiblendubin}","{38213,111573}","{3,3}","{3,3}",\N,16,Sweet Tooth,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdWV4QgM    ,3,7,2015-08-28 13:49:11,"{5DYukLa,Ramme45}","{9854,9273}","{4,4}","{2,3}",\N,16,Sweet Tooth,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0f_0vQoM    ,3,7,2015-08-28 13:43:01,"{nolekennedy,""Bryc3 94""}","{58069,26065}","{3,4}","{3,3}",\N,16,Sweet Tooth,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ci8qAkM    ,3,7,2015-08-28 13:46:57,"{""TJ eagle eyes"",ARobb}","{136563,138120}","{3,3}","{3,2}",\N,16,Sweet Tooth,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cbV-woM    ,3,7,2015-08-28 14:00:43,"{""i'm back "",Damm}","{5460,152120}","{3,3}","{2,1}",\N,16,Sweet Tooth,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8c7quwoM    ,3,7,2015-08-28 13:47:03,"{Bebu,FisherTiger}","{76410,59086}","{4,4}","{2,3}",\N,12,Thorn Gulley,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8c7-pgoM    ,2,7,2015-08-28 13:42:56,"{""*(:Extra Wide Body:)*"",ElJefeDelGatito}","{76021,15633}","{0,0}","{4,2}",\N,12,Thorn Gulley,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZfQrwkM    ,3,7,2015-08-28 14:02:19,"{""- 40n -"",Piskado}","{135248,37066}","{4,4}","{3,2}",\N,12,Thorn Gulley,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaTs7QoM    ,3,7,2015-08-28 13:53:43,"{TuxedoSquid,SaintJonas}","{156567,157387}","{2,2}","{1,3}",\N,15,War Garden,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eDbsAoM    ,3,7,2015-08-28 13:26:15,"{pburbach.shs,doughstax}","{155202,366}","{3,3}","{3,3}",\N,15,War Garden,38,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYHPrQkM    ,3,7,2015-08-28 12:25:20,"{kiteralf,BrianAwesomeson}","{2198,39076}","{3,3}","{2,2}",\N,3,Foundry (V2),13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8bz0sgoM    ,3,7,2015-08-28 12:59:48,"{BrianAwesomeson,Dfngfbn}","{39076,69556}","{3,3}","{2,1}",\N,4,Glitch,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZHbugkM    ,3,7,2015-08-28 12:23:44,"{n8-10,Cheezedawg21}","{39125,135401}","{4,3}","{3,3}",\N,4,Glitch,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbTrqAoM    ,3,7,2015-08-28 12:58:29,"{rcsum,DeJosselin}","{14379,19555}","{5,5}","{1,2}",\N,4,Glitch,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ceXoQkM    ,3,7,2015-08-28 12:32:21,"{(truemakar),RyanForTheRadio}","{157856,157633}","{0,1}","{4,3}",\N,9,Long Nine,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdXargkM    ,3,7,2015-08-28 12:24:23,"{""The Beast"",KSmerfz}","{95039,18256}","{2,3}","{3,4}",\N,9,Long Nine,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dHapgkM    ,3,7,2015-08-28 12:40:08,"{""THE Hoggleg"",GenocidalSpark}","{102120,154136}","{2,0}","{3,3}",\N,9,Long Nine,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAnu-PlQoM    ,3,7,2015-08-28 12:56:31,"{KevcaT21,Mattodio}","{99438,13947}","{3,3}","{2,4}",\N,9,Long Nine,46,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdXoqwsM    ,3,7,2015-08-28 12:46:12,"{FisherTiger,Amico}","{59086,87650}","{4,3}","{3,4}",\N,9,Long Nine,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcjVrwkM    ,3,7,2015-08-28 12:11:34,"{NateAndMimsy,""Ginger rock!!!""}","{157296,106596}","{1,2}","{3,3}",\N,9,Long Nine,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0av2vgoM    ,3,7,2015-08-28 12:17:49,"{sk8n869420,__Taay__23}","{35266,50022}","{3,3}","{3,1}",\N,7,Peekaboo,22,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e6nrgsM    ,3,7,2015-08-28 13:05:16,"{badpokemon,みっきい72}","{2616,155680}","{1,1}","{2,3}",\N,13,Reaper,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbz5tAoM    ,3,7,2015-08-28 13:01:28,"{Mhun86,mmrod01}","{143941,38213}","{3,3}","{3,3}",\N,13,Reaper,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvs7XsAoM    ,2,7,2015-08-28 13:06:38,"{""Mister E Jones"",ElJefeDelGatito}","{39524,15633}","{0,0}","{4,2}",\N,13,Reaper,56,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfSQsQkM    ,3,7,2015-08-28 13:07:47,"{terrywiu,frozenblue00}","{6598,121042}","{3,3}","{1,3}",\N,10,Sharkfood Island,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4f7w9AoM    ,3,7,2015-08-28 12:45:40,"{jackemma1,schnippig}","{35694,155835}","{2,2}","{1,3}",\N,10,Sharkfood Island,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_ovKogoM    ,3,7,2015-08-28 12:10:58,"{[X3JA],nolekennedy}","{26625,58069}","{4,3}","{1,3}",\N,10,Sharkfood Island,29,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZnbpAoM    ,3,7,2015-08-28 12:41:18,"{hugokaletkowiec,lexiebrown.87}","{157747,8759}","{2,2}","{3,3}",\N,14,Skull Duggery,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdCOoQsM    ,3,7,2015-08-28 12:24:25,"{lyzachee,__Taay__23}","{97459,50022}","{3,3}","{3,1}",\N,6,Sweetie Plains,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaDG5wgM    ,3,7,2015-08-28 12:29:05,"{barspi,Cheezedawg21}","{1069,135401}","{3,3}","{3,3}",\N,6,Sweetie Plains,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZvCuwoM    ,3,7,2015-08-28 12:19:40,"{NeoPoshPaws,__Taay__23}","{5026,50022}","{3,3}","{3,1}",\N,16,Sweet Tooth,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cL-sQsM    ,3,7,2015-08-28 13:04:22,"{""j0n 46"",lostone666}","{3608,72842}","{3,3}","{3,1}",\N,16,Sweet Tooth,46,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fbArgkM    ,3,7,2015-08-28 12:36:25,"{Mintybreath,prmishkin}","{129023,27708}","{4,4}","{4,2}",\N,16,Sweet Tooth,46,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aTQnggM    ,3,7,2015-08-28 12:17:33,"{R2T3,""Go Yankeessss""}","{156828,149996}","{2,2}","{1,3}",\N,16,Sweet Tooth,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc6gqAkM    ,3,7,2015-08-28 12:25:09,"{===badass33===,Robdog99}","{4365,50266}","{3,3}","{4,1}",\N,12,Thorn Gulley,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dOVqQsM    ,3,7,2015-08-28 12:56:30,"{Kmaev808,Jooz1514}","{37070,41105}","{3,3}","{2,1}",\N,15,War Garden,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfrBrQoM    ,5,7,2015-08-28 12:52:55,"{ericniver,FooMasta,phamtiendatvippro,Kerplowy}","{25445,144900,38143,13769}","{2,4,2,4}","{3,2,3,3}",\N,18,Mechanism,55,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fKCsgkM    ,3,7,2015-08-28 11:49:12,"{""% m1cky_98 %"",__Taay__23}","{157059,50022}","{3,3}","{3,1}",\N,3,Foundry (V2),23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fye7AkM    ,3,7,2015-08-28 11:51:30,"{Juliomiura,jackoneal}","{118785,25335}","{3,3}","{3,4}",\N,4,Glitch,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cKX7QgM    ,3,7,2015-08-28 11:30:00,"{--DeadlyDSteadly--,Packerpunishers12}","{135609,38166}","{4,3}","{2,2}",\N,4,Glitch,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Y6zpgsM    ,3,7,2015-08-28 11:28:07,"{StimpyStimp,""Tim Lund""}","{1016,28024}","{5,5}","{2,3}",\N,9,Long Nine,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZnNuQoM    ,3,7,2015-08-28 11:33:12,"{""electric uncle"",schneeheinrich}","{41832,1445}","{3,3}","{1,3}",\N,9,Long Nine,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4c-vvAkM    ,3,7,2015-08-28 11:31:51,"{""Sadhu Sundar"",""Thai Christian""}","{5768,25933}","{3,3}","{4,2}",\N,7,Peekaboo,60,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYC6sQoM    ,3,7,2015-08-28 11:25:44,"{belisar1us,giorgaky}","{1213,14429}","{5,5}","{2,2}",\N,7,Peekaboo,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0afsqQsM    ,2,7,2015-08-28 12:02:38,"{billet,sk8n869420}","{153946,35266}","{0,0}","{3,3}",\N,7,Peekaboo,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscegsAoM    ,2,7,2015-08-28 12:08:37,"{podiyaka,Yossarin38}","{135050,156967}","{0,0}","{2,1}",\N,7,Peekaboo,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsd2qoQsM    ,3,7,2015-08-28 11:31:32,"{KarinaGaz,chief_1988}","{152662,22859}","{3,3}","{3,3}",\N,7,Peekaboo,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdDSgAkM    ,3,7,2015-08-28 11:28:07,"{--DeadlyDSteadly--,Packerpunishers12}","{135609,38166}","{4,3}","{2,2}",\N,13,Reaper,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoeeIuQsM    ,3,7,2015-08-28 11:45:37,"{Phil0math,IDontWantToGoOnTheCart}","{42251,53977}","{2,2}","{3,3}",\N,13,Reaper,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZaxvAsM    ,3,7,2015-08-28 11:25:39,"{USPUNX,CM_Lynxus}","{27663,73408}","{3,3}","{2,4}",\N,13,Reaper,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8dyiuAkM    ,2,7,2015-08-28 11:19:52,"{onoff,farisbueller}","{16113,1695}","{0,0}","{3,3}",\N,10,Sharkfood Island,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eDptgoM    ,3,7,2015-08-28 11:39:18,"{AudioDriver,MartinKJ86}","{3019,152373}","{3,3}","{2,2}",\N,14,Skull Duggery,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbWHkwgM    ,3,7,2015-08-28 12:01:27,"{Pash-gun,Dchalom}","{15787,155392}","{3,3}","{3,1}",\N,14,Skull Duggery,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYrrowsM    ,3,7,2015-08-28 11:38:56,"{HowComeYouSuck?,Walterbjones}","{84173,5478}","{4,4}","{2,2}",\N,14,Skull Duggery,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YLH9ggM    ,3,7,2015-08-28 11:26:21,"{StanchBurrito03,C0uvelaire}","{153637,38006}","{3,3}","{1,3}",\N,14,Skull Duggery,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YCNqgoM    ,3,7,2015-08-28 11:45:28,"{[Rmac76],mickydunks81}","{39560,72069}","{4,4}","{3,2}",\N,14,Skull Duggery,47,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgcOTpAsM    ,3,7,2015-08-28 11:25:17,"{""thisorangatang 57"",C0uvelaire}","{10054,38006}","{3,3}","{1,3}",\N,6,Sweetie Plains,36,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4e2E9wkM    ,3,7,2015-08-28 11:56:48,"{""BIG G the one and only"",IDontWantToGoOnTheCart}","{106843,53977}","{2,2}","{2,3}",\N,6,Sweetie Plains,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZKcpgoM    ,3,7,2015-08-28 11:48:52,"{ajfbigal,brianpf28}","{39372,40316}","{3,4}","{1,1}",\N,16,Sweet Tooth,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdHhpQkM    ,3,7,2015-08-28 11:48:17,"{schnippig,IDontWantToGoOnTheCart}","{155835,53977}","{2,2}","{3,3}",\N,16,Sweet Tooth,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z_E-AgM    ,3,7,2015-08-28 11:39:11,"{Kerplowy,myninja208}","{13769,1208}","{3,4}","{2,2}",\N,12,Thorn Gulley,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dnbrQoM    ,3,7,2015-08-28 11:43:44,"{AudioDriver,jimmytaylor1}","{3019,74819}","{3,3}","{3,1}",\N,15,War Garden,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZHXoQsM    ,3,7,2015-08-28 12:05:44,"{Pash-gun,""Thai Christian""}","{15787,25933}","{3,3}","{3,2}",\N,15,War Garden,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4biR_AgM    ,5,7,2015-08-28 12:05:45,"{ColeTrain,zxznicole,podiyaka,godlee}","{110598,27707,135050,155096}","{4,4,4,4}","{1,2,3,3}",\N,1,Machination,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fuUrwoM    ,3,7,2015-08-28 11:17:28,"{Jukiic,uhhokay}","{157104,152149}","{1,2}","{2,2}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA7pj1pQsM    ,3,7,2015-08-28 10:30:35,"{Blue_Krait7,Dgambo25}","{150243,38398}","{4,4}","{2,2}",\N,3,Foundry (V2),27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZyTswoM    ,3,7,2015-08-28 10:28:13,"{NewThomas,app0jax}","{611,156694}","{3,3}","{4,3}",\N,4,Glitch,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeW1uQoM    ,3,7,2015-08-28 08:43:07,"{elsie.v,Torjin.Fu}","{156717,153863}","{1,1}","{3,3}",\N,4,Glitch,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bqKtAsM    ,3,7,2015-08-28 10:32:41,"{zetafactor,LizReznor}","{144997,60113}","{3,3}","{2,3}",\N,9,Long Nine,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YGKhwgM    ,3,7,2015-08-28 10:57:29,"{tduth1,""thisorangatang 57""}","{41027,10054}","{3,3}","{2,2}",\N,7,Peekaboo,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYORtQoM    ,3,7,2015-08-28 10:28:38,"{Kmaev808,ayal}","{37070,145446}","{3,3}","{2,3}",\N,7,Peekaboo,31,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHQrQoM    ,3,7,2015-08-28 10:51:07,"{DarkAttack,sargie07}","{2560,145982}","{2,2}","{1,3}",\N,7,Peekaboo,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd3nnAgM    ,3,7,2015-08-28 10:57:18,"{Zakdordn,JuggerNut2181}","{38995,25899}","{4,4}","{2,3}",\N,13,Reaper,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYfL6AoM    ,3,7,2015-08-28 11:12:41,"{seamusj,PrestonTheDonkey}","{38688,62878}","{3,3}","{3,4}",\N,13,Reaper,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdXMtwsM    ,2,7,2015-08-28 10:56:49,"{stealth6T9,Psych65}","{74016,34442}","{0,0}","{4,3}",\N,10,Sharkfood Island,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0azK6QkM    ,3,7,2015-08-28 10:59:14,"{jmarnstein,sdmario}","{19583,36098}","{5,5}","{2,3}",\N,14,Skull Duggery,34,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc2fqwoM    ,3,7,2015-08-28 10:40:20,"{deadblue,Kroberts96}","{1162,60393}","{2,2}","{3,1}",\N,6,Sweetie Plains,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ_CtwoM    ,3,7,2015-08-28 10:41:02,"{Duckie37,Z-Fam}","{39487,39512}","{3,3}","{1,3}",\N,6,Sweetie Plains,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscCguAoM    ,3,7,2015-08-28 11:00:48,"{deadblue,kailualisa}","{1162,147994}","{2,1}","{2,4}",\N,6,Sweetie Plains,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZbEqAkM    ,3,7,2015-08-28 10:42:24,"{barspi,jukka.h}","{1069,15487}","{3,4}","{2,1}",\N,16,Sweet Tooth,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eqdpAsM    ,3,7,2015-08-28 10:47:02,"{BrianAwesomeson,""Trunk Music""}","{39076,23071}","{3,4}","{2,1}",\N,16,Sweet Tooth,46,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eeEowoM    ,3,7,2015-08-28 11:03:44,"{Bobby-west,thunderthumbs5}","{149742,7789}","{2,2}","{3,3}",\N,16,Sweet Tooth,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dKA4woM    ,3,7,2015-08-28 10:52:19,"{AvsFan21Rocks,Carolina2Cali}","{39010,37438}","{3,3}","{4,1}",\N,16,Sweet Tooth,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYSRuwsM    ,3,7,2015-08-28 10:52:08,"{""Young /\\\\"",rrudnic}","{87467,5020}","{4,4}","{1,3}",\N,16,Sweet Tooth,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwaihvwsM    ,3,7,2015-08-28 10:32:43,"{pïdge,jantanajahmon}","{319,153034}","{3,3}","{4,3}",\N,12,Thorn Gulley,66,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaigrgkM    ,3,7,2015-08-28 10:34:40,"{KBSmalltalk,Death101}","{42467,121146}","{3,3}","{1,3}",\N,12,Thorn Gulley,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHlqwoM    ,3,7,2015-08-28 11:03:22,"{Airbornemil,""Sadhu Sundar""}","{69026,5768}","{3,3}","{4,4}",\N,15,War Garden,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aqvvgkM    ,3,7,2015-08-28 10:30:22,"{Li7tl3Game,Kroberts96}","{157867,60393}","{0,2}","{3,1}",\N,15,War Garden,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YDP7woM    ,3,7,2015-08-28 10:28:02,"{Techrev,matchstickNate}","{1714,15987}","{4,3}","{3,4}",\N,15,War Garden,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dW_sgkM    ,5,7,2015-08-28 11:13:51,"{spiderkag,""J Swizzy 13"",Tominator3,Baca3}","{2308,2369,2309,2370}","{4,4,4,4}","{2,3,3,3}",\N,8,Blitz Beach,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoZ79vgoM    ,5,7,2015-08-28 11:17:59,"{miildredd,tothemario,godlee,3D6Reroll1s}","{155144,2113,155096,65315}","{2,1,2,2}","{2,3,3,1}",\N,18,Mechanism,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAke2AuAsM    ,3,7,2015-08-28 09:40:56,"{lorp,Kroberts96}","{155601,60393}","{1,2}","{3,1}",\N,4,Glitch,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf3urwoM    ,3,7,2015-08-28 09:41:42,"{taiji-senji,yesh4u}","{9764,1473}","{3,3}","{1,3}",\N,4,Glitch,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsd3grgoM    ,2,7,2015-08-28 09:31:48,"{Zumafire,Juicecup007}","{157656,157655}","{0,0}","{3,3}",\N,9,Long Nine,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z3osQsM    ,3,7,2015-08-28 10:23:02,"{gutzanu,""Abraham Vangrave""}","{5188,157866}","{2,0}","{3,3}",\N,9,Long Nine,5,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcLUowkM    ,3,7,2015-08-28 09:33:49,"{StaarGuitaar,Sfilly13}","{9237,40837}","{3,2}","{1,3}",\N,7,Peekaboo,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eH6vgsM    ,3,7,2015-08-28 09:58:05,"{Fitfoodtrainer,""kosty young""}","{41302,66454}","{3,3}","{3,1}",\N,13,Reaper,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkerN9goM    ,3,7,2015-08-28 09:55:15,"{larsjohnson,<jaguarpaw>}","{69265,63278}","{4,5}","{2,1}",\N,13,Reaper,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYGQoQkM    ,3,7,2015-08-28 09:42:36,"{NewThomas,""Alex ""}","{611,123328}","{3,3}","{4,4}",\N,10,Sharkfood Island,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fDmrQsM    ,3,7,2015-08-28 10:05:05,"{bevens42,tweeto}","{5317,81602}","{3,3}","{4,4}",\N,10,Sharkfood Island,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdi_ogkM    ,2,7,2015-08-28 09:34:09,"{ShaolinSage,Letsgophils17}","{157763,151538}","{0,0}","{4,3}",\N,10,Sharkfood Island,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e-rsAsM    ,3,7,2015-08-28 09:42:20,"{schneeheinrich,shakiro1976}","{1445,3287}","{3,3}","{3,4}",\N,10,Sharkfood Island,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbPStgsM    ,2,7,2015-08-28 10:20:08,"{""viny the wrench"",TheCelticDragon}","{157865,28879}","{0,0}","{3,3}",\N,10,Sharkfood Island,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cKQ7wsM    ,3,7,2015-08-28 09:59:30,"{Happycloudone,Badger}","{157635,147990}","{4,2}","{1,3}",\N,10,Sharkfood Island,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd6tuAkM    ,3,7,2015-08-28 10:24:28,"{""alig 38"",giorgaky}","{1944,14429}","{4,5}","{1,2}",\N,14,Skull Duggery,26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYPGpAoM    ,3,7,2015-08-28 09:47:19,"{Kroberts96,""THE Hoggleg""}","{60393,102120}","{2,2}","{1,3}",\N,14,Skull Duggery,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc3VowoM    ,3,7,2015-08-28 09:49:56,"{Dchalom,yesh4u}","{155392,1473}","{3,3}","{1,3}",\N,14,Skull Duggery,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYC7qQoM    ,3,7,2015-08-28 09:22:30,"{kailualisa,deadblue}","{147994,1162}","{1,2}","{4,4}",\N,6,Sweetie Plains,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcnZ8QgM    ,2,7,2015-08-28 10:13:36,"{""*(:Extra Wide Body:)*"",""tune 61""}","{76021,157864}","{0,0}","{4,3}",\N,16,Sweet Tooth,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfWQsgoM    ,3,7,2015-08-28 10:15:29,"{I0ner0us,CapnFire}","{156478,148646}","{2,3}","{1,1}",\N,12,Thorn Gulley,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZmxqAsM    ,3,7,2015-08-28 10:00:47,"{schneeheinrich,shakiro1976}","{1445,3287}","{3,3}","{3,1}",\N,15,War Garden,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscLw9QgM    ,3,7,2015-08-28 09:40:03,"{rank68,ilya..k}","{39249,15559}","{4,3}","{2,3}",\N,15,War Garden,35,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsd-csQoM    ,3,7,2015-08-28 09:25:40,"{chrisatap,detourglr1}","{12714,58402}","{3,3}","{3,3}",\N,15,War Garden,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcuQvwkM    ,3,7,2015-08-28 09:44:26,"{noah!!,chromium79}","{75035,155468}","{2,0}","{3,3}",\N,15,War Garden,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA9pui-wkM    ,5,7,2015-08-28 09:19:09,"{""AB Jonson"",""GoM 11"",eespark33,5upercorn}","{153798,39389,154115,57033}","{2,1,2,1}","{3,1,2,1}",\N,11,Acrospire,51,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfy2owkM    ,5,7,2015-08-28 09:19:08,"{Zane279,Dan123456789⚫️,iantw3,StonerPwner420}","{71022,87269,152660,7546}","{1,1,2,1}","{4,3,3,3}",\N,8,Blitz Beach,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvtX1vQkM    ,3,7,2015-08-28 09:19:03,"{vaagrant,lalex}","{962,155889}","{3,4}","{1,3}",\N,3,Foundry (V2),13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvpXy7wsM    ,3,7,2015-08-28 09:19:03,"{vaagrant,lalex}","{962,155889}","{3,4}","{2,3}",\N,4,Glitch,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8eyEtQkM    ,3,7,2015-08-28 08:49:36,"{kimchinabe,TheValidAuthority}","{18038,148756}","{4,4}","{1,2}",\N,4,Glitch,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsejotAkM    ,3,7,2015-08-28 08:52:48,"{Horfunz,""*mostly harmless*""}","{3023,26014}","{3,3}","{3,2}",\N,4,Glitch,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dec4wgM    ,2,7,2015-08-28 09:19:06,"{""Langdo25 "",""*(:Extra Wide Body:)*""}","{157585,76021}","{0,0}","{3,4}",\N,4,Glitch,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YuysAoM    ,3,7,2015-08-28 09:19:07,"{lucasmmello,""^ Humair ^""}","{157863,155596}","{0,2}","{3,3}",\N,4,Glitch,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoaKBuAoM    ,3,7,2015-08-28 09:04:53,"{""Hr og fru Nørby"",Drag0ngrl}","{156993,31659}","{2,1}","{3,3}",\N,4,Glitch,26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fHq8goM    ,3,7,2015-08-28 08:46:46,"{schneeheinrich,taka8181}","{1445,36773}","{3,3}","{3,3}",\N,9,Long Nine,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfHVqAkM    ,3,7,2015-08-28 08:51:00,"{•Big-Bozz•,""Guess Who""}","{19942,156964}","{3,3}","{4,3}",\N,9,Long Nine,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0avpoAkM    ,3,7,2015-08-28 08:51:20,"{StonerPwner420,JDLintz}","{7546,5602}","{3,3}","{3,1}",\N,9,Long Nine,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaWaogkM    ,3,7,2015-08-28 09:12:30,"{""Evil Chris"",AndrewWK}","{4921,155890}","{3,3}","{1,1}",\N,9,Long Nine,28,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4b7SoQoM    ,3,7,2015-08-28 08:48:45,"{ddt,thatguypooral}","{126672,6318}","{3,3}","{3,1}",\N,7,Peekaboo,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAofnwvAoM    ,3,7,2015-08-28 09:19:04,"{purenightmare,naranca20}","{8062,9531}","{2,2}","{3,2}",\N,7,Peekaboo,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aOypwsM    ,2,7,2015-08-28 09:19:06,"{""Ellisa 13"",Balko4154}","{157862,157463}","{0,0}","{3,3}",\N,13,Reaper,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoYabsAoM    ,3,7,2015-08-28 09:19:06,"{purenightmare,naranca20}","{8062,9531}","{2,2}","{4,2}",\N,13,Reaper,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bjc9AgM    ,2,7,2015-08-28 09:19:06,"{GuardedMarman,suckonmyluver}","{157587,157586}","{0,0}","{3,3}",\N,10,Sharkfood Island,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fLmmwkM    ,3,7,2015-08-28 09:02:35,"{MartinKJ86,""electric uncle""}","{152373,41832}","{3,3}","{3,1}",\N,14,Skull Duggery,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAnu7ouwoM    ,3,7,2015-08-28 09:16:45,"{#BURGO#,Packerplayas52}","{89960,71774}","{3,3}","{1,2}",\N,6,Sweetie Plains,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0a3CtAoM    ,3,7,2015-08-28 09:19:06,"{jonoisawesome,derekhanson75}","{9659,34877}","{3,3}","{1,3}",\N,6,Sweetie Plains,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_q7osgoM    ,3,7,2015-08-28 09:19:07,"{Héctor,bigdaddy341}","{113398,68434}","{1,1}","{3,3}",\N,6,Sweetie Plains,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ_W7goM    ,3,7,2015-08-28 08:59:08,"{""Justinian the First"",__.zman.__}","{77481,41654}","{3,3}","{3,1}",\N,6,Sweetie Plains,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_vul4wkM    ,3,7,2015-08-28 09:19:07,"{clitcommander,Bobby-west}","{118790,149742}","{2,2}","{3,3}",\N,12,Thorn Gulley,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwZaPtQsM    ,3,7,2015-08-28 09:19:07,"{Plumper69,Héctor}","{157136,113398}","{2,1}","{3,3}",\N,12,Thorn Gulley,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YWMuAoM    ,3,7,2015-08-28 09:19:04,"{derekhanson75,jonoisawesome}","{34877,9659}","{3,3}","{3,1}",\N,12,Thorn Gulley,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdrWrQoM    ,3,7,2015-08-28 08:47:11,"{(truemakar),""Karin fres""}","{157856,157558}","{0,2}","{4,3}",\N,15,War Garden,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dnbrQsM    ,3,7,2015-08-28 09:19:03,"{Dimanena,70MMY47}","{157860,157861}","{0,0}","{3,3}",\N,15,War Garden,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAweSckggM    ,5,7,2015-08-28 09:19:07,"{""Itz Gutz"",tothemario,aknights,Dan123456789⚫️}","{76052,2113,50818,87269}","{1,1,1,1}","{3,3,2,4}",\N,1,Machination,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eXl5woM    ,3,7,2015-08-28 07:14:59,"{Gardner1111!,taylorbstern}","{156000,19041}","{4,3}","{3,1}",\N,3,Foundry (V2),13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bH1_QoM    ,3,7,2015-08-28 08:22:02,"{""Thai Christian"",kiteralf}","{25933,2198}","{3,3}","{2,2}",\N,4,Glitch,41,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgbvO_AoM    ,3,7,2015-08-28 07:11:36,"{WakandaMan,aknights}","{2267,50818}","{3,3}","{2,1}",\N,4,Glitch,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbOPvwoM    ,3,7,2015-08-28 08:31:19,"{""Camilla -77"",Mitchell}","{157859,156832}","{0,2}","{3,3}",\N,9,Long Nine,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYviqgsM    ,3,7,2015-08-28 07:48:25,"{BigSteve,KSmerfz}","{76856,18256}","{3,3}","{2,4}",\N,9,Long Nine,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYDsoAkM    ,3,7,2015-08-28 07:52:32,"{bloodmack,AshLaw}","{15342,104670}","{3,3}","{2,3}",\N,13,Reaper,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfSCvAsM    ,3,7,2015-08-28 07:07:37,"{""~ el amo ~"",B0omer9}","{157106,157384}","{1,3}","{3,3}",\N,13,Reaper,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cH-tQkM    ,3,7,2015-08-28 07:58:10,"{StonerPwner420,mb359}","{7546,106720}","{3,3}","{3,1}",\N,10,Sharkfood Island,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvp3mhAgM    ,3,7,2015-08-28 08:40:26,"{RA1NEY,neurotic42}","{65274,35515}","{3,3}","{3,1}",\N,10,Sharkfood Island,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbixrwkM    ,3,7,2015-08-28 07:21:30,"{TheGoodBadUgly,""{~Y00N~}""}","{155870,2871}","{2,3}","{3,3}",\N,10,Sharkfood Island,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAke3XsgoM    ,3,7,2015-08-28 08:15:57,"{""Kid Midnight"",neurotic42}","{6705,35515}","{3,3}","{3,1}",\N,10,Sharkfood Island,26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0abpsAsM    ,3,7,2015-08-28 08:32:19,"{ARobb,deyan70}","{138120,76148}","{3,3}","{4,3}",\N,14,Skull Duggery,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0drbqQkM    ,3,7,2015-08-28 08:20:48,"{""DR. Magno"",kiteralf}","{140760,2198}","{3,3}","{2,2}",\N,14,Skull Duggery,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaKEpgkM    ,3,7,2015-08-28 07:37:22,"{moskal1q,lyzachee}","{67920,97459}","{3,3}","{1,3}",\N,14,Skull Duggery,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfj59QsM    ,3,7,2015-08-28 08:30:01,"{arisp1974,mattwang97}","{15063,36802}","{3,3}","{3,3}",\N,14,Skull Duggery,94,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0de4tQoM    ,3,7,2015-08-28 08:22:06,"{deezace,thatguypooral}","{41783,6318}","{3,3}","{1,1}",\N,6,Sweetie Plains,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbyKuAoM    ,3,7,2015-08-28 08:31:19,"{FireCloudx,mustapuna}","{151191,12813}","{4,4}","{2,2}",\N,6,Sweetie Plains,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvpW3qAoM    ,3,7,2015-08-28 07:46:05,"{SixthiS,sydneys-dad}","{39663,25744}","{3,3}","{3,3}",\N,16,Sweet Tooth,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4afKtQkM    ,2,7,2015-08-28 07:10:25,"{Awwdii,""remsha bnt 3en""}","{18309,41973}","{0,0}","{1,3}",\N,12,Thorn Gulley,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZW4vgsM    ,3,7,2015-08-28 07:23:22,"{Ptwobbell,""ryan sals""}","{157501,26838}","{3,3}","{3,1}",\N,12,Thorn Gulley,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYr-4ggM    ,3,7,2015-08-28 08:00:06,"{Airbornemil,elle_v}","{69026,102069}","{3,3}","{4,3}",\N,12,Thorn Gulley,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4d2d7wgM    ,3,7,2015-08-28 07:29:31,"{NewThomas,amancalledbob3d}","{611,28511}","{3,3}","{1,1}",\N,12,Thorn Gulley,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZrysQsM    ,3,7,2015-08-28 07:32:21,"{Hanwen66,moskal1q}","{96143,67920}","{3,3}","{3,3}",\N,15,War Garden,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaOgsQoM    ,3,7,2015-08-28 07:46:56,"{""Squid Gurl"",""~ el amo ~""}","{155869,157106}","{1,1}","{3,3}",\N,15,War Garden,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbu_nQoM    ,3,7,2015-08-28 08:34:01,"{jjackson2064,this-is-jimmy}","{103297,17593}","{2,3}","{3,1}",\N,15,War Garden,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0a7LvQkM    ,3,7,2015-08-28 07:40:09,"{__.zman.__,kleinstiefel}","{41654,19444}","{3,3}","{1,1}",\N,15,War Garden,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAjv7i-wsM    ,5,7,2015-08-28 08:30:00,"{rsrvoirdog,chelsea4-4-2,ElDuderino44,""Holy R0ll3r""}","{14710,65461,137582,43436}","{4,4,4,4}","{2,2,3,1}",\N,5,Candy Core Mine,40,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YWMuAkM    ,3,7,2015-08-28 05:53:40,"{"">> deathjr <<"",PrestonTheDonkey}","{153429,62878}","{3,3}","{3,4}",\N,4,Glitch,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YDq6wgM    ,3,7,2015-08-28 06:14:57,"{27imod,Ydres}","{9794,156657}","{3,3}","{1,4}",\N,9,Long Nine,25,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaGgtgoM    ,3,7,2015-08-28 05:51:10,"{Techrev,jorazy}","{1714,76161}","{4,4}","{3,3}",\N,9,Long Nine,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Yjj_goM    ,3,7,2015-08-28 05:59:59,"{Kroberts96,""BIG G the one and only""}","{60393,106843}","{2,2}","{1,1}",\N,7,Peekaboo,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfaNvAsM    ,3,7,2015-08-28 05:50:38,"{Smiler///25,gabriellamen}","{65688,13243}","{3,3}","{1,3}",\N,7,Peekaboo,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4anQ9gkM    ,3,7,2015-08-28 06:05:51,"{Giggo73,Packerpunishers12}","{40483,38166}","{4,3}","{3,2}",\N,7,Peekaboo,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYb5uwoM    ,3,7,2015-08-28 06:28:36,"{JBeau,Parmeniotrue}","{154785,156719}","{2,3}","{3,1}",\N,7,Peekaboo,59,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cPG7QgM    ,3,7,2015-08-28 06:00:38,"{Kroberts96,""BIG G the one and only""}","{60393,106843}","{2,2}","{1,3}",\N,13,Reaper,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYmoggoM    ,3,7,2015-08-28 06:52:41,"{TikiBeeki,schneeheinrich}","{18079,1445}","{3,3}","{1,3}",\N,13,Reaper,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0erC8QgM    ,3,7,2015-08-28 06:24:18,"{schneeheinrich,EhYoDimi}","{1445,12846}","{3,3}","{3,3}",\N,13,Reaper,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dHu_goM    ,3,7,2015-08-28 06:19:02,"{fishcake,""Aleex Rod""}","{76462,4415}","{3,2}","{3,3}",\N,10,Sharkfood Island,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZjk5woM    ,3,7,2015-08-28 06:25:21,"{mb359,Parmeniotrue}","{106720,156719}","{3,3}","{1,3}",\N,10,Sharkfood Island,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYr-kgkM    ,3,7,2015-08-28 05:46:44,"{chenyuander,Agilla}","{157857,148154}","{0,1}","{3,3}",\N,6,Sweetie Plains,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaiTuAoM    ,3,7,2015-08-28 06:38:22,"{JaviSato,Terry362}","{156891,7679}","{3,2}","{3,1}",\N,6,Sweetie Plains,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdCSvwoM    ,3,7,2015-08-28 06:33:31,"{""remsha bnt 3en"",<W1l50n>}","{41973,140469}","{2,2}","{3,3}",\N,6,Sweetie Plains,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfLBtwsM    ,3,7,2015-08-28 06:03:04,"{""The Mighty THOR"",g1ddy25}","{130613,3233}","{3,3}","{3,1}",\N,6,Sweetie Plains,49,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeivtwsM    ,3,7,2015-08-28 06:42:50,"{StacyMSinGR,jtc139}","{155525,22274}","{3,3}","{3,1}",\N,6,Sweetie Plains,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkf2ivwsM    ,3,7,2015-08-28 06:08:10,"{StacyMSinGR,PrestonTheDonkey}","{155525,62878}","{3,3}","{3,4}",\N,16,Sweet Tooth,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbmlqAsM    ,3,7,2015-08-28 06:23:41,"{""Crown Jewellz"",schneeheinrich}","{1630,1445}","{3,3}","{1,3}",\N,16,Sweet Tooth,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d-BpwkM    ,3,7,2015-08-28 06:45:39,"{Designerbeatnik,StacyMSinGR}","{59917,155525}","{3,3}","{1,3}",\N,12,Thorn Gulley,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdCt5AgM    ,3,7,2015-08-28 05:58:25,"{schneeheinrich,Carolina2Cali}","{1445,37438}","{3,3}","{3,1}",\N,15,War Garden,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aOztwoM    ,3,7,2015-08-28 06:49:51,"{StacyMSinGR,NewThomas}","{155525,611}","{3,3}","{3,3}",\N,15,War Garden,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoe-AvAsM    ,5,7,2015-08-28 07:05:40,"{matthewfiore,""% Ezdream %"",""~ BoZo420 ~"",Lucas_06}","{30397,81011,157124,139686}","{1,0,2,0}","{1,2,3,3}",\N,8,Blitz Beach,43,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc7jvQkM    ,5,7,2015-08-28 06:36:05,"{Colinn15,Letsgophils17,Parmeniotrue,ShaolinSage}","{157858,151538,156719,157763}","{0,0,1,0}","{3,3,3,4}",\N,5,Candy Core Mine,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ffxtAkM    ,5,7,2015-08-28 05:56:07,"{badpokemon,OsmChickenGrl,PrestonTheDonkey,divinevelocity}","{2616,148150,62878,153038}","{0,0,0,0}","{2,3,4,4}",\N,1,Machination,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoaKaqQoM    ,5,7,2015-08-28 06:43:21,"{""Whitney Rules"",somcalmetim,Robdog99,uckfou}","{40326,2221,50266,14317}","{2,3,2,2}","{3,3,1,2}",\N,17,Sugar Rock,36,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8dimuwoM    ,3,7,2015-08-28 05:05:57,"{n8-10,""MickyMouse 888""}","{39125,70464}","{4,3}","{3,3}",\N,4,Glitch,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dfIvAkM    ,3,7,2015-08-28 05:07:03,"{Karmuega,tgarland12001}","{4958,80993}","{2,3}","{1,1}",\N,4,Glitch,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdvupgkM    ,3,7,2015-08-28 04:19:28,"{""Tania Geo"",""Clint ""}","{35728,8130}","{3,2}","{3,3}",\N,7,Peekaboo,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAjrKW4goM    ,3,7,2015-08-28 05:38:48,"{craig24445,""pink penguin 8""}","{42864,41053}","{3,3}","{4,1}",\N,7,Peekaboo,61,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bTaowoM    ,3,7,2015-08-28 04:19:28,"{uckfou,tursiops86}","{14317,3856}","{3,3}","{2,3}",\N,7,Peekaboo,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Z6BqQkM    ,3,7,2015-08-28 04:19:41,"{LeftHandToad,===badass33===}","{9739,4365}","{3,3}","{3,4}",\N,13,Reaper,17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZKVogkM    ,3,7,2015-08-28 04:19:28,"{am2umbrele,SimTycoon}","{130892,157333}","{3,3}","{3,1}",\N,13,Reaper,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkba_vQkM    ,3,7,2015-08-28 05:20:46,"{...Thorndor...,canyonrunner}","{156965,4840}","{3,3}","{1,3}",\N,13,Reaper,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkc6EtAkM    ,3,7,2015-08-28 05:35:43,"{(truemakar),vboisrob}","{157856,155758}","{0,1}","{1,3}",\N,6,Sweetie Plains,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfSkpAoM    ,3,7,2015-08-28 05:34:03,"{luckyaaron,Rattlesnake}","{142267,113513}","{2,2}","{4,3}",\N,6,Sweetie Plains,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4c_Q8AgM    ,3,7,2015-08-28 05:07:31,"{jaketwilly35,Capodecina}","{155953,75691}","{1,1}","{3,3}",\N,6,Sweetie Plains,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwYbV8wsM    ,3,7,2015-08-28 05:23:31,"{Scramburgler,""maroon baboon""}","{36076,9459}","{4,4}","{1,3}",\N,16,Sweet Tooth,30,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAofWkpgkM    ,3,7,2015-08-28 04:20:30,"{TimmyKnuckles,===badass33===}","{156797,4365}","{1,3}","{3,3}",\N,16,Sweet Tooth,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYK77QoM    ,3,7,2015-08-28 05:16:46,"{HeBeGB,Cloclotte64}","{135805,66007}","{3,3}","{1,2}",\N,16,Sweet Tooth,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAro6y-wkM    ,3,7,2015-08-28 05:35:10,"{sdmario,HamptonDad007}","{36098,1635}","{5,4}","{3,3}",\N,16,Sweet Tooth,169,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eGg_wgM    ,3,7,2015-08-28 04:29:02,"{27imod,Ydres}","{9794,156657}","{3,3}","{1,4}",\N,12,Thorn Gulley,23,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YS6-QoM    ,3,7,2015-08-28 05:39:45,"{shakiro1976,happyjenn97}","{3287,38207}","{3,3}","{3,3}",\N,12,Thorn Gulley,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fP1twkM    ,3,7,2015-08-28 04:19:28,"{Sale7_10,""Courreges 13""}","{18867,157017}","{3,3}","{3,1}",\N,12,Thorn Gulley,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cPGrQkM    ,3,7,2015-08-28 05:19:32,"{n8-10,""matt allred""}","{39125,28914}","{4,4}","{3,1}",\N,12,Thorn Gulley,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YaWtAkM    ,3,7,2015-08-28 04:59:34,"{TuxedoSquid,awoodchuck}","{156567,16114}","{2,2}","{3,2}",\N,15,War Garden,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgYKgtAsM    ,3,7,2015-08-28 04:19:28,"{JezzwonZ,jettbyro2}","{145735,106933}","{4,4}","{1,3}",\N,15,War Garden,40,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaSJ7AoM    ,3,7,2015-08-28 04:45:51,"{lookimgood,lookimgood}","{157855,26360}","{0,0}","{3,3}",\N,15,War Garden,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgc_irwoM    ,4,7,2015-08-28 04:46:29,"{Benjii_w,""Matthew P P"",thegazelle00,""Moog 78""}","{2029,34409,40308,12962}","{0,0,0,0}","{3,3,3,3}",\N,18,Mechanism,52,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwfHxvgkM    ,5,7,2015-08-28 05:45:57,"{Washaman666,TheRellik,Death101,""Colonel Spam""}","{140307,139096,121146,22068}","{1,0,0,1}","{3,2,3,3}",\N,17,Sugar Rock,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA7pfngQsM    ,5,7,2015-08-28 04:54:34,"{""The Excellent Apple"",atlou,-PasswordisTaco-,celinannette}","{58788,3139,49327,2329}","{4,3,4,3}","{2,2,1,1}",\N,17,Sugar Rock,38,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDArtKN8AkM    ,3,7,2015-08-28 04:19:23,"{""alig 38"",nevergone_sc}","{1944,41233}","{4,4}","{1,2}",\N,4,Glitch,44,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcyb4goM    ,2,7,2015-08-28 04:19:15,"{marcostu,LeiL1u}","{157835,157531}","{0,0}","{3,3}",\N,4,Glitch,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZnvvAsM    ,3,7,2015-08-28 04:19:13,"{""THE Hoggleg"",SpilledLlama16}","{102120,157506}","{2,0}","{3,3}",\N,4,Glitch,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbLvnwgM    ,3,7,2015-08-28 04:19:22,"{""Clint "",""Tania Geo""}","{8130,35728}","{2,3}","{3,3}",\N,4,Glitch,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZfX7QgM    ,3,7,2015-08-28 04:19:22,"{nicklebumb,IDontWantToGoOnTheCart}","{157851,53977}","{0,2}","{3,3}",\N,9,Long Nine,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fyLrQkM    ,3,7,2015-08-28 04:19:20,"{Eebely,Supernotch}","{157789,2509}","{0,2}","{3,4}",\N,9,Long Nine,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd_0uAsM    ,2,7,2015-08-28 04:19:20,"{Powerfoon,Dchalom}","{157848,155392}","{0,0}","{3,1}",\N,13,Reaper,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkci65woM    ,2,7,2015-08-28 04:19:12,"{MrsCliett,BigAar0n}","{155080,155079}","{0,0}","{3,3}",\N,10,Sharkfood Island,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bXnvgkM    ,2,7,2015-08-28 04:19:20,"{Ty_Rell_Rex,JaimesBellows}","{44767,44768}","{0,0}","{3,3}",\N,10,Sharkfood Island,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aLC7AgM    ,3,7,2015-08-28 04:19:23,"{Sale7_10,""Courreges 13""}","{18867,157017}","{3,3}","{3,4}",\N,14,Skull Duggery,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoYnquwkM    ,2,7,2015-08-28 04:19:23,"{""Mr.E 2 da A"",danzig421r}","{72936,154178}","{0,0}","{3,4}",\N,6,Sweetie Plains,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dPaoQsM    ,3,7,2015-08-28 04:19:23,"{IDontWantToGoOnTheCart,nicklebumb}","{53977,157851}","{2,0}","{3,3}",\N,6,Sweetie Plains,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdPItAkM    ,3,7,2015-08-28 04:19:21,"{Phil0math,""Agent Smith2518""}","{42251,157849}","{2,0}","{3,3}",\N,6,Sweetie Plains,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0deirAoM    ,2,7,2015-08-28 04:19:13,"{FxckinMagic,Carlos49731}","{157844,157845}","{0,0}","{3,3}",\N,6,Sweetie Plains,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aygoQoM    ,3,7,2015-08-28 04:19:12,"{""Sabereta 37"",tommy58112000}","{157843,152928}","{0,1}","{3,3}",\N,16,Sweet Tooth,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fOGuwoM    ,2,7,2015-08-28 04:19:21,"{petunia4U,Dgek13}","{101139,157584}","{0,0}","{3,3}",\N,16,Sweet Tooth,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bvvvwkM    ,3,7,2015-08-28 04:19:15,"{tomasthundiyil,HowComeYouSuck?}","{32762,84173}","{4,4}","{3,2}",\N,16,Sweet Tooth,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b70tgoM    ,3,7,2015-08-28 04:19:15,"{Stinger3388,loismeg}","{157517,157846}","{0,0}","{3,1}",\N,12,Thorn Gulley,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bnvuwoM    ,3,7,2015-08-28 04:19:20,"{tursiops86,cartavia}","{3856,29219}","{3,3}","{3,3}",\N,12,Thorn Gulley,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YayqAkM    ,3,7,2015-08-28 04:19:14,"{""sweatpants 25"",yesh4u}","{37105,1473}","{3,3}","{3,3}",\N,12,Thorn Gulley,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA3s_6mgkM    ,3,7,2015-08-28 04:19:23,"{kpjr22,w/e4life}","{1202,2911}","{3,3}","{2,3}",\N,12,Thorn Gulley,54,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0erW6AgM    ,3,7,2015-08-28 04:19:23,"{Sale7_10,""Courreges 13""}","{18867,157017}","{3,3}","{3,1}",\N,12,Thorn Gulley,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY664QoM    ,3,7,2015-08-28 04:19:23,"{thiagofdbs,pengiepdx}","{157853,157854}","{0,0}","{3,3}",\N,12,Thorn Gulley,2,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fO-rwsM    ,2,7,2015-08-28 04:19:20,"{petunia4U,thetomahawkman}","{101139,157847}","{0,0}","{3,3}",\N,15,War Garden,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4a21mggM    ,3,7,2015-08-28 04:19:23,"{""Clint "",""Tania Geo""}","{8130,35728}","{2,3}","{3,3}",\N,15,War Garden,6,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fWfrAoM    ,5,7,2015-08-28 04:19:15,"{La~Lune,""~ BoZo420 ~"",Neocon61,daileader}","{72964,157124,149710,67733}","{0,2,0,1}","{4,3,4,3}",\N,18,Mechanism,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdKqsQoM    ,3,7,2015-08-28 03:15:45,"{sarahluna13,""Scotty 2⃣ Hotty""}","{95072,121496}","{1,2}","{3,3}",\N,4,Glitch,11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Z7u5AgM    ,2,7,2015-08-28 03:32:40,"{slenderbrine227,ca11tyr0ne}","{157841,157842}","{0,0}","{3,3}",\N,9,Long Nine,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoYf39AgM    ,3,7,2015-08-28 03:55:18,"{""alig 38"",""warrior_ 97""}","{1944,25321}","{4,5}","{1,2}",\N,9,Long Nine,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aLCrAsM    ,3,7,2015-08-28 02:54:02,"{fhrugitoykche,""AK Algadon""}","{41826,39581}","{3,3}","{1,3}",\N,9,Long Nine,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbq-tgkM    ,3,7,2015-08-28 03:44:56,"{Jonson5357,mmog83}","{150201,8406}","{3,3}","{4,2}",\N,7,Peekaboo,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaeapgkM    ,3,7,2015-08-28 03:26:11,"{""Trunk Music"",""MickyMouse 888""}","{23071,70464}","{4,3}","{1,3}",\N,7,Peekaboo,53,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aWT5AgM    ,3,7,2015-08-28 04:10:52,"{RetroPandroo,""Dwk Yo""}","{157632,129819}","{3,2}","{3,3}",\N,7,Peekaboo,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbzd4goM    ,3,7,2015-08-28 04:00:55,"{三日月23,FisherTiger}","{16183,59086}","{4,4}","{2,3}",\N,13,Reaper,30,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf_avwoM    ,3,7,2015-08-28 03:13:42,"{Bebu,""Trunk Music""}","{76410,23071}","{4,4}","{1,1}",\N,13,Reaper,31,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eGPtAkM    ,3,7,2015-08-28 02:50:07,"{shakiro1976,""señor queso""}","{3287,143365}","{3,3}","{1,3}",\N,13,Reaper,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZXFvAsM    ,3,7,2015-08-28 04:08:35,"{myninja208,compSci}","{1208,95355}","{4,4}","{2,3}",\N,10,Sharkfood Island,34,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aqy9wsM    ,3,7,2015-08-28 03:57:34,"{D3w,schneeheinrich}","{149930,1445}","{3,3}","{1,3}",\N,10,Sharkfood Island,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd2Z5AoM    ,3,7,2015-08-28 03:14:23,"{schnippig,IDontWantToGoOnTheCart}","{155835,53977}","{2,2}","{3,3}",\N,10,Sharkfood Island,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsabZowsM    ,3,7,2015-08-28 03:46:15,"{fishcake,pangerho}","{76462,71583}","{3,3}","{3,1}",\N,10,Sharkfood Island,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAse7koQoM    ,2,7,2015-08-28 02:51:18,"{ca11tyr0ne,slenderbrine227}","{157842,157841}","{0,0}","{3,3}",\N,10,Sharkfood Island,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkduU6ggM    ,2,7,2015-08-28 04:19:07,"{ppsrclt,evxvxs}","{89801,15322}","{0,0}","{3,1}",\N,14,Skull Duggery,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYKXpAoM    ,3,7,2015-08-28 02:52:38,"{"">> Major Tom <<"",""alig 38""}","{2083,1944}","{4,4}","{3,1}",\N,14,Skull Duggery,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cbwvQoM    ,2,7,2015-08-28 04:19:07,"{""mario v.10"",A.P.O.L.O}","{157423,157446}","{0,0}","{3,3}",\N,16,Sweet Tooth,40,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAka7Q-ggM    ,3,7,2015-08-28 03:05:30,"{""RobY MN"",SethNoel}","{69649,5828}","{3,3}","{2,3}",\N,16,Sweet Tooth,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YuXtAoM    ,3,7,2015-08-28 02:55:24,"{thatguypooral,DarkAttack}","{6318,2560}","{3,2}","{1,1}",\N,16,Sweet Tooth,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY7mrwoM    ,2,7,2015-08-28 04:12:44,"{-(8londie)-,""Mr.E 2 da A""}","{157145,72936}","{0,0}","{1,3}",\N,16,Sweet Tooth,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d_MqwsM    ,3,7,2015-08-28 03:19:37,"{Barghest22,Tierce174}","{157840,157475}","{0,1}","{3,2}",\N,12,Thorn Gulley,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYTcswkM    ,3,7,2015-08-28 03:06:56,"{crusherking,gadget}","{139109,73582}","{5,2}","{3,3}",\N,12,Thorn Gulley,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseim_AoM    ,3,7,2015-08-28 02:57:11,"{Mintybreath,HowComeYouSuck?}","{129023,84173}","{4,4}","{2,2}",\N,12,Thorn Gulley,18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsb_EvQkM    ,3,7,2015-08-28 04:04:29,"{cmss220,Mintybreath}","{134561,129023}","{4,4}","{2,4}",\N,15,War Garden,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsd-rtQkM    ,3,7,2015-08-28 02:59:04,"{KBSmalltalk,Jooz1514}","{42467,41105}","{3,3}","{1,1}",\N,15,War Garden,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwdjd5AgM    ,5,7,2015-08-28 03:14:17,"{MaxwellX92,aknights,Albagor,Brent41588}","{80432,50818,83753,41511}","{2,1,2,2}","{3,3,3,1}",\N,5,Candy Core Mine,29,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf6iuwsM    ,3,7,2015-08-28 01:44:58,"{""RobY MN"",Airbornemil}","{69649,69026}","{3,3}","{3,4}",\N,3,Foundry (V2),11,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbr0ugoM    ,2,7,2015-08-28 02:41:42,"{AzureEvoker,TheArtOfShazzam}","{33300,157822}","{0,0}","{1,3}",\N,3,Foundry (V2),11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aDL4wkM    ,3,7,2015-08-28 01:43:35,"{""Fe Chef"",""Waiting for More....""}","{14074,9977}","{3,4}","{3,1}",\N,4,Glitch,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0abp8AoM    ,3,7,2015-08-28 02:38:47,"{schnippig,""Dwk Yo""}","{155835,129819}","{2,2}","{3,3}",\N,4,Glitch,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fGlugoM    ,3,7,2015-08-28 02:42:36,"{Doutanuki,drnics}","{43070,5591}","{3,3}","{3,1}",\N,4,Glitch,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeHQrQkM    ,3,7,2015-08-28 01:56:07,"{Emuboy,hugokaletkowiec}","{157732,157747}","{1,2}","{3,3}",\N,9,Long Nine,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgZiqpQkM    ,3,7,2015-08-28 02:35:47,"{mcsegameguy99,""Lucky Bear 11""}","{1613,1623}","{3,3}","{2,3}",\N,9,Long Nine,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkebKvwoM    ,3,7,2015-08-28 01:49:03,"{flythesun,Aid0o}","{92646,2778}","{3,3}","{3,3}",\N,7,Peekaboo,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZbptQoM    ,3,7,2015-08-28 01:50:22,"{Rebeccap127,GreenCapper}","{65670,27497}","{3,3}","{1,1}",\N,7,Peekaboo,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAtuL50ggM    ,3,7,2015-08-28 02:28:05,"{C.Roehm,mustapuna}","{1928,12813}","{4,4}","{2,2}",\N,7,Peekaboo,87,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYqouAkM    ,3,7,2015-08-28 02:34:08,"{MaisaDuarte,jj2749}","{74756,27262}","{3,3}","{3,1}",\N,13,Reaper,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bfn-QkM    ,3,7,2015-08-28 02:17:30,"{""kosty young"",kleinstiefel}","{66454,19444}","{3,3}","{3,1}",\N,10,Sharkfood Island,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Zm1pwoM    ,3,7,2015-08-28 01:38:02,"{Carolina2Cali,""Bryc3 94""}","{37438,26065}","{3,4}","{1,3}",\N,10,Sharkfood Island,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaPsoQsM    ,3,7,2015-08-28 02:02:40,"{""xx uNo xx"",JohnyA33}","{1172,33142}","{5,4}","{2,2}",\N,10,Sharkfood Island,23,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAwaqdqAkM    ,3,7,2015-08-28 02:39:46,"{Igor_007,kazztawdal}","{151732,153919}","{3,3}","{3,3}",\N,10,Sharkfood Island,31,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsem0sgoM    ,3,7,2015-08-28 01:40:25,"{shimi-1,mattwang97}","{25680,36802}","{3,3}","{3,2}",\N,10,Sharkfood Island,26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cagsgoM    ,3,7,2015-08-28 01:39:13,"{Spudfuss,jukka.h}","{150737,15487}","{3,4}","{3,1}",\N,14,Skull Duggery,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Zfa4AgM    ,3,7,2015-08-28 01:58:06,"{"">> Major Tom <<"",""alig 38""}","{2083,1944}","{4,4}","{3,1}",\N,14,Skull Duggery,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d3yswsM    ,3,7,2015-08-28 02:41:29,"{Danannnn,サドンデス}","{68728,157683}","{1,1}","{3,3}",\N,14,Skull Duggery,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_sfKuQoM    ,3,7,2015-08-28 01:40:33,"{UVVU,Packerplayas52}","{95897,71774}","{3,3}","{1,2}",\N,6,Sweetie Plains,28,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZjJsAsM    ,3,7,2015-08-28 02:47:43,"{(Fakename)!,echojeter}","{143215,68086}","{3,3}","{2,3}",\N,16,Sweet Tooth,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aWFuQoM    ,3,7,2015-08-28 02:04:41,"{KSmerfz,lucasamuelmullers}","{18256,143277}","{3,3}","{2,3}",\N,16,Sweet Tooth,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgf-RvQkM    ,3,7,2015-08-28 02:30:19,"{avocado-sky,""Lucky Bear 11""}","{65476,1623}","{3,3}","{1,3}",\N,16,Sweet Tooth,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkf6N4AoM    ,3,7,2015-08-28 02:47:01,"{LaurenEE22,IDontWantToGoOnTheCart}","{33119,53977}","{2,2}","{2,3}",\N,16,Sweet Tooth,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eq4oAsM    ,3,7,2015-08-28 01:55:21,"{O5c4r00,IDontWantToGoOnTheCart}","{82161,53977}","{2,2}","{1,3}",\N,16,Sweet Tooth,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscLw9QoM    ,3,7,2015-08-28 02:48:13,"{IDontWantToGoOnTheCart,LaurenEE22}","{53977,33119}","{2,2}","{3,3}",\N,12,Thorn Gulley,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkaLRsQsM    ,3,7,2015-08-28 02:23:36,"{""Rigoberto P."",gigiblendubin}","{39174,111573}","{3,3}","{3,3}",\N,12,Thorn Gulley,30,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e2TvgkM    ,3,7,2015-08-28 01:17:45,"{Mexamedic,Jimyaker}","{5012,38957}","{3,3}","{3,3}",\N,3,Foundry (V2),9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eHhoAoM    ,3,7,2015-08-28 01:33:48,"{KarinaGaz,""Jisabell 26""}","{152662,5541}","{3,3}","{3,1}",\N,3,Foundry (V2),18,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcL3tgsM    ,3,7,2015-08-28 01:31:56,"{Ticat_squab,Carolina2Cali}","{41816,37438}","{3,3}","{2,1}",\N,3,Foundry (V2),20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsc7UuQsM    ,3,7,2015-08-28 01:14:35,"{carlmlane,slenderbrine227}","{157468,157841}","{1,0}","{1,3}",\N,4,Glitch,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZHkuwoM    ,3,7,2015-08-28 01:12:52,"{Techrev,Mistykninja}","{1714,42959}","{4,4}","{3,2}",\N,4,Glitch,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cr2jAsM    ,3,7,2015-08-28 01:28:18,"{IDontWantToGoOnTheCart,LaurenEE22}","{53977,33119}","{2,2}","{3,1}",\N,9,Long Nine,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bH4sAoM    ,3,7,2015-08-28 01:15:23,"{Piskado,spacechef}","{37066,1446}","{4,4}","{1,1}",\N,9,Long Nine,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkerR5wgM    ,3,7,2015-08-28 01:06:24,"{""B3as7 Mazt3r"",""Squid Gurl""}","{157238,155869}","{1,1}","{1,3}",\N,7,Peekaboo,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseT3vwoM    ,2,7,2015-08-28 01:33:44,"{jadieisakitty,r0untaz}","{153635,6326}","{0,0}","{3,3}",\N,13,Reaper,28,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkeKuvQsM    ,3,7,2015-08-28 01:19:39,"{""ivan trana"",Rebeccap127}","{4324,65670}","{3,3}","{3,1}",\N,13,Reaper,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0d3X9wkM    ,3,7,2015-08-28 01:08:47,"{yazrice99,Tejay82}","{153111,22391}","{4,4}","{2,2}",\N,13,Reaper,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZjkpwsM    ,3,7,2015-08-28 01:28:13,"{taren56,stademeister15}","{5177,137592}","{3,3}","{1,4}",\N,10,Sharkfood Island,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4d2d7wsM    ,3,7,2015-08-28 01:29:30,"{""  Anne801  "",""{TATTII}""}","{144024,38300}","{3,3}","{1,4}",\N,10,Sharkfood Island,20,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZunrQsM    ,3,7,2015-08-28 01:27:04,"{Jooz1514,"">> deathjr <<""}","{41105,153429}","{3,3}","{3,3}",\N,14,Skull Duggery,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0a7LvQsM    ,3,7,2015-08-28 01:30:04,"{r0untaz,Carolina2Cali}","{6326,37438}","{3,3}","{2,1}",\N,14,Skull Duggery,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkezf7QoM    ,3,7,2015-08-28 01:24:50,"{""Jekk Manaka"",panya7}","{6607,157011}","{3,3}","{3,4}",\N,14,Skull Duggery,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsY2krgoM    ,3,7,2015-08-28 01:26:55,"{IDontWantToGoOnTheCart,celinannette}","{53977,2329}","{2,2}","{3,4}",\N,14,Skull Duggery,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsajKoQoM    ,3,7,2015-08-28 01:16:22,"{igusti,uckfou}","{29092,14317}","{3,3}","{3,2}",\N,16,Sweet Tooth,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8eiJvgoM    ,3,7,2015-08-28 01:17:09,"{""Sir Meeoowsalot"",kimchinabe}","{149279,18038}","{4,4}","{3,2}",\N,16,Sweet Tooth,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcuzpQsM    ,3,7,2015-08-28 01:32:12,"{redleg16,Ptwobbell}","{5565,157501}","{3,3}","{2,3}",\N,16,Sweet Tooth,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaSJrAoM    ,3,7,2015-08-28 01:29:06,"{""Bryc3 94"",Carolina2Cali}","{26065,37438}","{4,3}","{3,1}",\N,16,Sweet Tooth,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4amvuQkM    ,3,7,2015-08-28 01:10:21,"{mmog83,flythesun}","{8406,92646}","{3,3}","{4,3}",\N,16,Sweet Tooth,58,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fmRsQoM    ,2,7,2015-08-28 01:04:58,"{""*(:Extra Wide Body:)*"",""Squid Gurl""}","{76021,155869}","{0,0}","{4,3}",\N,16,Sweet Tooth,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4bjctAsM    ,3,7,2015-08-28 01:30:04,"{""Jisabell 26"",jantanajahmon}","{5541,153034}","{3,3}","{1,3}",\N,12,Thorn Gulley,37,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZXF_AgM    ,3,7,2015-08-28 01:33:24,"{slenderbrine227,smed}","{157841,156999}","{0,1}","{3,3}",\N,12,Thorn Gulley,3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgcaJogoM    ,3,7,2015-08-28 01:32:18,"{jantanajahmon,Nunnu_1}","{153034,2317}","{3,3}","{3,2}",\N,12,Thorn Gulley,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eLe7gkM    ,5,7,2015-08-28 01:15:44,"{mth1967,""Last Angel"",slenderbrine227,""Colonel Turk""}","{75726,1163,157841,21191}","{1,0,0,0}","{3,3,3,3}",\N,5,Candy Core Mine,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAke_QtQsM    ,3,7,2015-08-28 00:21:50,"{Ubiquemuzik,*chet}","{3903,39247}","{3,3}","{2,2}",\N,4,Glitch,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YDP7wsM    ,3,7,2015-08-28 00:16:14,"{""Big E Barnes"",-Mahler1-}","{4858,157769}","{2,2}","{1,3}",\N,4,Glitch,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYK77QsM    ,3,7,2015-08-28 00:30:51,"{urMASTERR,WollemiPine}","{1103,41585}","{4,4}","{3,1}",\N,4,Glitch,37,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZaJ7wgM    ,2,7,2015-08-28 00:59:25,"{krasnyoktyabr,Barghest22}","{156980,157840}","{0,0}","{3,3}",\N,9,Long Nine,48,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdSd9wkM    ,3,7,2015-08-28 00:20:56,"{Kroberts96,Tierce174}","{60393,157475}","{2,1}","{1,4}",\N,7,Peekaboo,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ePW8AgM    ,3,7,2015-08-28 01:01:47,"{HowComeYouSuck?,dunglert10}","{84173,38010}","{4,4}","{2,1}",\N,13,Reaper,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bPAqAkM    ,2,7,2015-08-28 00:41:45,"{Dadateyont,doodlefer}","{149323,149322}","{0,0}","{3,2}",\N,10,Sharkfood Island,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZKmpQkM    ,3,7,2015-08-28 00:17:18,"{=!(TShp)!=,Hooydonck}","{120472,149099}","{2,2}","{4,3}",\N,10,Sharkfood Island,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbnIpgkM    ,3,7,2015-08-28 00:20:21,"{Pahvlor,TuxedoSquid}","{157147,156567}","{2,2}","{4,1}",\N,14,Skull Duggery,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4Zv6rwkM    ,3,7,2015-08-28 00:34:01,"{Designerbeatnik,""{CEELOW•415}""}","{59917,149325}","{3,3}","{1,1}",\N,14,Skull Duggery,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfqYsQoM    ,3,7,2015-08-28 00:50:21,"{shimi-1,mattwang97}","{25680,36802}","{3,3}","{3,1}",\N,14,Skull Duggery,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfiwvwoM    ,3,7,2015-08-28 00:46:03,"{*Trendybear*,EastArete}","{64500,4719}","{3,3}","{3,1}",\N,14,Skull Duggery,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ZzJuAkM    ,3,7,2015-08-28 00:19:20,"{...Thorndor...,kieronbm}","{156965,72051}","{3,3}","{2,4}",\N,6,Sweetie Plains,17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkY_O5QkM    ,2,7,2015-08-28 01:02:41,"{doodlefer,Dadateyont}","{149322,149323}","{0,0}","{4,4}",\N,6,Sweetie Plains,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4d7h-woM    ,3,7,2015-08-28 00:20:34,"{JCUAce,jamieg60}","{7651,7935}","{3,3}","{2,3}",\N,6,Sweetie Plains,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseWWvwoM    ,3,7,2015-08-28 00:22:40,"{Kmaev808,MartinKJ86}","{37070,152373}","{3,3}","{2,1}",\N,6,Sweetie Plains,32,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8cqFpAoM    ,3,7,2015-08-28 00:23:42,"{Kroberts96,papa_lion}","{60393,3618}","{2,2}","{1,4}",\N,16,Sweet Tooth,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0e6SqgsM    ,3,7,2015-08-28 00:38:50,"{Dadateyont,""{CEELOW•415}""}","{149323,149325}","{3,3}","{4,1}",\N,16,Sweet Tooth,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aanuAkM    ,3,7,2015-08-28 00:35:08,"{"">> Major Tom <<"",""alig 38""}","{2083,1944}","{4,4}","{3,1}",\N,16,Sweet Tooth,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZPXpQkM    ,3,7,2015-08-28 00:45:23,"{s1ck_tones,**JeeA**}","{126320,25944}","{3,3}","{3,1}",\N,12,Thorn Gulley,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4dGApwsM    ,3,7,2015-08-28 00:57:29,"{craig24445,""j0n 46""}","{42864,3608}","{3,3}","{3,3}",\N,12,Thorn Gulley,14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aL7qgsM    ,3,7,2015-08-28 00:29:06,"{matchstickNate,Techrev}","{15987,1714}","{3,4}","{4,3}",\N,12,Thorn Gulley,25,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cTKvAkM    ,3,7,2015-08-28 01:00:16,"{panya7,mattwang97}","{157011,36802}","{3,3}","{4,4}",\N,15,War Garden,13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eyBpgkM    ,3,7,2015-08-28 01:04:52,"{lyrux,""Jeff Frisco""}","{150471,72889}","{2,2}","{4,3}",\N,15,War Garden,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfX0qwoM    ,3,7,2015-08-28 00:47:44,"{Surinam,mackdaddy1407}","{151689,4581}","{3,3}","{4,3}",\N,15,War Garden,12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4eS49AoM    ,3,7,2015-08-28 00:56:03,"{SpaceRanger,Airbornemil}","{155260,69026}","{3,3}","{4,4}",\N,15,War Garden,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgYmXsQoM    ,5,7,2015-08-28 00:16:32,"{mth1967,""% Ezdream %"",tkwee,daileader}","{75726,81011,108165,67733}","{1,0,1,0}","{3,2,3,3}",\N,1,Machination,45,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0azK6QgM    ,3,7,2015-08-28 00:07:05,"{luig33k,Bebu}","{5631,76410}","{3,4}","{2,1}",\N,9,Long Nine,33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscD3sgoM    ,3,7,2015-08-28 00:13:26,"{Rissadanger,CM_Lynxus}","{16978,73408}","{3,3}","{1,1}",\N,9,Long Nine,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bKRqAsM    ,3,7,2015-08-28 00:10:11,"{lemon4ik,drnics}","{42735,5591}","{3,3}","{2,1}",\N,7,Peekaboo,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAodWArwsM    ,3,7,2015-08-28 00:11:16,"{""Thai Christian"",""- <Krittapon> -""}","{25933,13728}","{3,3}","{2,3}",\N,13,Reaper,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfDHoAkM    ,3,7,2015-08-28 00:15:33,"{*chet,elle_v}","{39247,102069}","{3,3}","{2,3}",\N,10,Sharkfood Island,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZKJ5wsM    ,3,7,2015-08-28 00:11:40,"{seber1an,Wash-Rinse-Repeat}","{39284,27797}","{3,3}","{3,2}",\N,12,Thorn Gulley,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseCAoAkM    ,3,7,2015-08-28 00:09:37,"{=!(TShp)!=,""THE Hoggleg""}","{120472,102120}","{2,2}","{4,3}",\N,12,Thorn Gulley,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0Y6R4wgM    ,3,7,2015-08-28 00:06:18,"{StonerPwner420,kieronbm}","{7546,72051}","{3,3}","{3,3}",\N,15,War Garden,5,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscaNqQoM    ,2,7,2015-08-28 00:14:19,"{spacechef,burningspear72}","{1446,83376}","{0,0}","{1,1}",\N,15,War Garden,13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYni7AgM    ,3,7,2015-08-28 00:15:00,"{Ubiquemuzik,""Fe Chef 2""}","{3903,76646}","{3,3}","{2,3}",\N,15,War Garden,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZXp8wkM    ,3,7,2015-08-28 19:19:10,"{pumk1nhead,trevor.mcbride45}","{147252,7778}","{2,1}","{2,3}",\N,3,Foundry (V2),10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdXv6QgM    ,3,7,2015-08-28 14:19:09,"{Letsgophils17,Zeox120}","{151538,49457}","{3,2}","{3,4}",\N,4,Glitch,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcDivQsM    ,2,7,2015-08-28 21:40:41,"{carlmlane,XxxBOOSTEDxxX}","{157468,155378}","{0,0}","{3,3}",\N,9,Long Nine,26,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbCstAoM    ,3,7,2015-08-28 19:44:52,"{~[gandalfinho]~,""the Baker""}","{36195,148266}","{3,3}","{1,3}",\N,9,Long Nine,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YCN6goM    ,3,7,2015-08-28 20:32:42,"{bmike,Frosty_Polarbear}","{179,35004}","{3,3}","{1,2}",\N,9,Long Nine,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYesrwsM    ,3,7,2015-08-28 23:27:49,"{jwalk,Jooz1514}","{140296,41105}","{3,3}","{1,3}",\N,7,Peekaboo,31,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4YWX6goM    ,3,7,2015-08-28 19:19:03,"{wendy.mahem,huggormen87}","{8128,157889}","{2,0}","{3,3}",\N,13,Reaper,4,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cekuwkM    ,2,7,2015-08-28 22:58:47,"{MasterA,erikajuliana}","{137957,34847}","{0,0}","{3,3}",\N,10,Sharkfood Island,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcbQ4AgM    ,3,7,2015-08-28 22:58:21,"{stademeister15,deadfishnonsense}","{137592,88274}","{3,3}","{2,2}",\N,10,Sharkfood Island,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsantrQoM    ,3,7,2015-08-28 18:42:39,"{djschadt,""TJ eagle eyes""}","{3730,136563}","{3,3}","{3,3}",\N,10,Sharkfood Island,15,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsae8sgoM    ,3,7,2015-08-28 17:19:45,"{Litsyemir,timstein79}","{3285,156522}","{2,3}","{4,1}",\N,10,Sharkfood Island,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dzh_QgM    ,3,7,2015-08-28 17:11:24,"{""{CEELOW•415}"",mb359}","{149325,106720}","{3,3}","{1,1}",\N,14,Skull Duggery,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbCwpQkM    ,3,7,2015-08-28 19:19:03,"{HogarthHughes,•liilllaaaa•}","{157887,157888}","{0,0}","{3,3}",\N,14,Skull Duggery,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsfHBsQoM    ,3,7,2015-08-28 23:25:11,"{Wash-Rinse-Repeat,Ptwobbell}","{27797,157501}","{3,3}","{2,3}",\N,14,Skull Duggery,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eKPsAkM    ,3,7,2015-08-28 17:57:25,"{bmike,""TheFaraaz ""}","{179,76195}","{3,4}","{2,2}",\N,16,Sweet Tooth,27,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0f3S7QkM    ,3,7,2015-08-28 14:06:08,"{Ethan__Yap,mackdaddy1407}","{70330,4581}","{3,3}","{3,1}",\N,12,Thorn Gulley,21,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYr-4gsM    ,2,7,2015-08-28 15:32:37,"{""Squid Gurl"",""Sean Mc""}","{155869,37163}","{0,0}","{3,3}",\N,15,War Garden,24,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aferAoM    ,5,7,2015-08-28 22:13:00,"{=J0$)-(=,dbruntz1125,jesusfuentesh,fossilfuelsman}","{1936,18695,17070,14443}","{4,4,5,4}","{3,3,2,2}",\N,11,Acrospire,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ2cugoM    ,5,7,2015-08-28 19:19:06,"{ithinkthecatisill,OutwitterSupreme,""van Hovelen"",OlavHetle}","{131579,145729,154055,150817}","{0,1,0,1}","{3,3,3,2}",\N,11,Acrospire,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cm9ugkM    ,5,7,2015-08-28 15:37:38,"{Tawgman,Death101,jefe127,UVVU}","{3252,121146,5014,95897}","{4,3,4,3}","{3,3,2,2}",\N,8,Blitz Beach,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAnsq87QoM    ,5,7,2015-08-28 16:19:35,"{midview2000,chainsaw76,[X3JA],""mini chainsaw""}","{37046,17406,26625,21336}","{4,4,4,4}","{2,3,3,3}",\N,8,Blitz Beach,38,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYDwvgoM    ,5,7,2015-08-28 14:19:17,"{Mariiahh23,Mr.Flufficus,HeadlessLegend,""~ BoZo420 ~""}","{157818,157014,36754,157124}","{0,1,0,2}","{3,1,2,3}",\N,1,Machination,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eLK9wkM    ,3,7,2015-08-28 07:49:14,"{celinannette,BigSteve}","{2329,76856}","{2,3}","{4,4}",\N,4,Glitch,20,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eSu9QgM    ,3,7,2015-08-28 00:56:14,"{HowComeYouSuck?,kimchinabe}","{84173,18038}","{4,4}","{2,1}",\N,4,Glitch,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4fnr-QoM    ,2,7,2015-08-28 13:13:05,"{""% m1cky_98 %"",""Mawrth Vallis""}","{157059,155374}","{0,0}","{3,1}",\N,9,Long Nine,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZv9tAkM    ,3,7,2015-08-28 14:01:27,"{YoshiNagel,""BIG G the one and only""}","{133384,106843}","{3,2}","{3,3}",\N,9,Long Nine,11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAtpfq8ggM    ,3,7,2015-08-28 06:21:05,"{KevSmash,bruxstud}","{10051,6861}","{3,4}","{2,2}",\N,7,Peekaboo,130,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YbZpAkM    ,3,7,2015-08-28 01:30:19,"{echojeter,CM_Lynxus}","{68086,73408}","{3,3}","{3,1}",\N,7,Peekaboo,27,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8a6JuAoM    ,3,7,2015-08-28 10:37:34,"{deadblue,Kroberts96}","{1162,60393}","{2,2}","{3,1}",\N,10,Sharkfood Island,8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf-wtwoM    ,3,7,2015-08-28 00:53:59,"{Kroberts96,-Mahler1-}","{60393,157769}","{2,2}","{1,3}",\N,10,Sharkfood Island,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ejsvwkM    ,3,7,2015-08-28 02:32:48,"{GenocidalSpark,burbache}","{154136,13379}","{0,2}","{3,3}",\N,10,Sharkfood Island,9,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c2zqQkM    ,3,7,2015-08-28 09:19:05,"{derekhanson75,jonoisawesome}","{34877,9659}","{3,3}","{3,1}",\N,10,Sharkfood Island,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4f-ksgsM    ,3,7,2015-08-28 09:07:13,"{===badass33===,littletimebomb}","{4365,71315}","{3,3}","{3,1}",\N,14,Skull Duggery,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_p-5twoM    ,3,7,2015-08-28 00:11:59,"{chiefski101,""The Dominant Killer Sr""}","{29584,41273}","{4,4}","{2,3}",\N,6,Sweetie Plains,71,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dKjtgoM    ,3,7,2015-08-28 12:18:01,"{""Relentless Drive"",rabid*emu}","{154875,116635}","{2,2}","{1,3}",\N,16,Sweet Tooth,22,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYGD_QgM    ,3,7,2015-08-28 03:51:09,"{3dward52,AshLaw}","{42534,104670}","{3,3}","{3,3}",\N,16,Sweet Tooth,19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsayMowoM    ,3,7,2015-08-28 05:15:43,"{Cloclotte64,j0na1han}","{66007,152332}","{3,3}","{1,3}",\N,15,War Garden,15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0b_JuQoM    ,2,7,2015-08-28 11:29:42,"{Cogollito69,""Karma Militia""}","{140097,42955}","{0,0}","{4,2}",\N,15,War Garden,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfqs5QoM    ,3,7,2015-08-28 09:38:08,"{kimchinabe,5DYukLa}","{18038,9854}","{4,4}","{1,2}",\N,15,War Garden,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd_gqQoM    ,3,7,2015-08-28 02:35:50,"{Maynard314,cjrogers80}","{2171,22493}","{3,3}","{4,1}",\N,15,War Garden,19,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcyouQoM    ,5,7,2015-08-28 10:34:35,"{Carolina2Cali,tjizzel33,thefunk18,Bobbeh07}","{37438,56664,6545,39328}","{2,2,2,2}","{1,1,3,1}",\N,17,Sugar Rock,49,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAoejy-ggM    ,5,7,2015-08-28 04:19:22,"{""~ mhysa of dragons ~"",Dan123456789⚫️,""GoM 11"",aknights}","{2913,87269,39389,50818}","{1,1,1,1}","{1,3,2,3}",\N,17,Sugar Rock,12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsaq15AkM    ,3,7,2015-08-28 23:23:06,"{""laser mimas"",Stands-24}","{940,2717}","{2,2}","{1,3}",\N,3,Foundry (V2),3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4cS95goM    ,3,7,2015-08-28 23:17:21,"{Stands-24,""laser mimas""}","{2717,940}","{2,2}","{3,1}",\N,3,Foundry (V2),3,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsf6iuwoM    ,3,7,2015-08-28 22:20:19,"{uhhokay,bose}","{152149,157902}","{2,0}","{2,3}",\N,3,Foundry (V2),6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0YfrswoM    ,3,7,2015-08-28 21:21:13,"{killingyourself,Grompie}","{155131,13001}","{4,4}","{3,1}",\N,3,Foundry (V2),13,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eLK9woM    ,3,7,2015-08-28 20:20:07,"{wolfpk1988,nemmy825}","{44785,75330}","{2,3}","{1,2}",\N,3,Foundry (V2),12,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZCVpAsM    ,3,7,2015-08-28 19:52:06,"{brh!!!,skamanbobo}","{7405,35468}","{3,3}","{1,2}",\N,4,Glitch,43,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAobO7-AgM    ,3,7,2015-08-28 19:19:11,"{Parmeniotrue,clitcommander}","{156719,118790}","{3,2}","{3,3}",\N,4,Glitch,7,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4buwswkM    ,3,7,2015-08-28 19:19:10,"{Jukiic,OlavHetle}","{157104,150817}","{1,1}","{2,4}",\N,4,Glitch,9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4aa88QgM    ,3,7,2015-08-28 19:19:04,"{Bobby-west,clitcommander}","{149742,118790}","{2,2}","{3,3}",\N,4,Glitch,16,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAgeySrQoM    ,3,7,2015-08-28 18:52:03,"{djoklhune,Riderhood}","{1816,137028}","{4,4}","{3,4}",\N,3,Foundry (V2),46,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsb2tsgsM    ,2,7,2015-08-28 18:01:10,"{Kilogallom,Ram4thorn3}","{140978,140979}","{0,0}","{1,3}",\N,3,Foundry (V2),15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcPYugkM    ,2,7,2015-08-28 17:08:42,"{""  Anne801  "",""The Mighty THOR""}","{144024,130613}","{0,0}","{1,3}",\N,3,Foundry (V2),13,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4drB6AsM    ,3,7,2015-08-28 16:14:54,"{vastlyblank,schneeheinrich}","{79054,1445}","{3,3}","{1,3}",\N,3,Foundry (V2),10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbLmogoM    ,3,7,2015-08-28 14:48:41,"{AvsFan21Rocks,Gardner1111!}","{39010,156000}","{3,4}","{4,2}",\N,3,Foundry (V2),17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4afK9QgM    ,2,7,2015-08-28 14:48:39,"{badpokemon,PrestonTheDonkey}","{2616,62878}","{0,0}","{4,4}",\N,3,Foundry (V2),8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkYr-4gkM    ,3,7,2015-08-28 14:24:40,"{StacyMSinGR,""Roaring-Lion 108""}","{155525,60280}","{3,3}","{3,4}",\N,3,Foundry (V2),19,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAvqmmtgoM    ,3,7,2015-08-28 14:19:16,"{""% Ezdream %"",Shadow.}","{81011,72610}","{3,3}","{2,4}",\N,4,Glitch,21,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0c3l8AoM    ,3,7,2015-08-28 14:19:08,"{Kroberts96,Stwt4430}","{60393,157872}","{2,0}","{1,3}",\N,4,Glitch,2,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkd_g6QsM    ,3,7,2015-08-28 13:45:30,"{""Littol Bean"",Ubiquemuzik}","{113432,3903}","{3,3}","{3,2}",\N,3,Foundry (V2),10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYWsqwkM    ,3,7,2015-08-28 12:54:43,"{Rocco_wins,luckyaaron}","{157388,142267}","{2,2}","{3,4}",\N,3,Foundry (V2),14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAodWj-QgM    ,3,7,2015-08-28 11:36:19,"{""Fe Chef 2"",""Rob-bobby Orr""}","{76646,149764}","{3,3}","{3,3}",\N,3,Foundry (V2),11,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdfmoAsM    ,3,7,2015-08-28 10:42:02,"{EhsEmDoubleU,""Cpt Awsomeo""}","{677,157868}","{2,0}","{3,3}",\N,3,Foundry (V2),9,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsYWsqwoM    ,3,7,2015-08-28 10:27:23,"{luckyaaron,*HankdaTank*}","{142267,157174}","{2,2}","{2,3}",\N,3,Foundry (V2),17,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscaNqQsM    ,3,7,2015-08-28 09:25:19,"{Disgruntle,Awwdii}","{154281,18309}","{2,2}","{1,2}",\N,3,Foundry (V2),10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscqDrwoM    ,3,7,2015-08-28 09:13:23,"{AndrewWK,""{TATTII}""}","{155890,38300}","{3,3}","{1,2}",\N,3,Foundry (V2),17,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0dWrowsM    ,3,7,2015-08-28 07:36:33,"{seber1an,Juiryanhe}","{39284,151982}","{3,3}","{3,3}",\N,3,Foundry (V2),10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0ZaJrwoM    ,2,7,2015-08-28 06:10:43,"{badpokemon,PrestonTheDonkey}","{2616,62878}","{0,0}","{4,4}",\N,3,Foundry (V2),10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0cXY8ggM    ,3,7,2015-08-28 04:29:02,"{gordissimo,===badass33===}","{3245,4365}","{3,3}","{4,4}",\N,3,Foundry (V2),16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdaVpgoM    ,3,7,2015-08-28 05:38:31,"{jonoisawesome,shakiro1976}","{9659,3287}","{3,3}","{1,3}",\N,4,Glitch,39,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4efRtwkM    ,3,7,2015-08-28 04:19:22,"{Balko4154,k1ngman99}","{157463,157852}","{0,0}","{3,3}",\N,4,Glitch,6,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA_of7oAkM    ,2,7,2015-08-28 04:19:08,"{DaddyMcFatBack,""Mister E Jones""}","{156429,39524}","{0,0}","{3,4}",\N,4,Glitch,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsZ_XvgkM    ,3,7,2015-08-28 02:33:14,"{jj2749,MaisaDuarte}","{27262,74756}","{3,3}","{2,3}",\N,3,Foundry (V2),14,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkda3oAsM    ,3,7,2015-08-28 01:05:21,"{Ticat_squab,taka8181}","{41816,36773}","{3,3}","{3,3}",\N,3,Foundry (V2),12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aChrQsM    ,3,7,2015-08-28 00:46:44,"{shimi-1,mattwang97}","{25680,36802}","{3,3}","{3,4}",\N,3,Foundry (V2),12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfqLowoM    ,3,7,2015-08-28 08:17:26,"{•Big-Bozz•,BigSteve}","{19942,76856}","{3,3}","{4,4}",\N,3,Foundry (V2),26,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAseXCrgoM    ,3,7,2015-08-28 18:34:12,"{Morenito80,Parmeniotrue}","{66026,156719}","{3,3}","{3,3}",\N,3,Foundry (V2),33,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAscbG4QgM    ,2,7,2015-08-28 14:36:00,"{onoff,johnny5r}","{16113,603}","{0,0}","{3,4}",\N,3,Foundry (V2),15,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsdrJvAsM    ,3,7,2015-08-28 14:29:24,"{uckfou,jaydrel}","{14317,3678}","{3,3}","{2,2}",\N,3,Foundry (V2),10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0aXKsQoM    ,2,7,2015-08-28 12:50:21,"{badpokemon,PrestonTheDonkey}","{2616,62878}","{0,0}","{1,4}",\N,3,Foundry (V2),14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA8azfpAoM    ,3,7,2015-08-28 21:16:58,"{gpruitt,""Frogleg Collins""}","{8035,139455}","{1,1}","{3,3}",\N,3,Foundry (V2),8,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0fnHsAsM    ,3,7,2015-08-28 02:40:53,"{kailualisa,rachelviolet}","{147994,157669}","{1,0}","{4,3}",\N,3,Foundry (V2),12,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0eGItgoM    ,3,7,2015-08-28 23:14:29,"{korruptkoncepts,KevcaT21}","{38863,99438}","{3,3}","{3,2}",\N,4,Glitch,4,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkc-frwkM    ,3,7,2015-08-28 04:19:20,"{Cachet..DuMonay,MOMuscle}","{89491,150791}","{3,3}","{3,3}",\N,4,Glitch,7,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsbyjrQoM    ,3,7,2015-08-28 10:56:37,"{kailualisa,""laser mimas""}","{147994,940}","{1,2}","{4,4}",\N,4,Glitch,14,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAsb_9uwoM    ,3,7,2015-08-28 00:34:23,"{""laser mimas"",carlmlane}","{940,157468}","{2,1}","{4,1}",\N,4,Glitch,10,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkfOfogsM    ,3,7,2015-08-28 14:19:09,"{Kroberts96,BabyCHii16}","{60393,157874}","{2,0}","{1,3}",\N,4,Glitch,3,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkbuR-AkM    ,2,7,2015-08-28 19:16:48,"{dramaticjean,""Moomin Thunder""}","{157882,17008}","{0,0}","{3,1}",\N,9,Long Nine,10,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA0bL1uQsM    ,3,7,2015-08-28 06:01:49,"{""Big E Barnes"",""BIG G the one and only""}","{4858,106843}","{2,2}","{1,1}",\N,10,Sharkfood Island,8,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4ezltwkM    ,3,7,2015-08-28 04:46:43,"{ilya..k,nickaponcho}","{15559,66875}","{4,3}","{3,3}",\N,12,Thorn Gulley,49,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkZ7gogkM    ,3,7,2015-08-28 15:44:37,"{mojo.working,""Hannes Haak""}","{5601,28612}","{3,3}","{3,2}",\N,12,Thorn Gulley,18,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkcG6uwoM    ,5,7,2015-08-28 14:30:03,"{sportssinco,zxznicole,SanDiego2,godlee}","{2045,27707,4944,155096}","{4,4,4,4}","{2,2,3,3}",\N,11,Acrospire,53,t,1,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDA4avRqQkM    ,5,7,2015-08-28 19:19:08,"{OlavHetle,Dylan,OutwitterSupreme,Trublesome}","{150817,104128,145729,75419}","{1,1,1,1}","{1,3,2,3}",\N,11,Acrospire,16,t,2,1603
+ahRzfm91dHdpdHRlcnNnYW1lLWhyZHIVCxIIR2FtZVJvb20YgIDAkdHguQsM    ,5,7,2015-08-28 09:36:06,"{AdamTH6190,""Baudolino The 21st"",chelsea4-
