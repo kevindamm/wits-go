@@ -21,7 +21,7 @@ func (Match) Fields() []ent.Field {
 		field.Int("version"),
 		field.Int8("season").
 			Default(0), // Zero value also implies non-competitive.
-		field.Time("start_time").
+		field.Time("created_ts").
 			Default(time.Now),
 		field.Int("turn_count"),
 		field.Enum("fetch_status").
@@ -43,7 +43,8 @@ func (Match) Fields() []ent.Field {
 // Edges of the Match.
 func (Match) Edges() []ent.Edge {
 	return []ent.Edge{
-		edge.To("arena_id", Arena.Type),
+		edge.To("map", OsnMap.Type),
 		edge.From("roles", PlayerRole.Type).Ref("match"),
+		edge.From("roles", TeamRole.Type).Ref("match"),
 	}
 }

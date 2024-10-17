@@ -27,6 +27,6 @@ func (Player) Fields() []ent.Field {
 // Edges of the Player.
 func (Player) Edges() []ent.Edge {
 	return []ent.Edge{
-		edge.To("roles", PlayerRole.Type),
+		edge.From("roles", PlayerRole.Type).Ref("player_id"),
 	}
 }
