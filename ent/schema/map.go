@@ -2,6 +2,7 @@ package schema
 
 import (
 	"entgo.io/ent"
+	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 )
 
@@ -13,16 +14,15 @@ type OsnMap struct {
 // Fields of the Arena.
 func (OsnMap) Fields() []ent.Field {
 	return []ent.Field{
-		field.Int("id"),
-		field.String("map_slug"),
 		field.String("name"),
+		field.String("shortname"),
 		field.Int("role_count").Positive(),
-		field.Int("width").Positive(),
-		field.Int("height").Positive(),
 	}
 }
 
 // Edges of the Arena.
 func (OsnMap) Edges() []ent.Edge {
-	return nil
+	return []ent.Edge{
+		edge.To("matches", Match.Type),
+	}
 }

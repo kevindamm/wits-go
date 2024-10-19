@@ -15,8 +15,10 @@ type PlayerRole struct {
 // Fields of the PlayerRole.
 func (PlayerRole) Fields() []ent.Field {
 	return []ent.Field{
-		field.Int("position"),
-		field.Int("turn_order"),
+		field.Int("match_id").StorageKey("role_match"),
+		field.Int("player_id").StorageKey("role_player"),
+		field.Int("position").Range(1, 4),
+		field.Int("turn_order").Range(1, 4),
 	}
 }
 
@@ -24,16 +26,18 @@ func (PlayerRole) Fields() []ent.Field {
 func (PlayerRole) Edges() []ent.Edge {
 	return []ent.Edge{
 		edge.To("match", Match.Type).
-			Field("match_id"),
-		edge.From("player", Player.Type).
-			Ref("roles").
-			Field("player_id"),
+			StorageKey(edge.Columns("role_match", "id")).
+			Required(),
+
+		edge.To("players", Player.Type).
+			StorageKey(edge.Columns("role_player", "id")).
+			Required(),
 	}
 }
 
 func (PlayerRole) Indexes() []ent.Index {
 	return []ent.Index{
-		index.Fields("match_id", "turn_order").
+		index.Fields("match_id", "position").
 			Unique(),
 		index.Fields("match_id", "player_id").
 			Unique(),

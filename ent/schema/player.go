@@ -14,10 +14,9 @@ type Player struct {
 // Fields of the Player.
 func (Player) Fields() []ent.Field {
 	return []ent.Field{
-		field.Int("id").
-			Positive(),
 		field.String("gcid").
 			Nillable().
+			Sensitive().
 			Unique(),
 		field.String("name").
 			Unique(),
@@ -27,6 +26,7 @@ func (Player) Fields() []ent.Field {
 // Edges of the Player.
 func (Player) Edges() []ent.Edge {
 	return []ent.Edge{
-		edge.From("roles", PlayerRole.Type).Ref("player_id"),
+		edge.From("roles", PlayerRole.Type).
+			Ref("players"),
 	}
 }
