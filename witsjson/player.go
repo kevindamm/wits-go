@@ -26,24 +26,24 @@ import (
 // Compatible with wits.PlayerRole interface, from a JSON-formatted replay.
 type PlayerRoleJSON struct {
 	PlayerID
-	Name_   string              `json:"name"`
-	Race_   UnitRaceJSON        `json:"race"`
-	Team_   FriendlyEnumJSON    `json:"team"`
-	Result_ TerminalStatusJSON  `json:"result"`
-	Before_ PlayerStandingsJSON `json:"before"`
-	After_  StandingsAfterJSON  `json:"after"`
-	BaseHP_ BaseHealth          `json:"base_hp"`
-	Wits_   int                 `json:"wits"`
+	Name_   string               `json:"name"`
+	Race_   UnitRaceJSON         `json:"race"`
+	Team_   FriendlyEnumJSON     `json:"team"`
+	Result_ TerminalStatusJSON   `json:"result"`
+	Before_ wits.PlayerStandings `json:"before"`
+	After_  wits.PlayerUpdate    `json:"after"`
+	BaseHP_ BaseHealth           `json:"base_hp"`
+	Wits_   int                  `json:"wits"`
 }
 
-func (role PlayerRoleJSON) Name() wits.PlayerName             { return wits.PlayerName(role.Name_) }
-func (role PlayerRoleJSON) Race() wits.UnitRaceEnum           { return wits.UnitRaceEnum(role.Race_) }
-func (role PlayerRoleJSON) Team() wits.FriendlyEnum           { return wits.FriendlyEnum(role.Team_) }
-func (role PlayerRoleJSON) Result() wits.TerminalStatus       { return wits.TerminalStatus(role.Result_) }
-func (role PlayerRoleJSON) Before() wits.PlayerStandings      { return role.Before_ }
-func (role PlayerRoleJSON) After() wits.PlayerStandingsUpdate { return role.After_ }
-func (role PlayerRoleJSON) BaseHP() wits.BaseHealth           { return wits.BaseHealth(role.BaseHP_) }
-func (role PlayerRoleJSON) Wits() wits.ActionPoints           { return wits.ActionPoints(role.Wits_) }
+func (role PlayerRoleJSON) Name() wits.PlayerName        { return wits.PlayerName(role.Name_) }
+func (role PlayerRoleJSON) Race() wits.UnitRaceEnum      { return wits.UnitRaceEnum(role.Race_) }
+func (role PlayerRoleJSON) Team() wits.FriendlyEnum      { return wits.FriendlyEnum(role.Team_) }
+func (role PlayerRoleJSON) Result() wits.TerminalStatus  { return wits.TerminalStatus(role.Result_) }
+func (role PlayerRoleJSON) Before() wits.PlayerStandings { return role.Before_ }
+func (role PlayerRoleJSON) After() wits.PlayerUpdate     { return role.After_ }
+func (role PlayerRoleJSON) BaseHP() wits.BaseHealth      { return wits.BaseHealth(role.BaseHP_) }
+func (role PlayerRoleJSON) Wits() wits.ActionPoints      { return wits.ActionPoints(role.Wits_) }
 
 // May be inlined by other structs (see PlayerRoleJSON and player standings).
 type PlayerID struct {
@@ -103,26 +103,19 @@ func (team FriendlyEnumJSON) MarshalJSON() ([]byte, error) {
 
 // Player standings is the tier/rank of the player before or after the match.
 type PlayerStandingsJSON struct {
-	Tier_ LeagueTierJSON `json:"tier"`
-	Rank_ LeagueRankJSON `json:"rank"`
+	Tier_ wits.LeagueTier `json:"tier"`
+	Rank_ wits.LeagueRank `json:"rank"`
 }
+
+func (standings PlayerStandingsJSON) Tier() wits.LeagueTier { return standings.Tier_ }
+func (standings PlayerStandingsJSON) Rank() wits.LeagueRank { return standings.Rank_ }
 
 type LeagueTierJSON wits.LeagueTier
 
-func (standings PlayerStandingsJSON) Tier() wits.LeagueTier {
-	return wits.LeagueTier(standings.Tier_)
-}
-
-type LeagueRankJSON wits.LeagueRank
-
-func (standings PlayerStandingsJSON) Rank() wits.LeagueRank {
-	return wits.LeagueRank(standings.Rank_)
-}
-
 type StandingsAfterJSON struct {
-	Tier_  LeagueTierJSON `json:"tier"`
-	Rank_  LeagueRankJSON `json:"rank"`
-	Delta_ int            `json:"delta"`
+	Tier_  LeagueTierJSON  `json:"tier"`
+	Rank_  wits.LeagueRank `json:"rank"`
+	Delta_ int             `json:"delta"`
 }
 
 func (standings StandingsAfterJSON) Tier() wits.LeagueTier {

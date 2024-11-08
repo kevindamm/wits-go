@@ -15,10 +15,20 @@ type PlayerRole struct {
 // Fields of the PlayerRole.
 func (PlayerRole) Fields() []ent.Field {
 	return []ent.Field{
-		field.Int("match_id").StorageKey("role_match"),
-		field.Int("player_id").StorageKey("role_player"),
-		field.Int("position").Range(1, 4),
-		field.Int("turn_order").Range(1, 4),
+		field.Int("match_id").
+			StorageKey("role_match").
+			Comment("foreign key to the matches table (Many-to-Many)"),
+
+		field.Int("player_id").
+			StorageKey("role_player").
+			Comment("foreign key to the players table (Many-to-Many)"),
+
+		field.Int("position").
+			Range(1, 4).
+			Comment("enumerated map position where base is located"),
+		field.Int("turn_order").
+			Range(1, 4).
+			Comment("turn order is independent of base's map position"),
 	}
 }
 
@@ -37,9 +47,8 @@ func (PlayerRole) Edges() []ent.Edge {
 
 func (PlayerRole) Indexes() []ent.Index {
 	return []ent.Index{
-		index.Fields("match_id", "position").
-			Unique(),
-		index.Fields("match_id", "player_id").
-			Unique(),
+		index.Fields("match_id", "position").Unique(),
+		index.Fields("match_id", "turn_order").Unique(),
+		index.Fields("match_id", "player_id").Unique(),
 	}
 }

@@ -47,8 +47,8 @@ func TestPlayerRoleJSON_Name(t *testing.T) {
 				witsjson.UnitRaceJSON(wits.RACE_FEEDBACK),
 				witsjson.FriendlyEnumJSON(wits.FR_SELF),
 				witsjson.TerminalStatusJSON(wits.VICTORY_DESTRUCTION),
-				witsjson.PlayerStandingsJSON{Tier_: "Gifted", Rank_: 25},
-				witsjson.StandingsAfterJSON{Tier_: "Gifted", Rank_: 23, Delta_: 4},
+				witsjson.PlayerStandingsJSON{wits.LEAGUE_TIER_INTERMEDIATE, 25},
+				wits.PlayerUpdate{Tier: wits.LEAGUE_TIER_INTERMEDIATE, Rank: 23, Delta: 4},
 				witsjson.BaseHealth(5), 0},
 		},
 	}
